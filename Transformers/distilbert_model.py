@@ -264,5 +264,5 @@ print(f"F1 Score (Micro) = {f1_score_micro}")
 print(f"F1 Score (Macro) = {f1_score_macro}")
 
 #Save results
-with open('distilbert_reuters15E.txt', 'w') as f:
+with open('distilbert_R21578.txt', 'w') as f:
     print(f"F1 Score (Samples) = {f1_score_avg}",f"Accuracy Score = {accuracy}",f"F1 Score (Micro) = {f1_score_micro}",f"F1 Score (Macro) = {f1_score_macro}", file=f)
