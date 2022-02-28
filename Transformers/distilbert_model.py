@@ -214,7 +214,6 @@ def train_model(start_epochs,  n_epochs,
       for batch_idx, data in enumerate(validation_loader, 0):
             ids = data['ids'].to(device, dtype = torch.long)
             targets = data['targets'].to(device, dtype = torch.float)
-            #data['targets'].toarray()
             mask = data['mask'].to(device, dtype = torch.long)
             outputs = model(ids,mask)
 
