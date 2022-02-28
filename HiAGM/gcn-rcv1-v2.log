@@ -1,0 +1,2106 @@
+2022/01/15 21:42:58 - INFO : Building Vocabulary....
+2022/01/15 21:42:58 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/15 21:42:58 - INFO : Vocabulary of token 50002
+2022/01/15 21:42:58 - INFO : Vocabulary of label 166
+2022/01/15 21:42:58 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/15 21:43:06 - INFO : Total vocab size of token is 50002.
+2022/01/15 21:43:06 - INFO : Pretrained vocab embedding has 48862 / 50002
+2022/01/15 21:43:53 - INFO : TRAIN performance at epoch 0 --- Precision: 0.719556, Recall: 0.423305, Micro-F1: 0.533033, Macro-F1: 0.120711, Loss: 0.155791.
+
+2022/01/15 21:43:57 - INFO : DEV performance at epoch 0 --- Precision: 0.708935, Recall: 0.417761, Micro-F1: 0.525724, Macro-F1: 0.118837, Loss: 0.156712.
+
+2022/01/15 21:43:57 - INFO : Improve Micro-F1 0.0% --> 0.525723860780165%
+2022/01/15 21:43:58 - INFO : Improve Macro-F1 0.0% --> 0.11883700402641177%
+2022/01/15 21:43:59 - INFO : Epoch 0 Time Cost 46.66427683830261 secs.
+2022/01/15 21:44:40 - INFO : TRAIN performance at epoch 1 --- Precision: 0.725100, Recall: 0.531996, Micro-F1: 0.613717, Macro-F1: 0.211914, Loss: 0.140111.
+
+2022/01/15 21:44:44 - INFO : DEV performance at epoch 1 --- Precision: 0.711339, Recall: 0.523832, Micro-F1: 0.603353, Macro-F1: 0.205280, Loss: 0.141930.
+
+2022/01/15 21:44:44 - INFO : Improve Micro-F1 0.525723860780165% --> 0.6033532622822979%
+2022/01/15 21:44:45 - INFO : Improve Macro-F1 0.11883700402641177% --> 0.20527974341423566%
+2022/01/15 21:44:47 - INFO : Epoch 1 Time Cost 48.31068825721741 secs.
+2022/01/15 21:45:28 - INFO : TRAIN performance at epoch 2 --- Precision: 0.750404, Recall: 0.544747, Micro-F1: 0.631247, Macro-F1: 0.263867, Loss: 0.120687.
+
+2022/01/15 21:45:32 - INFO : DEV performance at epoch 2 --- Precision: 0.733600, Recall: 0.534033, Micro-F1: 0.618107, Macro-F1: 0.255060, Loss: 0.122740.
+
+2022/01/15 21:45:32 - INFO : Improve Micro-F1 0.6033532622822979% --> 0.618107253872476%
+2022/01/15 21:45:33 - INFO : Improve Macro-F1 0.20527974341423566% --> 0.2550599286557112%
+2022/01/15 21:45:34 - INFO : Epoch 2 Time Cost 47.453420639038086 secs.
+2022/01/15 21:46:15 - INFO : TRAIN performance at epoch 3 --- Precision: 0.792713, Recall: 0.518574, Micro-F1: 0.626988, Macro-F1: 0.301238, Loss: 0.111212.
+
+2022/01/15 21:46:19 - INFO : DEV performance at epoch 3 --- Precision: 0.773758, Recall: 0.503859, Micro-F1: 0.610300, Macro-F1: 0.284930, Loss: 0.113627.
+
+2022/01/15 21:46:19 - INFO : Improve Macro-F1 0.2550599286557112% --> 0.2849300249350002%
+2022/01/15 21:46:20 - INFO : Epoch 3 Time Cost 45.72175216674805 secs.
+2022/01/15 21:47:01 - INFO : TRAIN performance at epoch 4 --- Precision: 0.790438, Recall: 0.567984, Micro-F1: 0.660997, Macro-F1: 0.326776, Loss: 0.103743.
+
+2022/01/15 21:47:06 - INFO : DEV performance at epoch 4 --- Precision: 0.770763, Recall: 0.551049, Micro-F1: 0.642646, Macro-F1: 0.311647, Loss: 0.105882.
+
+2022/01/15 21:47:06 - INFO : Improve Micro-F1 0.618107253872476% --> 0.6426456460803539%
+2022/01/15 21:47:07 - INFO : Improve Macro-F1 0.2849300249350002% --> 0.31164738775200856%
+2022/01/15 21:47:08 - INFO : Epoch 4 Time Cost 47.62617754936218 secs.
+2022/01/15 21:47:49 - INFO : TRAIN performance at epoch 5 --- Precision: 0.786082, Recall: 0.607826, Micro-F1: 0.685556, Macro-F1: 0.373188, Loss: 0.101060.
+
+2022/01/15 21:47:53 - INFO : DEV performance at epoch 5 --- Precision: 0.762124, Recall: 0.587339, Micro-F1: 0.663412, Macro-F1: 0.349404, Loss: 0.104331.
+
+2022/01/15 21:47:53 - INFO : Improve Micro-F1 0.6426456460803539% --> 0.6634122715338142%
+2022/01/15 21:47:54 - INFO : Improve Macro-F1 0.31164738775200856% --> 0.349403509243339%
+2022/01/15 21:47:55 - INFO : Epoch 5 Time Cost 47.274075746536255 secs.
+2022/01/15 21:48:36 - INFO : TRAIN performance at epoch 6 --- Precision: 0.805815, Recall: 0.598929, Micro-F1: 0.687137, Macro-F1: 0.392775, Loss: 0.094850.
+
+2022/01/15 21:48:41 - INFO : DEV performance at epoch 6 --- Precision: 0.781207, Recall: 0.575829, Micro-F1: 0.662977, Macro-F1: 0.364838, Loss: 0.097983.
+
+2022/01/15 21:48:41 - INFO : Improve Macro-F1 0.349403509243339% --> 0.36483806578198846%
+2022/01/15 21:48:41 - INFO : Epoch 6 Time Cost 46.50468373298645 secs.
+2022/01/15 21:49:23 - INFO : TRAIN performance at epoch 7 --- Precision: 0.804932, Recall: 0.614075, Micro-F1: 0.696669, Macro-F1: 0.423045, Loss: 0.096738.
+
+2022/01/15 21:49:27 - INFO : DEV performance at epoch 7 --- Precision: 0.775292, Recall: 0.589596, Micro-F1: 0.669812, Macro-F1: 0.390258, Loss: 0.100565.
+
+2022/01/15 21:49:27 - INFO : Improve Micro-F1 0.6634122715338142% --> 0.6698116835668594%
+2022/01/15 21:49:28 - INFO : Improve Macro-F1 0.36483806578198846% --> 0.39025824095447076%
+2022/01/15 21:49:29 - INFO : Epoch 7 Time Cost 47.96610927581787 secs.
+2022/01/15 21:50:11 - INFO : TRAIN performance at epoch 8 --- Precision: 0.815966, Recall: 0.618019, Micro-F1: 0.703331, Macro-F1: 0.430924, Loss: 0.091664.
+
+2022/01/15 21:50:15 - INFO : DEV performance at epoch 8 --- Precision: 0.785828, Recall: 0.589664, Micro-F1: 0.673758, Macro-F1: 0.394590, Loss: 0.095566.
+
+2022/01/15 21:50:15 - INFO : Improve Micro-F1 0.6698116835668594% --> 0.6737580422645986%
+2022/01/15 21:50:16 - INFO : Improve Macro-F1 0.39025824095447076% --> 0.3945899595425835%
+2022/01/15 21:50:17 - INFO : Epoch 8 Time Cost 47.83101963996887 secs.
+2022/01/15 21:50:59 - INFO : TRAIN performance at epoch 9 --- Precision: 0.824090, Recall: 0.620662, Micro-F1: 0.708054, Macro-F1: 0.449021, Loss: 0.089906.
+
+2022/01/15 21:51:03 - INFO : DEV performance at epoch 9 --- Precision: 0.790409, Recall: 0.587001, Micro-F1: 0.673686, Macro-F1: 0.411239, Loss: 0.094365.
+
+2022/01/15 21:51:03 - INFO : Improve Macro-F1 0.3945899595425835% --> 0.41123938425888457%
+2022/01/15 21:51:04 - INFO : Epoch 9 Time Cost 46.74079418182373 secs.
+2022/01/15 21:51:46 - INFO : TRAIN performance at epoch 10 --- Precision: 0.831887, Recall: 0.613546, Micro-F1: 0.706225, Macro-F1: 0.464358, Loss: 0.085784.
+
+2022/01/15 21:51:51 - INFO : DEV performance at epoch 10 --- Precision: 0.794637, Recall: 0.578538, Micro-F1: 0.669583, Macro-F1: 0.419582, Loss: 0.090999.
+
+2022/01/15 21:51:51 - INFO : Improve Macro-F1 0.41123938425888457% --> 0.4195819620340333%
+2022/01/15 21:51:52 - INFO : Epoch 10 Time Cost 47.61041975021362 secs.
+2022/01/15 21:52:33 - INFO : TRAIN performance at epoch 11 --- Precision: 0.846654, Recall: 0.594382, Micro-F1: 0.698436, Macro-F1: 0.462269, Loss: 0.083710.
+
+2022/01/15 21:52:37 - INFO : DEV performance at epoch 11 --- Precision: 0.807905, Recall: 0.556782, Micro-F1: 0.659238, Macro-F1: 0.410880, Loss: 0.088902.
+
+2022/01/15 21:52:38 - INFO : Epoch 11 Time Cost 46.172767162323 secs.
+2022/01/15 21:53:19 - INFO : TRAIN performance at epoch 12 --- Precision: 0.843713, Recall: 0.615512, Micro-F1: 0.711769, Macro-F1: 0.480540, Loss: 0.081882.
+
+2022/01/15 21:53:23 - INFO : DEV performance at epoch 12 --- Precision: 0.802837, Recall: 0.573437, Micro-F1: 0.669019, Macro-F1: 0.428462, Loss: 0.087684.
+
+2022/01/15 21:53:23 - INFO : Improve Macro-F1 0.4195819620340333% --> 0.4284621431783334%
+2022/01/15 21:53:24 - INFO : Epoch 12 Time Cost 46.23568344116211 secs.
+2022/01/15 21:54:05 - INFO : TRAIN performance at epoch 13 --- Precision: 0.840095, Recall: 0.642581, Micro-F1: 0.728182, Macro-F1: 0.498624, Loss: 0.079111.
+
+2022/01/15 21:54:10 - INFO : DEV performance at epoch 13 --- Precision: 0.794354, Recall: 0.595058, Micro-F1: 0.680412, Macro-F1: 0.443043, Loss: 0.085335.
+
+2022/01/15 21:54:10 - INFO : Improve Micro-F1 0.6737580422645986% --> 0.6804123711340206%
+2022/01/15 21:54:11 - INFO : Improve Macro-F1 0.4284621431783334% --> 0.4430429910427801%
+2022/01/15 21:54:11 - INFO : Epoch 13 Time Cost 47.390629529953 secs.
+2022/01/15 21:54:53 - INFO : TRAIN performance at epoch 14 --- Precision: 0.828745, Recall: 0.679228, Micro-F1: 0.746574, Macro-F1: 0.535286, Loss: 0.079653.
+
+2022/01/15 21:54:57 - INFO : DEV performance at epoch 14 --- Precision: 0.779666, Recall: 0.626495, Micro-F1: 0.694738, Macro-F1: 0.466206, Loss: 0.086397.
+
+2022/01/15 21:54:57 - INFO : Improve Micro-F1 0.6804123711340206% --> 0.6947381592942502%
+2022/01/15 21:54:58 - INFO : Improve Macro-F1 0.4430429910427801% --> 0.4662062981446922%
+2022/01/15 21:54:59 - INFO : Epoch 14 Time Cost 47.739394426345825 secs.
+2022/01/15 21:55:41 - INFO : TRAIN performance at epoch 15 --- Precision: 0.846462, Recall: 0.681724, Micro-F1: 0.755214, Macro-F1: 0.549706, Loss: 0.077011.
+
+2022/01/15 21:55:45 - INFO : DEV performance at epoch 15 --- Precision: 0.792399, Recall: 0.623494, Micro-F1: 0.697872, Macro-F1: 0.475587, Loss: 0.084122.
+
+2022/01/15 21:55:45 - INFO : Improve Micro-F1 0.6947381592942502% --> 0.6978718029681087%
+2022/01/15 21:55:46 - INFO : Improve Macro-F1 0.4662062981446922% --> 0.47558713440109335%
+2022/01/15 21:55:47 - INFO : Epoch 15 Time Cost 48.155072927474976 secs.
+2022/01/15 21:56:28 - INFO : TRAIN performance at epoch 16 --- Precision: 0.862099, Recall: 0.647612, Micro-F1: 0.739619, Macro-F1: 0.533444, Loss: 0.073961.
+
+2022/01/15 21:56:33 - INFO : DEV performance at epoch 16 --- Precision: 0.807901, Recall: 0.592169, Micro-F1: 0.683414, Macro-F1: 0.462243, Loss: 0.081700.
+
+2022/01/15 21:56:33 - INFO : Epoch 16 Time Cost 45.18498134613037 secs.
+2022/01/15 21:57:14 - INFO : TRAIN performance at epoch 17 --- Precision: 0.864279, Recall: 0.659608, Micro-F1: 0.748199, Macro-F1: 0.548579, Loss: 0.072565.
+
+2022/01/15 21:57:18 - INFO : DEV performance at epoch 17 --- Precision: 0.805860, Recall: 0.597766, Micro-F1: 0.686387, Macro-F1: 0.474914, Loss: 0.080860.
+
+2022/01/15 21:57:18 - INFO : Epoch 17 Time Cost 45.35612630844116 secs.
+2022/01/15 21:58:00 - INFO : TRAIN performance at epoch 18 --- Precision: 0.876771, Recall: 0.643567, Micro-F1: 0.742283, Macro-F1: 0.566275, Loss: 0.071772.
+
+2022/01/15 21:58:04 - INFO : DEV performance at epoch 18 --- Precision: 0.815831, Recall: 0.580343, Micro-F1: 0.678228, Macro-F1: 0.483168, Loss: 0.080104.
+
+2022/01/15 21:58:04 - INFO : Improve Macro-F1 0.47558713440109335% --> 0.48316750482567805%
+2022/01/15 21:58:05 - INFO : Epoch 18 Time Cost 46.962093353271484 secs.
+2022/01/15 21:58:47 - INFO : TRAIN performance at epoch 19 --- Precision: 0.864542, Recall: 0.675329, Micro-F1: 0.758310, Macro-F1: 0.576885, Loss: 0.070645.
+
+2022/01/15 21:58:52 - INFO : DEV performance at epoch 19 --- Precision: 0.798616, Recall: 0.606883, Micro-F1: 0.689672, Macro-F1: 0.489204, Loss: 0.079791.
+
+2022/01/15 21:58:52 - INFO : Improve Macro-F1 0.48316750482567805% --> 0.489204358513409%
+2022/01/15 21:58:53 - INFO : Epoch 19 Time Cost 47.89333939552307 secs.
+2022/01/15 21:59:34 - INFO : TRAIN performance at epoch 20 --- Precision: 0.869997, Recall: 0.675830, Micro-F1: 0.760719, Macro-F1: 0.580489, Loss: 0.069713.
+
+2022/01/15 21:59:39 - INFO : DEV performance at epoch 20 --- Precision: 0.800600, Recall: 0.602392, Micro-F1: 0.687495, Macro-F1: 0.490088, Loss: 0.079612.
+
+2022/01/15 21:59:39 - INFO : Improve Macro-F1 0.489204358513409% --> 0.4900879296589928%
+2022/01/15 21:59:40 - INFO : Epoch 20 Time Cost 47.05162763595581 secs.
+2022/01/15 22:00:21 - INFO : TRAIN performance at epoch 21 --- Precision: 0.876207, Recall: 0.686925, Micro-F1: 0.770106, Macro-F1: 0.592017, Loss: 0.067269.
+
+2022/01/15 22:00:26 - INFO : DEV performance at epoch 21 --- Precision: 0.805582, Recall: 0.609050, Micro-F1: 0.693664, Macro-F1: 0.492928, Loss: 0.077910.
+
+2022/01/15 22:00:26 - INFO : Improve Macro-F1 0.4900879296589928% --> 0.49292819994043463%
+2022/01/15 22:00:27 - INFO : Epoch 21 Time Cost 47.63727378845215 secs.
+2022/01/15 22:01:09 - INFO : TRAIN performance at epoch 22 --- Precision: 0.892234, Recall: 0.655630, Micro-F1: 0.755849, Macro-F1: 0.583014, Loss: 0.064707.
+
+2022/01/15 22:01:13 - INFO : DEV performance at epoch 22 --- Precision: 0.818472, Recall: 0.578989, Micro-F1: 0.678210, Macro-F1: 0.483755, Loss: 0.076350.
+
+2022/01/15 22:01:13 - INFO : Epoch 22 Time Cost 45.927876472473145 secs.
+2022/01/15 22:01:55 - INFO : TRAIN performance at epoch 23 --- Precision: 0.898971, Recall: 0.652289, Micro-F1: 0.756016, Macro-F1: 0.596433, Loss: 0.062692.
+
+2022/01/15 22:02:00 - INFO : DEV performance at epoch 23 --- Precision: 0.825422, Recall: 0.569804, Micro-F1: 0.674197, Macro-F1: 0.492592, Loss: 0.075380.
+
+2022/01/15 22:02:00 - INFO : Epoch 23 Time Cost 46.3522834777832 secs.
+2022/01/15 22:02:41 - INFO : TRAIN performance at epoch 24 --- Precision: 0.886515, Recall: 0.707818, Micro-F1: 0.787152, Macro-F1: 0.630413, Loss: 0.062573.
+
+2022/01/15 22:02:45 - INFO : DEV performance at epoch 24 --- Precision: 0.806315, Recall: 0.616610, Micro-F1: 0.698817, Macro-F1: 0.511984, Loss: 0.075555.
+
+2022/01/15 22:02:45 - INFO : Improve Micro-F1 0.6978718029681087% --> 0.6988170599143168%
+2022/01/15 22:02:46 - INFO : Improve Macro-F1 0.49292819994043463% --> 0.5119842030072599%
+2022/01/15 22:02:47 - INFO : Epoch 24 Time Cost 47.396069288253784 secs.
+2022/01/15 22:03:28 - INFO : TRAIN performance at epoch 25 --- Precision: 0.888321, Recall: 0.720332, Micro-F1: 0.795556, Macro-F1: 0.636461, Loss: 0.060795.
+
+2022/01/15 22:03:33 - INFO : DEV performance at epoch 25 --- Precision: 0.801000, Recall: 0.622072, Micro-F1: 0.700287, Macro-F1: 0.517735, Loss: 0.074237.
+
+2022/01/15 22:03:33 - INFO : Improve Micro-F1 0.6988170599143168% --> 0.7002870862020781%
+2022/01/15 22:03:34 - INFO : Improve Macro-F1 0.5119842030072599% --> 0.5177352285745724%
+2022/01/15 22:03:35 - INFO : Epoch 25 Time Cost 47.85155987739563 secs.
+2022/01/15 22:04:17 - INFO : TRAIN performance at epoch 26 --- Precision: 0.890821, Recall: 0.740871, Micro-F1: 0.808955, Macro-F1: 0.645392, Loss: 0.058522.
+
+2022/01/15 22:04:21 - INFO : DEV performance at epoch 26 --- Precision: 0.800421, Recall: 0.635568, Micro-F1: 0.708531, Macro-F1: 0.521378, Loss: 0.072518.
+
+2022/01/15 22:04:21 - INFO : Improve Micro-F1 0.7002870862020781% --> 0.7085314614939492%
+2022/01/15 22:04:22 - INFO : Improve Macro-F1 0.5177352285745724% --> 0.5213783882996132%
+2022/01/15 22:04:23 - INFO : Epoch 26 Time Cost 47.911391496658325 secs.
+2022/01/15 22:05:04 - INFO : TRAIN performance at epoch 27 --- Precision: 0.907479, Recall: 0.695968, Micro-F1: 0.787774, Macro-F1: 0.633002, Loss: 0.057727.
+
+2022/01/15 22:05:08 - INFO : DEV performance at epoch 27 --- Precision: 0.817072, Recall: 0.592124, Micro-F1: 0.686644, Macro-F1: 0.507839, Loss: 0.072950.
+
+2022/01/15 22:05:08 - INFO : Epoch 27 Time Cost 45.58094573020935 secs.
+2022/01/15 22:05:50 - INFO : TRAIN performance at epoch 28 --- Precision: 0.883365, Recall: 0.770069, Micro-F1: 0.822835, Macro-F1: 0.671352, Loss: 0.057224.
+
+2022/01/15 22:05:55 - INFO : DEV performance at epoch 28 --- Precision: 0.784772, Recall: 0.656669, Micro-F1: 0.715028, Macro-F1: 0.533421, Loss: 0.072525.
+
+2022/01/15 22:05:55 - INFO : Improve Micro-F1 0.7085314614939492% --> 0.715028198606657%
+2022/01/15 22:05:56 - INFO : Improve Macro-F1 0.5213783882996132% --> 0.5334213695735388%
+2022/01/15 22:05:56 - INFO : Epoch 28 Time Cost 48.02416157722473 secs.
+2022/01/15 22:06:37 - INFO : TRAIN performance at epoch 29 --- Precision: 0.909321, Recall: 0.722169, Micro-F1: 0.805011, Macro-F1: 0.658700, Loss: 0.055966.
+
+2022/01/15 22:06:42 - INFO : DEV performance at epoch 29 --- Precision: 0.813117, Recall: 0.604085, Micro-F1: 0.693185, Macro-F1: 0.515456, Loss: 0.072266.
+
+2022/01/15 22:06:42 - INFO : Epoch 29 Time Cost 45.47065448760986 secs.
+2022/01/15 22:07:23 - INFO : TRAIN performance at epoch 30 --- Precision: 0.909488, Recall: 0.750697, Micro-F1: 0.822499, Macro-F1: 0.676795, Loss: 0.053548.
+
+2022/01/15 22:07:28 - INFO : DEV performance at epoch 30 --- Precision: 0.805874, Recall: 0.623584, Micro-F1: 0.703106, Macro-F1: 0.522132, Loss: 0.070532.
+
+2022/01/15 22:07:28 - INFO : Epoch 30 Time Cost 45.75213837623596 secs.
+2022/01/15 22:08:09 - INFO : TRAIN performance at epoch 31 --- Precision: 0.908892, Recall: 0.765984, Micro-F1: 0.831341, Macro-F1: 0.690650, Loss: 0.051526.
+
+2022/01/15 22:08:14 - INFO : DEV performance at epoch 31 --- Precision: 0.801191, Recall: 0.631370, Micro-F1: 0.706215, Macro-F1: 0.529996, Loss: 0.069912.
+
+2022/01/15 22:08:14 - INFO : Epoch 31 Time Cost 46.665212869644165 secs.
+2022/01/15 22:08:56 - INFO : TRAIN performance at epoch 32 --- Precision: 0.913841, Recall: 0.768429, Micro-F1: 0.834850, Macro-F1: 0.694550, Loss: 0.050784.
+
+2022/01/15 22:09:01 - INFO : DEV performance at epoch 32 --- Precision: 0.802732, Recall: 0.629903, Micro-F1: 0.705893, Macro-F1: 0.530403, Loss: 0.070087.
+
+2022/01/15 22:09:01 - INFO : Epoch 32 Time Cost 46.613470792770386 secs.
+2022/01/15 22:09:43 - INFO : TRAIN performance at epoch 33 --- Precision: 0.911546, Recall: 0.786330, Micro-F1: 0.844321, Macro-F1: 0.704929, Loss: 0.049749.
+
+2022/01/15 22:09:47 - INFO : DEV performance at epoch 33 --- Precision: 0.796670, Recall: 0.644708, Micro-F1: 0.712678, Macro-F1: 0.534108, Loss: 0.069355.
+
+2022/01/15 22:09:47 - INFO : Improve Macro-F1 0.5334213695735388% --> 0.5341083199765744%
+2022/01/15 22:09:48 - INFO : Epoch 33 Time Cost 47.08634805679321 secs.
+2022/01/15 22:10:29 - INFO : TRAIN performance at epoch 34 --- Precision: 0.925564, Recall: 0.753526, Micro-F1: 0.830732, Macro-F1: 0.705437, Loss: 0.048311.
+
+2022/01/15 22:10:34 - INFO : DEV performance at epoch 34 --- Precision: 0.813916, Recall: 0.608756, Micro-F1: 0.696544, Macro-F1: 0.531644, Loss: 0.069390.
+
+2022/01/15 22:10:34 - INFO : Epoch 34 Time Cost 45.770204067230225 secs.
+2022/01/15 22:11:16 - INFO : TRAIN performance at epoch 35 --- Precision: 0.926744, Recall: 0.762857, Micro-F1: 0.836852, Macro-F1: 0.717369, Loss: 0.047659.
+
+2022/01/15 22:11:20 - INFO : DEV performance at epoch 35 --- Precision: 0.811023, Recall: 0.616385, Micro-F1: 0.700433, Macro-F1: 0.535789, Loss: 0.069105.
+
+2022/01/15 22:11:20 - INFO : Improve Macro-F1 0.5341083199765744% --> 0.5357887279230177%
+2022/01/15 22:11:21 - INFO : Epoch 35 Time Cost 47.09938192367554 secs.
+2022/01/15 22:12:05 - INFO : TRAIN performance at epoch 36 --- Precision: 0.911506, Recall: 0.806666, Micro-F1: 0.855887, Macro-F1: 0.727448, Loss: 0.046838.
+
+2022/01/15 22:12:09 - INFO : DEV performance at epoch 36 --- Precision: 0.788771, Recall: 0.654728, Micro-F1: 0.715526, Macro-F1: 0.542310, Loss: 0.068832.
+
+2022/01/15 22:12:09 - INFO : Improve Micro-F1 0.715028198606657% --> 0.7155259588111974%
+2022/01/15 22:12:10 - INFO : Improve Macro-F1 0.5357887279230177% --> 0.542310061169532%
+2022/01/15 22:12:11 - INFO : Epoch 36 Time Cost 50.21244692802429 secs.
+2022/01/15 22:12:53 - INFO : TRAIN performance at epoch 37 --- Precision: 0.908232, Recall: 0.821874, Micro-F1: 0.862897, Macro-F1: 0.745288, Loss: 0.045723.
+
+2022/01/15 22:12:57 - INFO : DEV performance at epoch 37 --- Precision: 0.783631, Recall: 0.663372, Micro-F1: 0.718504, Macro-F1: 0.550556, Loss: 0.067916.
+
+2022/01/15 22:12:57 - INFO : Improve Micro-F1 0.7155259588111974% --> 0.7185040332437056%
+2022/01/15 22:12:58 - INFO : Improve Macro-F1 0.542310061169532% --> 0.5505557340992561%
+2022/01/15 22:12:59 - INFO : Epoch 37 Time Cost 48.25701022148132 secs.
+2022/01/15 22:13:42 - INFO : TRAIN performance at epoch 38 --- Precision: 0.929263, Recall: 0.802017, Micro-F1: 0.860964, Macro-F1: 0.741835, Loss: 0.044088.
+
+2022/01/15 22:13:46 - INFO : DEV performance at epoch 38 --- Precision: 0.803625, Recall: 0.638456, Micro-F1: 0.711582, Macro-F1: 0.544884, Loss: 0.067744.
+
+2022/01/15 22:13:46 - INFO : Epoch 38 Time Cost 46.66885280609131 secs.
+2022/01/15 22:14:27 - INFO : TRAIN performance at epoch 39 --- Precision: 0.922857, Recall: 0.819524, Micro-F1: 0.868126, Macro-F1: 0.752833, Loss: 0.043659.
+
+2022/01/15 22:14:31 - INFO : DEV performance at epoch 39 --- Precision: 0.790637, Recall: 0.653690, Micro-F1: 0.715671, Macro-F1: 0.553093, Loss: 0.067886.
+
+2022/01/15 22:14:31 - INFO : Improve Macro-F1 0.5505557340992561% --> 0.5530926352479676%
+2022/01/15 22:14:32 - INFO : Epoch 39 Time Cost 46.25344514846802 secs.
+2022/01/15 22:15:14 - INFO : TRAIN performance at epoch 40 --- Precision: 0.926209, Recall: 0.815946, Micro-F1: 0.867588, Macro-F1: 0.758970, Loss: 0.042532.
+
+2022/01/15 22:15:18 - INFO : DEV performance at epoch 40 --- Precision: 0.794314, Recall: 0.641277, Micro-F1: 0.709639, Macro-F1: 0.550596, Loss: 0.068310.
+
+2022/01/15 22:15:18 - INFO : Epoch 40 Time Cost 45.990790367126465 secs.
+2022/01/15 22:16:00 - INFO : TRAIN performance at epoch 41 --- Precision: 0.930233, Recall: 0.825739, Micro-F1: 0.874877, Macro-F1: 0.762415, Loss: 0.040826.
+
+2022/01/15 22:16:04 - INFO : DEV performance at epoch 41 --- Precision: 0.792968, Recall: 0.648477, Micro-F1: 0.713480, Macro-F1: 0.546531, Loss: 0.067683.
+
+2022/01/15 22:16:05 - INFO : Epoch 41 Time Cost 47.015761375427246 secs.
+2022/01/15 22:16:46 - INFO : TRAIN performance at epoch 42 --- Precision: 0.932851, Recall: 0.826133, Micro-F1: 0.876255, Macro-F1: 0.772178, Loss: 0.040347.
+
+2022/01/15 22:16:51 - INFO : DEV performance at epoch 42 --- Precision: 0.798400, Recall: 0.641819, Micro-F1: 0.711598, Macro-F1: 0.549277, Loss: 0.067709.
+
+2022/01/15 22:16:51 - INFO : Epoch 42 Time Cost 45.23687744140625 secs.
+2022/01/15 22:17:33 - INFO : TRAIN performance at epoch 43 --- Precision: 0.933615, Recall: 0.832760, Micro-F1: 0.880308, Macro-F1: 0.768157, Loss: 0.039239.
+
+2022/01/15 22:17:37 - INFO : DEV performance at epoch 43 --- Precision: 0.794025, Recall: 0.647190, Micro-F1: 0.713128, Macro-F1: 0.543201, Loss: 0.067046.
+
+2022/01/15 22:17:37 - INFO : Epoch 43 Time Cost 46.51802897453308 secs.
+2022/01/15 22:18:20 - INFO : TRAIN performance at epoch 44 --- Precision: 0.932825, Recall: 0.829469, Micro-F1: 0.878116, Macro-F1: 0.779220, Loss: 0.039045.
+
+2022/01/15 22:18:24 - INFO : DEV performance at epoch 44 --- Precision: 0.794445, Recall: 0.638389, Micro-F1: 0.707918, Macro-F1: 0.547704, Loss: 0.068342.
+
+2022/01/15 22:18:24 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/15 22:18:24 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/15 22:18:24 - INFO : Epoch 44 Time Cost 46.634316205978394 secs.
+2022/01/15 22:19:06 - INFO : TRAIN performance at epoch 45 --- Precision: 0.942413, Recall: 0.840135, Micro-F1: 0.888340, Macro-F1: 0.790255, Loss: 0.036824.
+
+2022/01/15 22:19:10 - INFO : DEV performance at epoch 45 --- Precision: 0.799753, Recall: 0.643918, Micro-F1: 0.713425, Macro-F1: 0.551428, Loss: 0.066867.
+
+2022/01/15 22:19:10 - INFO : Epoch 45 Time Cost 46.539247035980225 secs.
+2022/01/15 22:19:52 - INFO : TRAIN performance at epoch 46 --- Precision: 0.936314, Recall: 0.853247, Micro-F1: 0.892852, Macro-F1: 0.792522, Loss: 0.036939.
+
+2022/01/15 22:19:56 - INFO : DEV performance at epoch 46 --- Precision: 0.788571, Recall: 0.657730, Micro-F1: 0.717232, Macro-F1: 0.552133, Loss: 0.066747.
+
+2022/01/15 22:19:56 - INFO : Epoch 46 Time Cost 46.224984884262085 secs.
+2022/01/15 22:20:39 - INFO : TRAIN performance at epoch 47 --- Precision: 0.942779, Recall: 0.843601, Micro-F1: 0.890437, Macro-F1: 0.797559, Loss: 0.035656.
+
+2022/01/15 22:20:43 - INFO : DEV performance at epoch 47 --- Precision: 0.796972, Recall: 0.645024, Micro-F1: 0.712992, Macro-F1: 0.553197, Loss: 0.066985.
+
+2022/01/15 22:20:43 - INFO : Improve Macro-F1 0.5530926352479676% --> 0.5531966030920668%
+2022/01/15 22:20:44 - INFO : Epoch 47 Time Cost 47.59904623031616 secs.
+2022/01/15 22:21:26 - INFO : TRAIN performance at epoch 48 --- Precision: 0.942131, Recall: 0.868618, Micro-F1: 0.903882, Macro-F1: 0.808819, Loss: 0.034060.
+
+2022/01/15 22:21:31 - INFO : DEV performance at epoch 48 --- Precision: 0.787722, Recall: 0.666622, Micro-F1: 0.722130, Macro-F1: 0.562464, Loss: 0.066393.
+
+2022/01/15 22:21:31 - INFO : Improve Micro-F1 0.7185040332437056% --> 0.7221298650498729%
+2022/01/15 22:21:32 - INFO : Improve Macro-F1 0.5531966030920668% --> 0.5624639051371788%
+2022/01/15 22:21:33 - INFO : Epoch 48 Time Cost 48.75881886482239 secs.
+2022/01/15 22:22:15 - INFO : TRAIN performance at epoch 49 --- Precision: 0.950388, Recall: 0.854881, Micro-F1: 0.900108, Macro-F1: 0.813567, Loss: 0.033347.
+
+2022/01/15 22:22:19 - INFO : DEV performance at epoch 49 --- Precision: 0.799584, Recall: 0.642248, Micro-F1: 0.712332, Macro-F1: 0.551368, Loss: 0.066811.
+
+2022/01/15 22:22:19 - INFO : Epoch 49 Time Cost 46.1065731048584 secs.
+2022/01/15 22:23:02 - INFO : TRAIN performance at epoch 50 --- Precision: 0.942913, Recall: 0.871954, Micro-F1: 0.906046, Macro-F1: 0.821652, Loss: 0.032816.
+
+2022/01/15 22:23:06 - INFO : DEV performance at epoch 50 --- Precision: 0.788380, Recall: 0.661183, Micro-F1: 0.719201, Macro-F1: 0.557157, Loss: 0.067156.
+
+2022/01/15 22:23:06 - INFO : Epoch 50 Time Cost 47.22118926048279 secs.
+2022/01/15 22:23:48 - INFO : TRAIN performance at epoch 51 --- Precision: 0.949803, Recall: 0.880107, Micro-F1: 0.913628, Macro-F1: 0.832869, Loss: 0.031269.
+
+2022/01/15 22:23:52 - INFO : DEV performance at epoch 51 --- Precision: 0.791727, Recall: 0.663507, Micro-F1: 0.721968, Macro-F1: 0.558017, Loss: 0.066013.
+
+2022/01/15 22:23:53 - INFO : Epoch 51 Time Cost 46.73263239860535 secs.
+2022/01/15 22:24:35 - INFO : TRAIN performance at epoch 52 --- Precision: 0.942231, Recall: 0.895309, Micro-F1: 0.918171, Macro-F1: 0.832531, Loss: 0.030914.
+
+2022/01/15 22:24:39 - INFO : DEV performance at epoch 52 --- Precision: 0.778033, Recall: 0.681494, Micro-F1: 0.726571, Macro-F1: 0.563712, Loss: 0.066037.
+
+2022/01/15 22:24:39 - INFO : Improve Micro-F1 0.7221298650498729% --> 0.7265705829984841%
+2022/01/15 22:24:40 - INFO : Improve Macro-F1 0.5624639051371788% --> 0.5637122817029206%
+2022/01/15 22:24:41 - INFO : Epoch 52 Time Cost 48.14200186729431 secs.
+2022/01/15 22:25:23 - INFO : TRAIN performance at epoch 53 --- Precision: 0.938027, Recall: 0.894988, Micro-F1: 0.916002, Macro-F1: 0.834374, Loss: 0.031212.
+
+2022/01/15 22:25:27 - INFO : DEV performance at epoch 53 --- Precision: 0.772449, Recall: 0.682984, Micro-F1: 0.724966, Macro-F1: 0.562299, Loss: 0.067357.
+
+2022/01/15 22:25:27 - INFO : Epoch 53 Time Cost 45.89705300331116 secs.
+2022/01/15 22:26:10 - INFO : TRAIN performance at epoch 54 --- Precision: 0.946153, Recall: 0.895016, Micro-F1: 0.919874, Macro-F1: 0.845947, Loss: 0.029786.
+
+2022/01/15 22:26:14 - INFO : DEV performance at epoch 54 --- Precision: 0.782888, Recall: 0.671541, Micro-F1: 0.722952, Macro-F1: 0.562120, Loss: 0.067148.
+
+2022/01/15 22:26:14 - INFO : Epoch 54 Time Cost 47.11904859542847 secs.
+2022/01/15 22:26:57 - INFO : TRAIN performance at epoch 55 --- Precision: 0.941510, Recall: 0.903271, Micro-F1: 0.921994, Macro-F1: 0.847610, Loss: 0.029716.
+
+2022/01/15 22:27:01 - INFO : DEV performance at epoch 55 --- Precision: 0.775147, Recall: 0.682622, Micro-F1: 0.725948, Macro-F1: 0.564252, Loss: 0.066873.
+
+2022/01/15 22:27:01 - INFO : Improve Macro-F1 0.5637122817029206% --> 0.5642519960826511%
+2022/01/15 22:27:02 - INFO : Epoch 55 Time Cost 47.77789807319641 secs.
+2022/01/15 22:27:44 - INFO : TRAIN performance at epoch 56 --- Precision: 0.950089, Recall: 0.904623, Micro-F1: 0.926799, Macro-F1: 0.855045, Loss: 0.027860.
+
+2022/01/15 22:27:49 - INFO : DEV performance at epoch 56 --- Precision: 0.783069, Recall: 0.679102, Micro-F1: 0.727389, Macro-F1: 0.565775, Loss: 0.066975.
+
+2022/01/15 22:27:49 - INFO : Improve Micro-F1 0.7265705829984841% --> 0.7273891970944075%
+2022/01/15 22:27:50 - INFO : Improve Macro-F1 0.5642519960826511% --> 0.5657745876079538%
+2022/01/15 22:27:51 - INFO : Epoch 56 Time Cost 49.00704526901245 secs.
+2022/01/15 22:28:33 - INFO : TRAIN performance at epoch 57 --- Precision: 0.952988, Recall: 0.909993, Micro-F1: 0.930994, Macro-F1: 0.862188, Loss: 0.027178.
+
+2022/01/15 22:28:38 - INFO : DEV performance at epoch 57 --- Precision: 0.782320, Recall: 0.674250, Micro-F1: 0.724275, Macro-F1: 0.564920, Loss: 0.067190.
+
+2022/01/15 22:28:38 - INFO : Epoch 57 Time Cost 46.67280173301697 secs.
+2022/01/15 22:29:18 - INFO : TRAIN performance at epoch 58 --- Precision: 0.952773, Recall: 0.904612, Micro-F1: 0.928068, Macro-F1: 0.865386, Loss: 0.027098.
+
+2022/01/15 22:29:23 - INFO : DEV performance at epoch 58 --- Precision: 0.784377, Recall: 0.664004, Micro-F1: 0.719188, Macro-F1: 0.564202, Loss: 0.068281.
+
+2022/01/15 22:29:23 - INFO : Epoch 58 Time Cost 45.31198787689209 secs.
+2022/01/15 22:30:04 - INFO : TRAIN performance at epoch 59 --- Precision: 0.962155, Recall: 0.896030, Micro-F1: 0.927916, Macro-F1: 0.863215, Loss: 0.026039.
+
+2022/01/15 22:30:08 - INFO : DEV performance at epoch 59 --- Precision: 0.795943, Recall: 0.650011, Micro-F1: 0.715613, Macro-F1: 0.557512, Loss: 0.068652.
+
+2022/01/15 22:30:08 - INFO : Epoch 59 Time Cost 45.43845772743225 secs.
+2022/01/15 22:30:50 - INFO : TRAIN performance at epoch 60 --- Precision: 0.961441, Recall: 0.903091, Micro-F1: 0.931353, Macro-F1: 0.867159, Loss: 0.025372.
+
+2022/01/15 22:30:55 - INFO : DEV performance at epoch 60 --- Precision: 0.789018, Recall: 0.665741, Micro-F1: 0.722156, Macro-F1: 0.560916, Loss: 0.067739.
+
+2022/01/15 22:30:55 - INFO : Epoch 60 Time Cost 46.43239903450012 secs.
+2022/01/15 22:31:36 - INFO : TRAIN performance at epoch 61 --- Precision: 0.958521, Recall: 0.905975, Micro-F1: 0.931508, Macro-F1: 0.877561, Loss: 0.025709.
+
+2022/01/15 22:31:41 - INFO : DEV performance at epoch 61 --- Precision: 0.788594, Recall: 0.653780, Micro-F1: 0.714887, Macro-F1: 0.560657, Loss: 0.069489.
+
+2022/01/15 22:31:41 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/15 22:31:41 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/15 22:31:42 - INFO : Epoch 61 Time Cost 47.27594304084778 secs.
+2022/01/15 22:32:24 - INFO : TRAIN performance at epoch 62 --- Precision: 0.961292, Recall: 0.920479, Micro-F1: 0.940443, Macro-F1: 0.879391, Loss: 0.023918.
+
+2022/01/15 22:32:29 - INFO : DEV performance at epoch 62 --- Precision: 0.784679, Recall: 0.676868, Micro-F1: 0.726797, Macro-F1: 0.564807, Loss: 0.068610.
+
+2022/01/15 22:32:29 - INFO : Epoch 62 Time Cost 46.79860305786133 secs.
+2022/01/15 22:33:12 - INFO : TRAIN performance at epoch 63 --- Precision: 0.962106, Recall: 0.923584, Micro-F1: 0.942451, Macro-F1: 0.885505, Loss: 0.023690.
+
+2022/01/15 22:33:16 - INFO : DEV performance at epoch 63 --- Precision: 0.781179, Recall: 0.677251, Micro-F1: 0.725512, Macro-F1: 0.564061, Loss: 0.067987.
+
+2022/01/15 22:33:16 - INFO : Epoch 63 Time Cost 47.66048073768616 secs.
+2022/01/15 22:33:58 - INFO : TRAIN performance at epoch 64 --- Precision: 0.954511, Recall: 0.927776, Micro-F1: 0.940954, Macro-F1: 0.881280, Loss: 0.023675.
+
+2022/01/15 22:34:02 - INFO : DEV performance at epoch 64 --- Precision: 0.772014, Recall: 0.685805, Micro-F1: 0.726360, Macro-F1: 0.563668, Loss: 0.069433.
+
+2022/01/15 22:34:02 - INFO : Epoch 64 Time Cost 46.0372793674469 secs.
+2022/01/15 22:34:45 - INFO : TRAIN performance at epoch 65 --- Precision: 0.964095, Recall: 0.922141, Micro-F1: 0.942651, Macro-F1: 0.889896, Loss: 0.022448.
+
+2022/01/15 22:34:49 - INFO : DEV performance at epoch 65 --- Precision: 0.788545, Recall: 0.668991, Micro-F1: 0.723865, Macro-F1: 0.561068, Loss: 0.069303.
+
+2022/01/15 22:34:49 - INFO : Epoch 65 Time Cost 46.60981059074402 secs.
+2022/01/15 22:45:33 - INFO : Building Vocabulary....
+2022/01/15 22:45:33 - INFO : Generating Vocabulary from Corpus...
+2022/01/15 22:45:33 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/15 22:45:38 - INFO : Loading TRAIN subset...
+2022/01/15 22:45:41 - INFO : Loading VAL subset...
+2022/01/15 22:45:41 - INFO : Loading TEST subset...
+2022/01/15 22:45:42 - INFO : Vocabulary of token 635974
+2022/01/15 22:45:42 - INFO : Vocabulary of label 166
+2022/01/15 22:45:42 - INFO : Shrinking Vocabulary...
+2022/01/15 22:45:43 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/15 22:45:43 - INFO : Vocabulary of token with the size of 50002
+2022/01/15 22:45:43 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/15 22:45:43 - INFO : Vocabulary of label with the size of 166
+2022/01/15 22:45:43 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/15 22:45:43 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/15 22:45:50 - INFO : Total vocab size of token is 50002.
+2022/01/15 22:45:50 - INFO : Pretrained vocab embedding has 48862 / 50002
+2022/01/15 22:46:36 - INFO : TRAIN performance at epoch 0 --- Precision: 0.711868, Recall: 0.429198, Micro-F1: 0.535521, Macro-F1: 0.124574, Loss: 0.160070.
+
+2022/01/15 22:46:40 - INFO : DEV performance at epoch 0 --- Precision: 0.701304, Recall: 0.423584, Micro-F1: 0.528161, Macro-F1: 0.121680, Loss: 0.160996.
+
+2022/01/15 22:46:40 - INFO : Improve Micro-F1 0.0% --> 0.5281611863858287%
+2022/01/15 22:46:41 - INFO : Improve Macro-F1 0.0% --> 0.12168001329459209%
+2022/01/15 22:46:42 - INFO : Epoch 0 Time Cost 46.97573399543762 secs.
+2022/01/15 22:47:24 - INFO : TRAIN performance at epoch 1 --- Precision: 0.712336, Recall: 0.543868, Micro-F1: 0.616806, Macro-F1: 0.222069, Loss: 0.145122.
+
+2022/01/15 22:47:28 - INFO : DEV performance at epoch 1 --- Precision: 0.699726, Recall: 0.536109, Micro-F1: 0.607087, Macro-F1: 0.217026, Loss: 0.146956.
+
+2022/01/15 22:47:28 - INFO : Improve Micro-F1 0.5281611863858287% --> 0.6070867248495381%
+2022/01/15 22:47:29 - INFO : Improve Macro-F1 0.12168001329459209% --> 0.21702646470637973%
+2022/01/15 22:47:31 - INFO : Epoch 1 Time Cost 48.327091693878174 secs.
+2022/01/15 22:48:11 - INFO : TRAIN performance at epoch 2 --- Precision: 0.740498, Recall: 0.554788, Micro-F1: 0.634330, Macro-F1: 0.275612, Loss: 0.124344.
+
+2022/01/15 22:48:16 - INFO : DEV performance at epoch 2 --- Precision: 0.722879, Recall: 0.542135, Micro-F1: 0.619595, Macro-F1: 0.263337, Loss: 0.126429.
+
+2022/01/15 22:48:16 - INFO : Improve Micro-F1 0.6070867248495381% --> 0.6195947950116713%
+2022/01/15 22:48:17 - INFO : Improve Macro-F1 0.21702646470637973% --> 0.2633372926695206%
+2022/01/15 22:48:18 - INFO : Epoch 2 Time Cost 47.236478090286255 secs.
+2022/01/15 22:48:59 - INFO : TRAIN performance at epoch 3 --- Precision: 0.780397, Recall: 0.534487, Micro-F1: 0.634447, Macro-F1: 0.315938, Loss: 0.115704.
+
+2022/01/15 22:49:03 - INFO : DEV performance at epoch 3 --- Precision: 0.761673, Recall: 0.519454, Micro-F1: 0.617666, Macro-F1: 0.298378, Loss: 0.118133.
+
+2022/01/15 22:49:03 - INFO : Improve Macro-F1 0.2633372926695206% --> 0.29837841043729096%
+2022/01/15 22:49:04 - INFO : Epoch 3 Time Cost 46.01845455169678 secs.
+2022/01/15 22:49:44 - INFO : TRAIN performance at epoch 4 --- Precision: 0.784080, Recall: 0.576943, Micro-F1: 0.664749, Macro-F1: 0.342140, Loss: 0.106902.
+
+2022/01/15 22:49:48 - INFO : DEV performance at epoch 4 --- Precision: 0.762363, Recall: 0.559445, Micro-F1: 0.645328, Macro-F1: 0.322715, Loss: 0.109083.
+
+2022/01/15 22:49:48 - INFO : Improve Micro-F1 0.6195947950116713% --> 0.6453284044464113%
+2022/01/15 22:49:49 - INFO : Improve Macro-F1 0.29837841043729096% --> 0.32271546095069975%
+2022/01/15 22:49:50 - INFO : Epoch 4 Time Cost 46.47410821914673 secs.
+2022/01/15 22:50:32 - INFO : TRAIN performance at epoch 5 --- Precision: 0.776542, Recall: 0.621242, Micro-F1: 0.690265, Macro-F1: 0.387757, Loss: 0.104434.
+
+2022/01/15 22:50:36 - INFO : DEV performance at epoch 5 --- Precision: 0.752535, Recall: 0.599549, Micro-F1: 0.667387, Macro-F1: 0.362762, Loss: 0.107719.
+
+2022/01/15 22:50:36 - INFO : Improve Micro-F1 0.6453284044464113% --> 0.667386826106617%
+2022/01/15 22:50:37 - INFO : Improve Macro-F1 0.32271546095069975% --> 0.36276232363695415%
+2022/01/15 22:50:39 - INFO : Epoch 5 Time Cost 48.24155640602112 secs.
+2022/01/15 22:51:19 - INFO : TRAIN performance at epoch 6 --- Precision: 0.798597, Recall: 0.609872, Micro-F1: 0.691590, Macro-F1: 0.407182, Loss: 0.097404.
+
+2022/01/15 22:51:23 - INFO : DEV performance at epoch 6 --- Precision: 0.774736, Recall: 0.586324, Micro-F1: 0.667489, Macro-F1: 0.376782, Loss: 0.100544.
+
+2022/01/15 22:51:23 - INFO : Improve Micro-F1 0.667386826106617% --> 0.667488823801449%
+2022/01/15 22:51:24 - INFO : Improve Macro-F1 0.36276232363695415% --> 0.37678222030122105%
+2022/01/15 22:51:25 - INFO : Epoch 6 Time Cost 46.905871868133545 secs.
+2022/01/15 22:52:06 - INFO : TRAIN performance at epoch 7 --- Precision: 0.797944, Recall: 0.624939, Micro-F1: 0.700924, Macro-F1: 0.435998, Loss: 0.099727.
+
+2022/01/15 22:52:10 - INFO : DEV performance at epoch 7 --- Precision: 0.768757, Recall: 0.599616, Micro-F1: 0.673733, Macro-F1: 0.404012, Loss: 0.103568.
+
+2022/01/15 22:52:10 - INFO : Improve Micro-F1 0.667488823801449% --> 0.6737330577778905%
+2022/01/15 22:52:11 - INFO : Improve Macro-F1 0.37678222030122105% --> 0.4040117936790128%
+2022/01/15 22:52:12 - INFO : Epoch 7 Time Cost 46.83361077308655 secs.
+2022/01/15 22:52:53 - INFO : TRAIN performance at epoch 8 --- Precision: 0.808285, Recall: 0.628629, Micro-F1: 0.707226, Macro-F1: 0.443099, Loss: 0.094915.
+
+2022/01/15 22:52:57 - INFO : DEV performance at epoch 8 --- Precision: 0.779075, Recall: 0.599278, Micro-F1: 0.677450, Macro-F1: 0.404566, Loss: 0.098828.
+
+2022/01/15 22:52:57 - INFO : Improve Micro-F1 0.6737330577778905% --> 0.6774498048320025%
+2022/01/15 22:52:58 - INFO : Improve Macro-F1 0.4040117936790128% --> 0.4045656186939773%
+2022/01/15 22:52:59 - INFO : Epoch 8 Time Cost 46.872315883636475 secs.
+2022/01/15 22:53:40 - INFO : TRAIN performance at epoch 9 --- Precision: 0.816467, Recall: 0.630590, Micro-F1: 0.711591, Macro-F1: 0.459050, Loss: 0.093001.
+
+2022/01/15 22:53:44 - INFO : DEV performance at epoch 9 --- Precision: 0.782488, Recall: 0.595757, Micro-F1: 0.676473, Macro-F1: 0.417019, Loss: 0.097440.
+
+2022/01/15 22:53:44 - INFO : Improve Macro-F1 0.4045656186939773% --> 0.4170189309471638%
+2022/01/15 22:53:45 - INFO : Epoch 9 Time Cost 46.07938480377197 secs.
+2022/01/15 22:54:25 - INFO : TRAIN performance at epoch 10 --- Precision: 0.825896, Recall: 0.623344, Micro-F1: 0.710465, Macro-F1: 0.475107, Loss: 0.088712.
+
+2022/01/15 22:54:29 - INFO : DEV performance at epoch 10 --- Precision: 0.788032, Recall: 0.588152, Micro-F1: 0.673576, Macro-F1: 0.430143, Loss: 0.093875.
+
+2022/01/15 22:54:29 - INFO : Improve Macro-F1 0.4170189309471638% --> 0.4301425310950667%
+2022/01/15 22:54:30 - INFO : Epoch 10 Time Cost 44.9802405834198 secs.
+2022/01/15 22:55:11 - INFO : TRAIN performance at epoch 11 --- Precision: 0.839954, Recall: 0.607725, Micro-F1: 0.705213, Macro-F1: 0.475041, Loss: 0.085998.
+
+2022/01/15 22:55:15 - INFO : DEV performance at epoch 11 --- Precision: 0.800986, Recall: 0.568517, Micro-F1: 0.665021, Macro-F1: 0.423260, Loss: 0.091169.
+
+2022/01/15 22:55:16 - INFO : Epoch 11 Time Cost 45.577516078948975 secs.
+2022/01/15 22:55:56 - INFO : TRAIN performance at epoch 12 --- Precision: 0.836825, Recall: 0.628928, Micro-F1: 0.718133, Macro-F1: 0.494798, Loss: 0.083921.
+
+2022/01/15 22:56:00 - INFO : DEV performance at epoch 12 --- Precision: 0.793981, Recall: 0.584654, Micro-F1: 0.673425, Macro-F1: 0.437116, Loss: 0.089671.
+
+2022/01/15 22:56:00 - INFO : Improve Macro-F1 0.4301425310950667% --> 0.43711610289767766%
+2022/01/15 22:56:01 - INFO : Epoch 12 Time Cost 45.57359075546265 secs.
+2022/01/15 22:56:41 - INFO : TRAIN performance at epoch 13 --- Precision: 0.834417, Recall: 0.650627, Micro-F1: 0.731149, Macro-F1: 0.511117, Loss: 0.081140.
+
+2022/01/15 22:56:46 - INFO : DEV performance at epoch 13 --- Precision: 0.788245, Recall: 0.602934, Micro-F1: 0.683247, Macro-F1: 0.452564, Loss: 0.087340.
+
+2022/01/15 22:56:46 - INFO : Improve Micro-F1 0.6774498048320025% --> 0.683247445750163%
+2022/01/15 22:56:47 - INFO : Improve Macro-F1 0.43711610289767766% --> 0.452564183953484%
+2022/01/15 22:56:48 - INFO : Epoch 13 Time Cost 46.525240421295166 secs.
+2022/01/15 22:57:29 - INFO : TRAIN performance at epoch 14 --- Precision: 0.821043, Recall: 0.691827, Micro-F1: 0.750917, Macro-F1: 0.547477, Loss: 0.081729.
+
+2022/01/15 22:57:33 - INFO : DEV performance at epoch 14 --- Precision: 0.771893, Recall: 0.637757, Micro-F1: 0.698443, Macro-F1: 0.479823, Loss: 0.088469.
+
+2022/01/15 22:57:33 - INFO : Improve Micro-F1 0.683247445750163% --> 0.6984429065743946%
+2022/01/15 22:57:34 - INFO : Improve Macro-F1 0.452564183953484% --> 0.47982278242701965%
+2022/01/15 22:57:35 - INFO : Epoch 14 Time Cost 47.051982402801514 secs.
+2022/01/15 22:58:15 - INFO : TRAIN performance at epoch 15 --- Precision: 0.838094, Recall: 0.693331, Micro-F1: 0.758871, Macro-F1: 0.561121, Loss: 0.079219.
+
+2022/01/15 22:58:19 - INFO : DEV performance at epoch 15 --- Precision: 0.784253, Recall: 0.635049, Micro-F1: 0.701808, Macro-F1: 0.485490, Loss: 0.086355.
+
+2022/01/15 22:58:19 - INFO : Improve Micro-F1 0.6984429065743946% --> 0.7018082055119091%
+2022/01/15 22:58:20 - INFO : Improve Macro-F1 0.47982278242701965% --> 0.4854900632743144%
+2022/01/15 22:58:21 - INFO : Epoch 15 Time Cost 46.55973529815674 secs.
+2022/01/15 22:59:03 - INFO : TRAIN performance at epoch 16 --- Precision: 0.856912, Recall: 0.655613, Micro-F1: 0.742868, Macro-F1: 0.545287, Loss: 0.075851.
+
+2022/01/15 22:59:07 - INFO : DEV performance at epoch 16 --- Precision: 0.801344, Recall: 0.600023, Micro-F1: 0.686222, Macro-F1: 0.472908, Loss: 0.083570.
+
+2022/01/15 22:59:07 - INFO : Epoch 16 Time Cost 45.292036294937134 secs.
+2022/01/15 22:59:48 - INFO : TRAIN performance at epoch 17 --- Precision: 0.857127, Recall: 0.672416, Micro-F1: 0.753619, Macro-F1: 0.565921, Loss: 0.074781.
+
+2022/01/15 22:59:52 - INFO : DEV performance at epoch 17 --- Precision: 0.797949, Recall: 0.609456, Micro-F1: 0.691080, Macro-F1: 0.488795, Loss: 0.083024.
+
+2022/01/15 22:59:52 - INFO : Improve Macro-F1 0.4854900632743144% --> 0.48879480405806974%
+2022/01/15 22:59:53 - INFO : Epoch 17 Time Cost 45.96247386932373 secs.
+2022/01/15 23:00:32 - INFO : TRAIN performance at epoch 18 --- Precision: 0.871081, Recall: 0.655788, Micro-F1: 0.748256, Macro-F1: 0.580088, Loss: 0.074110.
+
+2022/01/15 23:00:37 - INFO : DEV performance at epoch 18 --- Precision: 0.809751, Recall: 0.590363, Micro-F1: 0.682869, Macro-F1: 0.491400, Loss: 0.082282.
+
+2022/01/15 23:00:37 - INFO : Improve Macro-F1 0.48879480405806974% --> 0.49139958290342567%
+2022/01/15 23:00:38 - INFO : Epoch 18 Time Cost 44.996885538101196 secs.
+2022/01/15 23:01:18 - INFO : TRAIN performance at epoch 19 --- Precision: 0.857774, Recall: 0.690018, Micro-F1: 0.764805, Macro-F1: 0.589952, Loss: 0.072734.
+
+2022/01/15 23:01:23 - INFO : DEV performance at epoch 19 --- Precision: 0.791504, Recall: 0.618574, Micro-F1: 0.694435, Macro-F1: 0.497905, Loss: 0.081736.
+
+2022/01/15 23:01:23 - INFO : Improve Macro-F1 0.49139958290342567% --> 0.49790469360665474%
+2022/01/15 23:01:24 - INFO : Epoch 19 Time Cost 45.941683530807495 secs.
+2022/01/15 23:02:04 - INFO : TRAIN performance at epoch 20 --- Precision: 0.865887, Recall: 0.684801, Micro-F1: 0.764770, Macro-F1: 0.592347, Loss: 0.071632.
+
+2022/01/15 23:02:08 - INFO : DEV performance at epoch 20 --- Precision: 0.795550, Recall: 0.609276, Micro-F1: 0.690063, Macro-F1: 0.496552, Loss: 0.081413.
+
+2022/01/15 23:02:08 - INFO : Epoch 20 Time Cost 44.56083917617798 secs.
+2022/01/15 23:02:49 - INFO : TRAIN performance at epoch 21 --- Precision: 0.870367, Recall: 0.698436, Micro-F1: 0.774980, Macro-F1: 0.604822, Loss: 0.068811.
+
+2022/01/15 23:02:53 - INFO : DEV performance at epoch 21 --- Precision: 0.798179, Recall: 0.619251, Micro-F1: 0.697421, Macro-F1: 0.502820, Loss: 0.079383.
+
+2022/01/15 23:02:54 - INFO : Improve Macro-F1 0.49790469360665474% --> 0.502820012285316%
+2022/01/15 23:02:56 - INFO : Epoch 21 Time Cost 47.27369475364685 secs.
+2022/01/15 23:03:37 - INFO : TRAIN performance at epoch 22 --- Precision: 0.885850, Recall: 0.674833, Micro-F1: 0.766076, Macro-F1: 0.602606, Loss: 0.066117.
+
+2022/01/15 23:03:41 - INFO : DEV performance at epoch 22 --- Precision: 0.811073, Recall: 0.593433, Micro-F1: 0.685390, Macro-F1: 0.496160, Loss: 0.077617.
+
+2022/01/15 23:03:41 - INFO : Epoch 22 Time Cost 45.97805595397949 secs.
+2022/01/15 23:04:22 - INFO : TRAIN performance at epoch 23 --- Precision: 0.894147, Recall: 0.667959, Micro-F1: 0.764677, Macro-F1: 0.615034, Loss: 0.063465.
+
+2022/01/15 23:04:26 - INFO : DEV performance at epoch 23 --- Precision: 0.818482, Recall: 0.582487, Micro-F1: 0.680608, Macro-F1: 0.503536, Loss: 0.076161.
+
+2022/01/15 23:04:26 - INFO : Improve Macro-F1 0.502820012285316% --> 0.5035356378418101%
+2022/01/15 23:04:27 - INFO : Epoch 23 Time Cost 45.973206520080566 secs.
+2022/01/15 23:05:09 - INFO : TRAIN performance at epoch 24 --- Precision: 0.881635, Recall: 0.720439, Micro-F1: 0.792928, Macro-F1: 0.643556, Loss: 0.063819.
+
+2022/01/15 23:05:13 - INFO : DEV performance at epoch 24 --- Precision: 0.799281, Recall: 0.627285, Micro-F1: 0.702915, Macro-F1: 0.523195, Loss: 0.076661.
+
+2022/01/15 23:05:13 - INFO : Improve Micro-F1 0.7018082055119091% --> 0.7029145855724852%
+2022/01/15 23:05:14 - INFO : Improve Macro-F1 0.5035356378418101% --> 0.5231951514851727%
+2022/01/15 23:05:15 - INFO : Epoch 24 Time Cost 47.799229860305786 secs.
+2022/01/15 23:05:57 - INFO : TRAIN performance at epoch 25 --- Precision: 0.880998, Recall: 0.737090, Micro-F1: 0.802644, Macro-F1: 0.648762, Loss: 0.062150.
+
+2022/01/15 23:06:01 - INFO : DEV performance at epoch 25 --- Precision: 0.792137, Recall: 0.635229, Micro-F1: 0.705059, Macro-F1: 0.524432, Loss: 0.075438.
+
+2022/01/15 23:06:01 - INFO : Improve Micro-F1 0.7029145855724852% --> 0.7050586776548977%
+2022/01/15 23:06:02 - INFO : Improve Macro-F1 0.5231951514851727% --> 0.524432481730407%
+2022/01/15 23:06:03 - INFO : Epoch 25 Time Cost 47.92693090438843 secs.
+2022/01/15 23:06:44 - INFO : TRAIN performance at epoch 26 --- Precision: 0.885018, Recall: 0.754416, Micro-F1: 0.814515, Macro-F1: 0.662860, Loss: 0.059714.
+
+2022/01/15 23:06:49 - INFO : DEV performance at epoch 26 --- Precision: 0.793207, Recall: 0.646130, Micro-F1: 0.712154, Macro-F1: 0.528754, Loss: 0.073600.
+
+2022/01/15 23:06:49 - INFO : Improve Micro-F1 0.7050586776548977% --> 0.712153624197801%
+2022/01/15 23:06:50 - INFO : Improve Macro-F1 0.524432481730407% --> 0.5287536242384187%
+2022/01/15 23:06:51 - INFO : Epoch 26 Time Cost 47.36345553398132 secs.
+2022/01/15 23:07:31 - INFO : TRAIN performance at epoch 27 --- Precision: 0.901888, Recall: 0.715295, Micro-F1: 0.797827, Macro-F1: 0.656324, Loss: 0.058368.
+
+2022/01/15 23:07:36 - INFO : DEV performance at epoch 27 --- Precision: 0.809195, Recall: 0.606139, Micro-F1: 0.693101, Macro-F1: 0.516456, Loss: 0.073686.
+
+2022/01/15 23:07:36 - INFO : Epoch 27 Time Cost 45.095460653305054 secs.
+2022/01/15 23:08:17 - INFO : TRAIN performance at epoch 28 --- Precision: 0.878219, Recall: 0.781383, Micro-F1: 0.826976, Macro-F1: 0.681393, Loss: 0.058179.
+
+2022/01/15 23:08:21 - INFO : DEV performance at epoch 28 --- Precision: 0.780249, Recall: 0.665809, Micro-F1: 0.718501, Macro-F1: 0.539997, Loss: 0.073450.
+
+2022/01/15 23:08:21 - INFO : Improve Micro-F1 0.712153624197801% --> 0.7185007488949233%
+2022/01/15 23:08:22 - INFO : Improve Macro-F1 0.5287536242384187% --> 0.5399973562429587%
+2022/01/15 23:08:23 - INFO : Epoch 28 Time Cost 47.22079348564148 secs.
+2022/01/15 23:09:04 - INFO : TRAIN performance at epoch 29 --- Precision: 0.905126, Recall: 0.727584, Micro-F1: 0.806702, Macro-F1: 0.665946, Loss: 0.057069.
+
+2022/01/15 23:09:08 - INFO : DEV performance at epoch 29 --- Precision: 0.806668, Recall: 0.609907, Micro-F1: 0.694623, Macro-F1: 0.523699, Loss: 0.073304.
+
+2022/01/15 23:09:08 - INFO : Epoch 29 Time Cost 45.616517543792725 secs.
+2022/01/15 23:09:50 - INFO : TRAIN performance at epoch 30 --- Precision: 0.904100, Recall: 0.764085, Micro-F1: 0.828217, Macro-F1: 0.686722, Loss: 0.054437.
+
+2022/01/15 23:09:54 - INFO : DEV performance at epoch 30 --- Precision: 0.798197, Recall: 0.635387, Micro-F1: 0.707547, Macro-F1: 0.532953, Loss: 0.071355.
+
+2022/01/15 23:09:54 - INFO : Epoch 30 Time Cost 45.5751850605011 secs.
+2022/01/15 23:10:36 - INFO : TRAIN performance at epoch 31 --- Precision: 0.901210, Recall: 0.780324, Micro-F1: 0.836422, Macro-F1: 0.703100, Loss: 0.052716.
+
+2022/01/15 23:10:40 - INFO : DEV performance at epoch 31 --- Precision: 0.791431, Recall: 0.643647, Micro-F1: 0.709930, Macro-F1: 0.540030, Loss: 0.070925.
+
+2022/01/15 23:10:40 - INFO : Improve Macro-F1 0.5399973562429587% --> 0.5400300671150216%
+2022/01/15 23:10:42 - INFO : Epoch 31 Time Cost 47.71247935295105 secs.
+2022/01/15 23:11:22 - INFO : TRAIN performance at epoch 32 --- Precision: 0.910951, Recall: 0.775608, Micro-F1: 0.837849, Macro-F1: 0.706412, Loss: 0.051811.
+
+2022/01/15 23:11:27 - INFO : DEV performance at epoch 32 --- Precision: 0.799300, Recall: 0.634371, Micro-F1: 0.707349, Macro-F1: 0.538146, Loss: 0.071015.
+
+2022/01/15 23:11:27 - INFO : Epoch 32 Time Cost 44.80748248100281 secs.
+2022/01/15 23:12:08 - INFO : TRAIN performance at epoch 33 --- Precision: 0.906373, Recall: 0.793165, Micro-F1: 0.845999, Macro-F1: 0.711584, Loss: 0.051212.
+
+2022/01/15 23:12:12 - INFO : DEV performance at epoch 33 --- Precision: 0.790996, Recall: 0.650666, Micro-F1: 0.714001, Macro-F1: 0.539408, Loss: 0.070425.
+
+2022/01/15 23:12:12 - INFO : Epoch 33 Time Cost 45.49401497840881 secs.
+2022/01/15 23:12:53 - INFO : TRAIN performance at epoch 34 --- Precision: 0.920593, Recall: 0.767883, Micro-F1: 0.837332, Macro-F1: 0.717711, Loss: 0.048871.
+
+2022/01/15 23:12:57 - INFO : DEV performance at epoch 34 --- Precision: 0.808235, Recall: 0.618461, Micro-F1: 0.700726, Macro-F1: 0.540173, Loss: 0.069950.
+
+2022/01/15 23:12:57 - INFO : Improve Macro-F1 0.5400300671150216% --> 0.5401731884716864%
+2022/01/15 23:12:58 - INFO : Epoch 34 Time Cost 46.10295081138611 secs.
+2022/01/15 23:13:40 - INFO : TRAIN performance at epoch 35 --- Precision: 0.919928, Recall: 0.782905, Micro-F1: 0.845904, Macro-F1: 0.732810, Loss: 0.048302.
+
+2022/01/15 23:13:44 - INFO : DEV performance at epoch 35 --- Precision: 0.800630, Recall: 0.630512, Micro-F1: 0.705461, Macro-F1: 0.546647, Loss: 0.069679.
+
+2022/01/15 23:13:44 - INFO : Improve Macro-F1 0.5401731884716864% --> 0.5466473789007654%
+2022/01/15 23:13:45 - INFO : Epoch 35 Time Cost 46.60968089103699 secs.
+2022/01/15 23:14:26 - INFO : TRAIN performance at epoch 36 --- Precision: 0.909266, Recall: 0.814689, Micro-F1: 0.859384, Macro-F1: 0.737476, Loss: 0.047373.
+
+2022/01/15 23:14:31 - INFO : DEV performance at epoch 36 --- Precision: 0.784898, Recall: 0.658971, Micro-F1: 0.716443, Macro-F1: 0.549383, Loss: 0.069441.
+
+2022/01/15 23:14:31 - INFO : Improve Macro-F1 0.5466473789007654% --> 0.5493833862840635%
+2022/01/15 23:14:32 - INFO : Epoch 36 Time Cost 46.9280903339386 secs.
+2022/01/15 23:15:13 - INFO : TRAIN performance at epoch 37 --- Precision: 0.907010, Recall: 0.828229, Micro-F1: 0.865831, Macro-F1: 0.753101, Loss: 0.046470.
+
+2022/01/15 23:15:17 - INFO : DEV performance at epoch 37 --- Precision: 0.782093, Recall: 0.667682, Micro-F1: 0.720373, Macro-F1: 0.556526, Loss: 0.068601.
+
+2022/01/15 23:15:17 - INFO : Improve Micro-F1 0.7185007488949233% --> 0.7203730307531229%
+2022/01/15 23:15:18 - INFO : Improve Macro-F1 0.5493833862840635% --> 0.5565264483804595%
+2022/01/15 23:15:19 - INFO : Epoch 37 Time Cost 47.661062717437744 secs.
+2022/01/15 23:16:00 - INFO : TRAIN performance at epoch 38 --- Precision: 0.928783, Recall: 0.809201, Micro-F1: 0.864878, Macro-F1: 0.754915, Loss: 0.044614.
+
+2022/01/15 23:16:04 - INFO : DEV performance at epoch 38 --- Precision: 0.801403, Recall: 0.641954, Micro-F1: 0.712872, Macro-F1: 0.550581, Loss: 0.068277.
+
+2022/01/15 23:16:04 - INFO : Epoch 38 Time Cost 44.981385707855225 secs.
+2022/01/15 23:16:45 - INFO : TRAIN performance at epoch 39 --- Precision: 0.919354, Recall: 0.826426, Micro-F1: 0.870417, Macro-F1: 0.763292, Loss: 0.044382.
+
+2022/01/15 23:16:49 - INFO : DEV performance at epoch 39 --- Precision: 0.785872, Recall: 0.658316, Micro-F1: 0.716461, Macro-F1: 0.558110, Loss: 0.068483.
+
+2022/01/15 23:16:49 - INFO : Improve Macro-F1 0.5565264483804595% --> 0.5581096139641808%
+2022/01/15 23:16:50 - INFO : Epoch 39 Time Cost 45.978479623794556 secs.
+2022/01/15 23:17:31 - INFO : TRAIN performance at epoch 40 --- Precision: 0.920727, Recall: 0.831982, Micro-F1: 0.874108, Macro-F1: 0.774283, Loss: 0.042851.
+
+2022/01/15 23:17:35 - INFO : DEV performance at epoch 40 --- Precision: 0.786688, Recall: 0.654863, Micro-F1: 0.714748, Macro-F1: 0.558299, Loss: 0.068795.
+
+2022/01/15 23:17:35 - INFO : Improve Macro-F1 0.5581096139641808% --> 0.5582990853278974%
+2022/01/15 23:17:36 - INFO : Epoch 40 Time Cost 46.129414796829224 secs.
+2022/01/15 23:18:17 - INFO : TRAIN performance at epoch 41 --- Precision: 0.926015, Recall: 0.833024, Micro-F1: 0.877062, Macro-F1: 0.772687, Loss: 0.041473.
+
+2022/01/15 23:18:22 - INFO : DEV performance at epoch 41 --- Precision: 0.787922, Recall: 0.653081, Micro-F1: 0.714192, Macro-F1: 0.552395, Loss: 0.068359.
+
+2022/01/15 23:18:22 - INFO : Epoch 41 Time Cost 45.97869086265564 secs.
+2022/01/15 23:19:04 - INFO : TRAIN performance at epoch 42 --- Precision: 0.929555, Recall: 0.830055, Micro-F1: 0.876992, Macro-F1: 0.779904, Loss: 0.041043.
+
+2022/01/15 23:19:08 - INFO : DEV performance at epoch 42 --- Precision: 0.793935, Recall: 0.644572, Micro-F1: 0.711499, Macro-F1: 0.557143, Loss: 0.068201.
+
+2022/01/15 23:19:08 - INFO : Epoch 42 Time Cost 45.41206622123718 secs.
+2022/01/15 23:19:49 - INFO : TRAIN performance at epoch 43 --- Precision: 0.931563, Recall: 0.840225, Micro-F1: 0.883540, Macro-F1: 0.778496, Loss: 0.039779.
+
+2022/01/15 23:19:53 - INFO : DEV performance at epoch 43 --- Precision: 0.790117, Recall: 0.650959, Micro-F1: 0.713819, Macro-F1: 0.551822, Loss: 0.067458.
+
+2022/01/15 23:19:53 - INFO : Epoch 43 Time Cost 45.192843437194824 secs.
+2022/01/15 23:20:34 - INFO : TRAIN performance at epoch 44 --- Precision: 0.931252, Recall: 0.839735, Micro-F1: 0.883129, Macro-F1: 0.790076, Loss: 0.039398.
+
+2022/01/15 23:20:39 - INFO : DEV performance at epoch 44 --- Precision: 0.788835, Recall: 0.647055, Micro-F1: 0.710945, Macro-F1: 0.555207, Loss: 0.068604.
+
+2022/01/15 23:20:39 - INFO : Epoch 44 Time Cost 45.692467212677 secs.
+2022/01/15 23:21:20 - INFO : TRAIN performance at epoch 45 --- Precision: 0.938308, Recall: 0.845691, Micro-F1: 0.889596, Macro-F1: 0.800059, Loss: 0.037743.
+
+2022/01/15 23:21:24 - INFO : DEV performance at epoch 45 --- Precision: 0.795108, Recall: 0.648522, Micro-F1: 0.714373, Macro-F1: 0.560631, Loss: 0.067408.
+
+2022/01/15 23:21:24 - INFO : Improve Macro-F1 0.5582990853278974% --> 0.5606308816390481%
+2022/01/15 23:21:25 - INFO : Epoch 45 Time Cost 46.52402687072754 secs.
+2022/01/15 23:22:07 - INFO : TRAIN performance at epoch 46 --- Precision: 0.932199, Recall: 0.864026, Micro-F1: 0.896819, Macro-F1: 0.805047, Loss: 0.037317.
+
+2022/01/15 23:22:11 - INFO : DEV performance at epoch 46 --- Precision: 0.782066, Recall: 0.665877, Micro-F1: 0.719310, Macro-F1: 0.561959, Loss: 0.067141.
+
+2022/01/15 23:22:11 - INFO : Improve Macro-F1 0.5606308816390481% --> 0.5619587840263022%
+2022/01/15 23:22:12 - INFO : Epoch 46 Time Cost 46.93772482872009 secs.
+2022/01/15 23:22:53 - INFO : TRAIN performance at epoch 47 --- Precision: 0.937187, Recall: 0.857681, Micro-F1: 0.895673, Macro-F1: 0.806559, Loss: 0.035976.
+
+2022/01/15 23:22:57 - INFO : DEV performance at epoch 47 --- Precision: 0.789214, Recall: 0.657910, Micro-F1: 0.717605, Macro-F1: 0.560693, Loss: 0.067046.
+
+2022/01/15 23:22:57 - INFO : Epoch 47 Time Cost 45.09559226036072 secs.
+2022/01/15 23:23:39 - INFO : TRAIN performance at epoch 48 --- Precision: 0.936311, Recall: 0.878219, Micro-F1: 0.906335, Macro-F1: 0.818195, Loss: 0.035077.
+
+2022/01/15 23:23:43 - INFO : DEV performance at epoch 48 --- Precision: 0.779534, Recall: 0.677883, Micro-F1: 0.725164, Macro-F1: 0.569640, Loss: 0.066861.
+
+2022/01/15 23:23:43 - INFO : Improve Micro-F1 0.7203730307531229% --> 0.7251635643755583%
+2022/01/15 23:23:44 - INFO : Improve Macro-F1 0.5619587840263022% --> 0.5696399612793068%
+2022/01/15 23:23:45 - INFO : Epoch 48 Time Cost 47.5730721950531 secs.
+2022/01/15 23:24:26 - INFO : TRAIN performance at epoch 49 --- Precision: 0.948036, Recall: 0.858673, Micro-F1: 0.901145, Macro-F1: 0.819257, Loss: 0.033973.
+
+2022/01/15 23:24:31 - INFO : DEV performance at epoch 49 --- Precision: 0.797031, Recall: 0.643489, Micro-F1: 0.712077, Macro-F1: 0.556035, Loss: 0.067128.
+
+2022/01/15 23:24:31 - INFO : Epoch 49 Time Cost 45.73454523086548 secs.
+2022/01/15 23:25:12 - INFO : TRAIN performance at epoch 50 --- Precision: 0.940907, Recall: 0.878507, Micro-F1: 0.908637, Macro-F1: 0.828689, Loss: 0.032979.
+
+2022/01/15 23:25:16 - INFO : DEV performance at epoch 50 --- Precision: 0.787018, Recall: 0.665741, Micro-F1: 0.721317, Macro-F1: 0.564392, Loss: 0.067107.
+
+2022/01/15 23:25:16 - INFO : Epoch 50 Time Cost 45.70924520492554 secs.
+2022/01/15 23:25:58 - INFO : TRAIN performance at epoch 51 --- Precision: 0.945307, Recall: 0.893720, Micro-F1: 0.918790, Macro-F1: 0.844533, Loss: 0.031384.
+
+2022/01/15 23:26:02 - INFO : DEV performance at epoch 51 --- Precision: 0.785315, Recall: 0.675875, Micro-F1: 0.726496, Macro-F1: 0.569586, Loss: 0.065917.
+
+2022/01/15 23:26:02 - INFO : Improve Micro-F1 0.7251635643755583% --> 0.7264964521802414%
+2022/01/15 23:26:04 - INFO : Epoch 51 Time Cost 47.49055051803589 secs.
+2022/01/15 23:26:45 - INFO : TRAIN performance at epoch 52 --- Precision: 0.940933, Recall: 0.900285, Micro-F1: 0.920160, Macro-F1: 0.843019, Loss: 0.031442.
+
+2022/01/15 23:26:50 - INFO : DEV performance at epoch 52 --- Precision: 0.775366, Recall: 0.686053, Micro-F1: 0.727980, Macro-F1: 0.570033, Loss: 0.066262.
+
+2022/01/15 23:26:50 - INFO : Improve Micro-F1 0.7264964521802414% --> 0.7279802672541787%
+2022/01/15 23:26:51 - INFO : Improve Macro-F1 0.5696399612793068% --> 0.5700325041144346%
+2022/01/15 23:26:52 - INFO : Epoch 52 Time Cost 48.11619687080383 secs.
+2022/01/15 23:27:33 - INFO : TRAIN performance at epoch 53 --- Precision: 0.937280, Recall: 0.903417, Micro-F1: 0.920037, Macro-F1: 0.846283, Loss: 0.031354.
+
+2022/01/15 23:27:37 - INFO : DEV performance at epoch 53 --- Precision: 0.770667, Recall: 0.688400, Micro-F1: 0.727214, Macro-F1: 0.570559, Loss: 0.067503.
+
+2022/01/15 23:27:37 - INFO : Improve Macro-F1 0.5700325041144346% --> 0.570558848929186%
+2022/01/15 23:27:38 - INFO : Epoch 53 Time Cost 46.43626952171326 secs.
+2022/01/15 23:28:20 - INFO : TRAIN performance at epoch 54 --- Precision: 0.942010, Recall: 0.902860, Micro-F1: 0.922019, Macro-F1: 0.852871, Loss: 0.030400.
+
+2022/01/15 23:28:24 - INFO : DEV performance at epoch 54 --- Precision: 0.777144, Recall: 0.680050, Micro-F1: 0.725362, Macro-F1: 0.570459, Loss: 0.067473.
+
+2022/01/15 23:28:24 - INFO : Epoch 54 Time Cost 46.063498973846436 secs.
+2022/01/15 23:29:06 - INFO : TRAIN performance at epoch 55 --- Precision: 0.937625, Recall: 0.912382, Micro-F1: 0.924831, Macro-F1: 0.856841, Loss: 0.030057.
+
+2022/01/15 23:29:10 - INFO : DEV performance at epoch 55 --- Precision: 0.769759, Recall: 0.690837, Micro-F1: 0.728166, Macro-F1: 0.569712, Loss: 0.067238.
+
+2022/01/15 23:29:10 - INFO : Improve Micro-F1 0.7279802672541787% --> 0.7281658479726917%
+2022/01/15 23:29:11 - INFO : Epoch 55 Time Cost 47.00975227355957 secs.
+2022/01/15 23:29:53 - INFO : TRAIN performance at epoch 56 --- Precision: 0.948384, Recall: 0.908269, Micro-F1: 0.927893, Macro-F1: 0.861442, Loss: 0.028249.
+
+2022/01/15 23:29:57 - INFO : DEV performance at epoch 56 --- Precision: 0.780125, Recall: 0.679260, Micro-F1: 0.726207, Macro-F1: 0.572797, Loss: 0.067418.
+
+2022/01/15 23:29:57 - INFO : Improve Macro-F1 0.570558848929186% --> 0.5727970010482458%
+2022/01/15 23:29:58 - INFO : Epoch 56 Time Cost 46.656965255737305 secs.
+2022/01/15 23:30:40 - INFO : TRAIN performance at epoch 57 --- Precision: 0.948006, Recall: 0.921741, Micro-F1: 0.934689, Macro-F1: 0.872758, Loss: 0.027279.
+
+2022/01/15 23:30:44 - INFO : DEV performance at epoch 57 --- Precision: 0.775274, Recall: 0.686391, Micro-F1: 0.728130, Macro-F1: 0.573184, Loss: 0.067290.
+
+2022/01/15 23:30:44 - INFO : Improve Macro-F1 0.5727970010482458% --> 0.5731842662129935%
+2022/01/15 23:30:45 - INFO : Epoch 57 Time Cost 47.04899024963379 secs.
+2022/01/15 23:31:27 - INFO : TRAIN performance at epoch 58 --- Precision: 0.948570, Recall: 0.911300, Micro-F1: 0.929561, Macro-F1: 0.871111, Loss: 0.027423.
+
+2022/01/15 23:31:31 - INFO : DEV performance at epoch 58 --- Precision: 0.777975, Recall: 0.671541, Micro-F1: 0.720851, Macro-F1: 0.566200, Loss: 0.068305.
+
+2022/01/15 23:31:31 - INFO : Epoch 58 Time Cost 45.72012543678284 secs.
+2022/01/15 23:32:13 - INFO : TRAIN performance at epoch 59 --- Precision: 0.959368, Recall: 0.904927, Micro-F1: 0.931353, Macro-F1: 0.875612, Loss: 0.026043.
+
+2022/01/15 23:32:17 - INFO : DEV performance at epoch 59 --- Precision: 0.792833, Recall: 0.656060, Micro-F1: 0.717991, Macro-F1: 0.564119, Loss: 0.068591.
+
+2022/01/15 23:32:17 - INFO : Epoch 59 Time Cost 46.12381553649902 secs.
+2022/01/15 23:32:58 - INFO : TRAIN performance at epoch 60 --- Precision: 0.955448, Recall: 0.916061, Micro-F1: 0.935340, Macro-F1: 0.876950, Loss: 0.025568.
+
+2022/01/15 23:33:03 - INFO : DEV performance at epoch 60 --- Precision: 0.780204, Recall: 0.681494, Micro-F1: 0.727516, Macro-F1: 0.568719, Loss: 0.067602.
+
+2022/01/15 23:33:03 - INFO : Epoch 60 Time Cost 45.83302307128906 secs.
+2022/01/15 23:33:44 - INFO : TRAIN performance at epoch 61 --- Precision: 0.955648, Recall: 0.919780, Micro-F1: 0.937371, Macro-F1: 0.887024, Loss: 0.025656.
+
+2022/01/15 23:33:48 - INFO : DEV performance at epoch 61 --- Precision: 0.781552, Recall: 0.668314, Micro-F1: 0.720511, Macro-F1: 0.569467, Loss: 0.068728.
+
+2022/01/15 23:33:49 - INFO : Epoch 61 Time Cost 46.09395384788513 secs.
+2022/01/15 23:34:31 - INFO : TRAIN performance at epoch 62 --- Precision: 0.960062, Recall: 0.927139, Micro-F1: 0.943313, Macro-F1: 0.888930, Loss: 0.023987.
+
+2022/01/15 23:34:35 - INFO : DEV performance at epoch 62 --- Precision: 0.781638, Recall: 0.679395, Micro-F1: 0.726939, Macro-F1: 0.568411, Loss: 0.068930.
+
+2022/01/15 23:34:35 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/15 23:34:35 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/15 23:34:35 - INFO : Epoch 62 Time Cost 46.08453392982483 secs.
+2022/01/15 23:35:16 - INFO : TRAIN performance at epoch 63 --- Precision: 0.963270, Recall: 0.929049, Micro-F1: 0.945850, Macro-F1: 0.894798, Loss: 0.023673.
+
+2022/01/15 23:35:20 - INFO : DEV performance at epoch 63 --- Precision: 0.782231, Recall: 0.677951, Micro-F1: 0.726367, Macro-F1: 0.567756, Loss: 0.068112.
+
+2022/01/15 23:35:20 - INFO : Epoch 63 Time Cost 45.22681951522827 secs.
+2022/01/15 23:36:02 - INFO : TRAIN performance at epoch 64 --- Precision: 0.950718, Recall: 0.939699, Micro-F1: 0.945176, Macro-F1: 0.891896, Loss: 0.023693.
+
+2022/01/15 23:36:06 - INFO : DEV performance at epoch 64 --- Precision: 0.762453, Recall: 0.697427, Micro-F1: 0.728492, Macro-F1: 0.570273, Loss: 0.069274.
+
+2022/01/15 23:36:06 - INFO : Improve Micro-F1 0.7281658479726917% --> 0.7284921205549205%
+2022/01/15 23:36:07 - INFO : Epoch 64 Time Cost 46.76406264305115 secs.
+2022/01/15 23:36:48 - INFO : TRAIN performance at epoch 65 --- Precision: 0.963199, Recall: 0.927629, Micro-F1: 0.945080, Macro-F1: 0.897035, Loss: 0.022553.
+
+2022/01/15 23:36:53 - INFO : DEV performance at epoch 65 --- Precision: 0.784950, Recall: 0.670955, Micro-F1: 0.723490, Macro-F1: 0.566263, Loss: 0.069299.
+
+2022/01/15 23:36:53 - INFO : Epoch 65 Time Cost 45.75465726852417 secs.
+2022/01/15 23:37:34 - INFO : TRAIN performance at epoch 66 --- Precision: 0.965158, Recall: 0.931968, Micro-F1: 0.948272, Macro-F1: 0.903775, Loss: 0.021812.
+
+2022/01/15 23:37:38 - INFO : DEV performance at epoch 66 --- Precision: 0.786178, Recall: 0.672873, Micro-F1: 0.725126, Macro-F1: 0.570184, Loss: 0.069510.
+
+2022/01/15 23:37:38 - INFO : Epoch 66 Time Cost 45.5508930683136 secs.
+2022/01/15 23:38:20 - INFO : TRAIN performance at epoch 67 --- Precision: 0.964598, Recall: 0.932971, Micro-F1: 0.948521, Macro-F1: 0.906464, Loss: 0.021783.
+
+2022/01/15 23:38:24 - INFO : DEV performance at epoch 67 --- Precision: 0.780657, Recall: 0.674543, Micro-F1: 0.723731, Macro-F1: 0.566634, Loss: 0.069064.
+
+2022/01/15 23:38:24 - INFO : Epoch 67 Time Cost 46.0910861492157 secs.
+2022/01/15 23:39:06 - INFO : TRAIN performance at epoch 68 --- Precision: 0.963663, Recall: 0.944995, Micro-F1: 0.954238, Macro-F1: 0.915157, Loss: 0.020841.
+
+2022/01/15 23:39:10 - INFO : DEV performance at epoch 68 --- Precision: 0.772642, Recall: 0.691559, Micro-F1: 0.729856, Macro-F1: 0.569830, Loss: 0.070260.
+
+2022/01/15 23:39:10 - INFO : Improve Micro-F1 0.7284921205549205% --> 0.7298559009169943%
+2022/01/15 23:39:11 - INFO : Epoch 68 Time Cost 46.679847717285156 secs.
+2022/01/15 23:39:52 - INFO : TRAIN performance at epoch 69 --- Precision: 0.968496, Recall: 0.941259, Micro-F1: 0.954683, Macro-F1: 0.917499, Loss: 0.020124.
+
+2022/01/15 23:39:57 - INFO : DEV performance at epoch 69 --- Precision: 0.781352, Recall: 0.677454, Micro-F1: 0.725704, Macro-F1: 0.570613, Loss: 0.069631.
+
+2022/01/15 23:39:57 - INFO : Epoch 69 Time Cost 45.65247106552124 secs.
+2022/01/15 23:40:39 - INFO : TRAIN performance at epoch 70 --- Precision: 0.970488, Recall: 0.946105, Micro-F1: 0.958142, Macro-F1: 0.919429, Loss: 0.019426.
+
+2022/01/15 23:40:43 - INFO : DEV performance at epoch 70 --- Precision: 0.782449, Recall: 0.680930, Micro-F1: 0.728168, Macro-F1: 0.569051, Loss: 0.069659.
+
+2022/01/15 23:40:43 - INFO : Epoch 70 Time Cost 46.06381821632385 secs.
+2022/01/15 23:41:24 - INFO : TRAIN performance at epoch 71 --- Precision: 0.965055, Recall: 0.954337, Micro-F1: 0.959666, Macro-F1: 0.925343, Loss: 0.019446.
+
+2022/01/15 23:41:28 - INFO : DEV performance at epoch 71 --- Precision: 0.773462, Recall: 0.691559, Micro-F1: 0.730221, Macro-F1: 0.580522, Loss: 0.070131.
+
+2022/01/15 23:41:28 - INFO : Improve Micro-F1 0.7298559009169943% --> 0.7302211419311792%
+2022/01/15 23:41:29 - INFO : Improve Macro-F1 0.5731842662129935% --> 0.5805221046687951%
+2022/01/15 23:41:31 - INFO : Epoch 71 Time Cost 48.47206497192383 secs.
+2022/01/15 23:42:13 - INFO : TRAIN performance at epoch 72 --- Precision: 0.966327, Recall: 0.947542, Micro-F1: 0.956842, Macro-F1: 0.919745, Loss: 0.019340.
+
+2022/01/15 23:42:17 - INFO : DEV performance at epoch 72 --- Precision: 0.774236, Recall: 0.686346, Micro-F1: 0.727647, Macro-F1: 0.569258, Loss: 0.069968.
+
+2022/01/15 23:42:17 - INFO : Epoch 72 Time Cost 45.9228949546814 secs.
+2022/01/15 23:42:59 - INFO : TRAIN performance at epoch 73 --- Precision: 0.967303, Recall: 0.949999, Micro-F1: 0.958573, Macro-F1: 0.924580, Loss: 0.018995.
+
+2022/01/15 23:43:03 - INFO : DEV performance at epoch 73 --- Precision: 0.780159, Recall: 0.676032, Micro-F1: 0.724373, Macro-F1: 0.570959, Loss: 0.071734.
+
+2022/01/15 23:43:03 - INFO : Epoch 73 Time Cost 45.86378479003906 secs.
+2022/01/15 23:43:44 - INFO : TRAIN performance at epoch 74 --- Precision: 0.963043, Recall: 0.962761, Micro-F1: 0.962902, Macro-F1: 0.929560, Loss: 0.018350.
+
+2022/01/15 23:43:49 - INFO : DEV performance at epoch 74 --- Precision: 0.762581, Recall: 0.704153, Micro-F1: 0.732203, Macro-F1: 0.578086, Loss: 0.071276.
+
+2022/01/15 23:43:49 - INFO : Improve Micro-F1 0.7302211419311792% --> 0.7322029920797889%
+2022/01/15 23:43:50 - INFO : Epoch 74 Time Cost 46.85261821746826 secs.
+2022/01/15 23:44:31 - INFO : TRAIN performance at epoch 75 --- Precision: 0.973382, Recall: 0.956259, Micro-F1: 0.964744, Macro-F1: 0.934610, Loss: 0.017526.
+
+2022/01/15 23:44:36 - INFO : DEV performance at epoch 75 --- Precision: 0.782561, Recall: 0.681381, Micro-F1: 0.728475, Macro-F1: 0.571462, Loss: 0.071152.
+
+2022/01/15 23:44:36 - INFO : Epoch 75 Time Cost 45.87108016014099 secs.
+2022/01/15 23:45:18 - INFO : TRAIN performance at epoch 76 --- Precision: 0.971356, Recall: 0.959589, Micro-F1: 0.965437, Macro-F1: 0.937556, Loss: 0.017319.
+
+2022/01/15 23:45:23 - INFO : DEV performance at epoch 76 --- Precision: 0.777582, Recall: 0.685556, Micro-F1: 0.728675, Macro-F1: 0.575255, Loss: 0.071349.
+
+2022/01/15 23:45:23 - INFO : Epoch 76 Time Cost 46.84019470214844 secs.
+2022/01/15 23:46:04 - INFO : TRAIN performance at epoch 77 --- Precision: 0.971840, Recall: 0.957690, Micro-F1: 0.964713, Macro-F1: 0.936504, Loss: 0.016804.
+
+2022/01/15 23:46:08 - INFO : DEV performance at epoch 77 --- Precision: 0.779721, Recall: 0.681336, Micro-F1: 0.727216, Macro-F1: 0.573770, Loss: 0.072791.
+
+2022/01/15 23:46:08 - INFO : Epoch 77 Time Cost 45.22336268424988 secs.
+2022/01/15 23:46:49 - INFO : TRAIN performance at epoch 78 --- Precision: 0.973199, Recall: 0.961240, Micro-F1: 0.967182, Macro-F1: 0.938576, Loss: 0.016266.
+
+2022/01/15 23:46:53 - INFO : DEV performance at epoch 78 --- Precision: 0.778825, Recall: 0.682645, Micro-F1: 0.727570, Macro-F1: 0.571363, Loss: 0.073167.
+
+2022/01/15 23:46:53 - INFO : Epoch 78 Time Cost 45.37722969055176 secs.
+2022/01/15 23:47:35 - INFO : TRAIN performance at epoch 79 --- Precision: 0.974193, Recall: 0.965877, Micro-F1: 0.970017, Macro-F1: 0.944799, Loss: 0.015989.
+
+2022/01/15 23:47:39 - INFO : DEV performance at epoch 79 --- Precision: 0.772889, Recall: 0.692530, Micro-F1: 0.730506, Macro-F1: 0.576652, Loss: 0.071847.
+
+2022/01/15 23:47:39 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/15 23:47:39 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/15 23:47:39 - INFO : Epoch 79 Time Cost 45.931103467941284 secs.
+2022/01/15 23:48:21 - INFO : TRAIN performance at epoch 80 --- Precision: 0.978565, Recall: 0.959983, Micro-F1: 0.969185, Macro-F1: 0.945761, Loss: 0.015552.
+
+2022/01/15 23:48:25 - INFO : DEV performance at epoch 80 --- Precision: 0.789016, Recall: 0.670210, Micro-F1: 0.724777, Macro-F1: 0.570541, Loss: 0.073761.
+
+2022/01/15 23:48:25 - INFO : Epoch 80 Time Cost 45.991252183914185 secs.
+2022/01/15 23:49:07 - INFO : TRAIN performance at epoch 81 --- Precision: 0.973987, Recall: 0.969218, Micro-F1: 0.971597, Macro-F1: 0.947845, Loss: 0.015147.
+
+2022/01/15 23:49:11 - INFO : DEV performance at epoch 81 --- Precision: 0.772356, Recall: 0.695870, Micro-F1: 0.732121, Macro-F1: 0.578279, Loss: 0.073201.
+
+2022/01/15 23:49:12 - INFO : Epoch 81 Time Cost 46.71354150772095 secs.
+2022/01/15 23:49:53 - INFO : TRAIN performance at epoch 82 --- Precision: 0.975791, Recall: 0.972052, Micro-F1: 0.973918, Macro-F1: 0.951119, Loss: 0.014621.
+
+2022/01/15 23:49:58 - INFO : DEV performance at epoch 82 --- Precision: 0.771044, Recall: 0.696028, Micro-F1: 0.731618, Macro-F1: 0.577966, Loss: 0.074313.
+
+2022/01/15 23:49:58 - INFO : Epoch 82 Time Cost 45.86794638633728 secs.
+2022/01/15 23:50:39 - INFO : TRAIN performance at epoch 83 --- Precision: 0.980645, Recall: 0.961206, Micro-F1: 0.970828, Macro-F1: 0.951086, Loss: 0.014668.
+
+2022/01/15 23:50:44 - INFO : DEV performance at epoch 83 --- Precision: 0.789682, Recall: 0.667050, Micro-F1: 0.723204, Macro-F1: 0.570815, Loss: 0.076253.
+
+2022/01/15 23:50:44 - INFO : Epoch 83 Time Cost 45.890971660614014 secs.
+2022/01/15 23:51:25 - INFO : TRAIN performance at epoch 84 --- Precision: 0.979979, Recall: 0.968322, Micro-F1: 0.974116, Macro-F1: 0.951162, Loss: 0.013945.
+
+2022/01/15 23:51:30 - INFO : DEV performance at epoch 84 --- Precision: 0.781962, Recall: 0.684247, Micro-F1: 0.729848, Macro-F1: 0.574390, Loss: 0.074516.
+
+2022/01/15 23:51:30 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2022/01/15 23:51:30 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/15 23:51:30 - INFO : Epoch 84 Time Cost 46.017802715301514 secs.
+2022/01/15 23:52:11 - INFO : TRAIN performance at epoch 85 --- Precision: 0.978859, Recall: 0.972081, Micro-F1: 0.975458, Macro-F1: 0.954140, Loss: 0.013681.
+
+2022/01/15 23:52:15 - INFO : DEV performance at epoch 85 --- Precision: 0.774464, Recall: 0.693907, Micro-F1: 0.731976, Macro-F1: 0.572555, Loss: 0.074789.
+
+2022/01/15 23:52:15 - INFO : Epoch 85 Time Cost 45.752328872680664 secs.
+2022/01/15 23:52:57 - INFO : TRAIN performance at epoch 86 --- Precision: 0.979222, Recall: 0.971624, Micro-F1: 0.975408, Macro-F1: 0.954256, Loss: 0.013361.
+
+2022/01/15 23:53:01 - INFO : DEV performance at epoch 86 --- Precision: 0.774001, Recall: 0.692688, Micro-F1: 0.731090, Macro-F1: 0.573510, Loss: 0.075134.
+
+2022/01/15 23:53:01 - INFO : Epoch 86 Time Cost 45.85907459259033 secs.
+2022/01/15 23:53:43 - INFO : TRAIN performance at epoch 87 --- Precision: 0.980359, Recall: 0.972824, Micro-F1: 0.976577, Macro-F1: 0.958581, Loss: 0.013264.
+
+2022/01/15 23:53:47 - INFO : DEV performance at epoch 87 --- Precision: 0.780095, Recall: 0.683864, Micro-F1: 0.728816, Macro-F1: 0.573949, Loss: 0.075228.
+
+2022/01/15 23:53:47 - INFO : Epoch 87 Time Cost 46.03407573699951 secs.
+2022/01/15 23:54:29 - INFO : TRAIN performance at epoch 88 --- Precision: 0.981963, Recall: 0.973337, Micro-F1: 0.977631, Macro-F1: 0.957890, Loss: 0.012756.
+
+2022/01/15 23:54:33 - INFO : DEV performance at epoch 88 --- Precision: 0.780091, Recall: 0.686730, Micro-F1: 0.730439, Macro-F1: 0.573752, Loss: 0.076118.
+
+2022/01/15 23:54:33 - INFO : Epoch 88 Time Cost 46.07669687271118 secs.
+2022/01/15 23:55:16 - INFO : TRAIN performance at epoch 89 --- Precision: 0.983303, Recall: 0.976211, Micro-F1: 0.979744, Macro-F1: 0.962284, Loss: 0.012258.
+
+2022/01/15 23:55:21 - INFO : DEV performance at epoch 89 --- Precision: 0.778055, Recall: 0.695983, Micro-F1: 0.734734, Macro-F1: 0.574858, Loss: 0.074828.
+
+2022/01/15 23:55:21 - INFO : Improve Micro-F1 0.7322029920797889% --> 0.734734233912277%
+2022/01/15 23:55:22 - INFO : Epoch 89 Time Cost 48.44190001487732 secs.
+2022/01/15 23:56:04 - INFO : TRAIN performance at epoch 90 --- Precision: 0.982025, Recall: 0.979208, Micro-F1: 0.980615, Macro-F1: 0.964848, Loss: 0.012238.
+
+2022/01/15 23:56:09 - INFO : DEV performance at epoch 90 --- Precision: 0.772634, Recall: 0.698353, Micro-F1: 0.733618, Macro-F1: 0.578787, Loss: 0.075285.
+
+2022/01/15 23:56:09 - INFO : Epoch 90 Time Cost 46.974254846572876 secs.
+2022/01/15 23:56:51 - INFO : TRAIN performance at epoch 91 --- Precision: 0.986161, Recall: 0.973303, Micro-F1: 0.979690, Macro-F1: 0.963630, Loss: 0.012033.
+
+2022/01/15 23:56:56 - INFO : DEV performance at epoch 91 --- Precision: 0.785463, Recall: 0.679440, Micro-F1: 0.728615, Macro-F1: 0.575668, Loss: 0.075945.
+
+2022/01/15 23:56:57 - INFO : Epoch 91 Time Cost 47.737497329711914 secs.
+2022/01/15 23:57:39 - INFO : TRAIN performance at epoch 92 --- Precision: 0.982282, Recall: 0.978989, Micro-F1: 0.980632, Macro-F1: 0.964658, Loss: 0.011833.
+
+2022/01/15 23:57:43 - INFO : DEV performance at epoch 92 --- Precision: 0.772865, Recall: 0.692665, Micro-F1: 0.730571, Macro-F1: 0.578590, Loss: 0.076687.
+
+2022/01/15 23:57:43 - INFO : Epoch 92 Time Cost 46.762590646743774 secs.
+2022/01/15 23:58:25 - INFO : TRAIN performance at epoch 93 --- Precision: 0.980521, Recall: 0.979969, Micro-F1: 0.980245, Macro-F1: 0.966129, Loss: 0.011997.
+
+2022/01/15 23:58:30 - INFO : DEV performance at epoch 93 --- Precision: 0.772279, Recall: 0.692349, Micro-F1: 0.730133, Macro-F1: 0.578176, Loss: 0.077656.
+
+2022/01/15 23:58:30 - INFO : Epoch 93 Time Cost 46.29734754562378 secs.
+2022/01/15 23:59:10 - INFO : TRAIN performance at epoch 94 --- Precision: 0.985430, Recall: 0.977107, Micro-F1: 0.981251, Macro-F1: 0.966102, Loss: 0.011194.
+
+2022/01/15 23:59:14 - INFO : DEV performance at epoch 94 --- Precision: 0.780765, Recall: 0.682848, Micro-F1: 0.728531, Macro-F1: 0.569873, Loss: 0.078981.
+
+2022/01/15 23:59:14 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/15 23:59:14 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/15 23:59:14 - INFO : Epoch 94 Time Cost 44.90700054168701 secs.
+2022/01/15 23:59:57 - INFO : TRAIN performance at epoch 95 --- Precision: 0.988161, Recall: 0.976814, Micro-F1: 0.982455, Macro-F1: 0.967907, Loss: 0.010770.
+
+2022/01/16 00:00:01 - INFO : DEV performance at epoch 95 --- Precision: 0.789354, Recall: 0.676055, Micro-F1: 0.728325, Macro-F1: 0.569043, Loss: 0.078921.
+
+2022/01/16 00:00:01 - INFO : Epoch 95 Time Cost 46.75083374977112 secs.
+2022/01/16 00:00:43 - INFO : TRAIN performance at epoch 96 --- Precision: 0.986212, Recall: 0.979755, Micro-F1: 0.982973, Macro-F1: 0.970066, Loss: 0.010759.
+
+2022/01/16 00:00:48 - INFO : DEV performance at epoch 96 --- Precision: 0.783812, Recall: 0.680772, Micro-F1: 0.728667, Macro-F1: 0.572453, Loss: 0.078956.
+
+2022/01/16 00:00:48 - INFO : Epoch 96 Time Cost 46.49837899208069 secs.
+2022/01/16 00:01:29 - INFO : TRAIN performance at epoch 97 --- Precision: 0.988010, Recall: 0.978307, Micro-F1: 0.983135, Macro-F1: 0.969604, Loss: 0.010694.
+
+2022/01/16 00:01:33 - INFO : DEV performance at epoch 97 --- Precision: 0.784859, Recall: 0.678741, Micro-F1: 0.727953, Macro-F1: 0.568153, Loss: 0.079806.
+
+2022/01/16 00:01:33 - INFO : Epoch 97 Time Cost 45.28630185127258 secs.
+2022/01/16 00:02:14 - INFO : TRAIN performance at epoch 98 --- Precision: 0.986225, Recall: 0.983091, Micro-F1: 0.984655, Macro-F1: 0.973050, Loss: 0.010233.
+
+2022/01/16 00:02:18 - INFO : DEV performance at epoch 98 --- Precision: 0.778112, Recall: 0.688851, Micro-F1: 0.730766, Macro-F1: 0.575108, Loss: 0.080016.
+
+2022/01/16 00:02:18 - INFO : Epoch 98 Time Cost 45.36566925048828 secs.
+2022/01/16 00:03:00 - INFO : TRAIN performance at epoch 99 --- Precision: 0.985853, Recall: 0.982792, Micro-F1: 0.984320, Macro-F1: 0.971411, Loss: 0.010046.
+
+2022/01/16 00:03:04 - INFO : DEV performance at epoch 99 --- Precision: 0.778542, Recall: 0.692394, Micro-F1: 0.732946, Macro-F1: 0.575906, Loss: 0.080411.
+
+2022/01/16 00:03:04 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2022/01/16 00:03:04 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/16 00:03:04 - INFO : Epoch 99 Time Cost 45.755399227142334 secs.
+2022/01/16 00:03:10 - INFO : TEST performance at epoch 89 --- Precision: 0.778313, Recall: 0.707403, Micro-F1: 0.741166, Macro-F1: 0.581144, Loss: 0.069343.
+
+2022/01/16 00:03:15 - INFO : TEST performance at epoch 71 --- Precision: 0.776483, Recall: 0.705115, Micro-F1: 0.739080, Macro-F1: 0.588264, Loss: 0.066610.
+
+2022/01/16 21:33:26 - INFO : Building Vocabulary....
+2022/01/16 21:33:26 - INFO : Generating Vocabulary from Corpus...
+2022/01/16 21:33:26 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/16 21:33:30 - INFO : Loading TRAIN subset...
+2022/01/16 21:33:35 - INFO : Loading VAL subset...
+2022/01/16 21:33:37 - INFO : Loading TEST subset...
+2022/01/16 21:33:37 - INFO : Vocabulary of token 434853
+2022/01/16 21:33:37 - INFO : Vocabulary of label 5657
+2022/01/16 21:33:37 - INFO : Shrinking Vocabulary...
+2022/01/16 21:33:37 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/16 21:33:37 - INFO : Vocabulary of token with the size of 50002
+2022/01/16 21:33:38 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/16 21:33:38 - INFO : Vocabulary of label with the size of 5657
+2022/01/16 21:33:38 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/16 21:33:41 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 21:33:48 - INFO : Total vocab size of token is 50002.
+2022/01/16 21:33:48 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 21:48:24 - INFO : Building Vocabulary....
+2022/01/16 21:48:24 - INFO : Generating Vocabulary from Corpus...
+2022/01/16 21:48:24 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/16 21:48:28 - INFO : Loading TRAIN subset...
+2022/01/16 21:48:34 - INFO : Loading VAL subset...
+2022/01/16 21:48:35 - INFO : Loading TEST subset...
+2022/01/16 21:48:35 - INFO : Vocabulary of token 434853
+2022/01/16 21:48:35 - INFO : Vocabulary of label 5657
+2022/01/16 21:48:35 - INFO : Shrinking Vocabulary...
+2022/01/16 21:48:36 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/16 21:48:36 - INFO : Vocabulary of token with the size of 50002
+2022/01/16 21:48:36 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/16 21:48:36 - INFO : Vocabulary of label with the size of 5657
+2022/01/16 21:48:36 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/16 21:48:39 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 21:48:46 - INFO : Total vocab size of token is 50002.
+2022/01/16 21:48:46 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 21:49:08 - INFO : Building Vocabulary....
+2022/01/16 21:49:08 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 21:49:08 - INFO : Vocabulary of token 50002
+2022/01/16 21:49:08 - INFO : Vocabulary of label 5657
+2022/01/16 21:49:12 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 21:49:19 - INFO : Total vocab size of token is 50002.
+2022/01/16 21:49:19 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:01:20 - INFO : Building Vocabulary....
+2022/01/16 23:01:20 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:01:20 - INFO : Vocabulary of token 50002
+2022/01/16 23:01:20 - INFO : Vocabulary of label 5657
+2022/01/16 23:01:24 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:01:31 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:01:31 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:03:12 - INFO : Building Vocabulary....
+2022/01/16 23:03:12 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:03:13 - INFO : Vocabulary of token 50002
+2022/01/16 23:03:13 - INFO : Vocabulary of label 5657
+2022/01/16 23:03:16 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:03:23 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:03:23 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:06:06 - INFO : Building Vocabulary....
+2022/01/16 23:06:06 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:06:06 - INFO : Vocabulary of token 50002
+2022/01/16 23:06:06 - INFO : Vocabulary of label 5657
+2022/01/16 23:06:10 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:06:17 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:06:17 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:06:30 - INFO : Building Vocabulary....
+2022/01/16 23:06:30 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:06:30 - INFO : Vocabulary of token 50002
+2022/01/16 23:06:30 - INFO : Vocabulary of label 5657
+2022/01/16 23:06:33 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:06:40 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:06:40 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:07:41 - INFO : Building Vocabulary....
+2022/01/16 23:07:41 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:07:41 - INFO : Vocabulary of token 50002
+2022/01/16 23:07:41 - INFO : Vocabulary of label 5657
+2022/01/16 23:07:44 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:07:51 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:07:51 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:08:53 - INFO : Building Vocabulary....
+2022/01/16 23:08:53 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:08:53 - INFO : Vocabulary of token 50002
+2022/01/16 23:08:53 - INFO : Vocabulary of label 5657
+2022/01/16 23:08:57 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:09:04 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:09:04 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:45:56 - INFO : Building Vocabulary....
+2022/01/16 23:45:56 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:45:56 - INFO : Vocabulary of token 50002
+2022/01/16 23:45:56 - INFO : Vocabulary of label 5657
+2022/01/16 23:45:59 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:46:07 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:46:07 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:49:07 - INFO : Building Vocabulary....
+2022/01/16 23:49:07 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:49:07 - INFO : Vocabulary of token 50002
+2022/01/16 23:49:07 - INFO : Vocabulary of label 5657
+2022/01/16 23:49:11 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:49:18 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:49:18 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:51:50 - INFO : Building Vocabulary....
+2022/01/16 23:51:50 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:51:50 - INFO : Vocabulary of token 50002
+2022/01/16 23:51:50 - INFO : Vocabulary of label 5657
+2022/01/16 23:51:53 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:52:00 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:52:00 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:53:31 - INFO : Building Vocabulary....
+2022/01/16 23:53:31 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:53:31 - INFO : Vocabulary of token 50002
+2022/01/16 23:53:31 - INFO : Vocabulary of label 5657
+2022/01/16 23:53:35 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:53:42 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:53:42 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:57:07 - INFO : Building Vocabulary....
+2022/01/16 23:57:07 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:57:07 - INFO : Vocabulary of token 50002
+2022/01/16 23:57:07 - INFO : Vocabulary of label 5657
+2022/01/16 23:57:11 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/16 23:57:17 - INFO : Total vocab size of token is 50002.
+2022/01/16 23:57:17 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/16 23:59:54 - INFO : Building Vocabulary....
+2022/01/16 23:59:54 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/16 23:59:54 - INFO : Vocabulary of token 50002
+2022/01/16 23:59:54 - INFO : Vocabulary of label 5657
+2022/01/16 23:59:57 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:00:04 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:00:04 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:01:16 - INFO : Building Vocabulary....
+2022/01/17 00:01:16 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:01:16 - INFO : Vocabulary of token 50002
+2022/01/17 00:01:16 - INFO : Vocabulary of label 5657
+2022/01/17 00:01:20 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:01:26 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:01:26 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:01:57 - INFO : Building Vocabulary....
+2022/01/17 00:01:57 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:01:57 - INFO : Vocabulary of token 50002
+2022/01/17 00:01:57 - INFO : Vocabulary of label 5657
+2022/01/17 00:02:01 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:02:08 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:02:08 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:05:37 - INFO : Building Vocabulary....
+2022/01/17 00:05:37 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:05:37 - INFO : Vocabulary of token 50002
+2022/01/17 00:05:37 - INFO : Vocabulary of label 5657
+2022/01/17 00:05:40 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:05:47 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:05:47 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:05:53 - INFO : Building Vocabulary....
+2022/01/17 00:05:53 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:05:53 - INFO : Vocabulary of token 50002
+2022/01/17 00:05:53 - INFO : Vocabulary of label 5657
+2022/01/17 00:05:56 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:06:03 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:06:03 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:08:46 - INFO : Building Vocabulary....
+2022/01/17 00:08:46 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:08:46 - INFO : Vocabulary of token 50002
+2022/01/17 00:08:46 - INFO : Vocabulary of label 5657
+2022/01/17 00:08:50 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:08:57 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:08:57 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:12:35 - INFO : Building Vocabulary....
+2022/01/17 00:12:35 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:12:35 - INFO : Vocabulary of token 50002
+2022/01/17 00:12:35 - INFO : Vocabulary of label 5657
+2022/01/17 00:12:39 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:12:46 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:12:46 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:14:42 - INFO : Building Vocabulary....
+2022/01/17 00:14:42 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:14:42 - INFO : Vocabulary of token 50002
+2022/01/17 00:14:42 - INFO : Vocabulary of label 5657
+2022/01/17 00:14:46 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:14:52 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:14:52 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:17:27 - INFO : Building Vocabulary....
+2022/01/17 00:17:27 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:17:27 - INFO : Vocabulary of token 50002
+2022/01/17 00:17:27 - INFO : Vocabulary of label 5657
+2022/01/17 00:17:31 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:17:38 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:17:38 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:20:43 - INFO : Building Vocabulary....
+2022/01/17 00:20:43 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:20:43 - INFO : Vocabulary of token 50002
+2022/01/17 00:20:43 - INFO : Vocabulary of label 5657
+2022/01/17 00:20:46 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:20:53 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:20:53 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:24:09 - INFO : Building Vocabulary....
+2022/01/17 00:24:09 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:24:09 - INFO : Vocabulary of token 50002
+2022/01/17 00:24:09 - INFO : Vocabulary of label 5657
+2022/01/17 00:24:13 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:24:20 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:24:20 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:25:20 - INFO : Building Vocabulary....
+2022/01/17 00:25:20 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:25:20 - INFO : Vocabulary of token 50002
+2022/01/17 00:25:20 - INFO : Vocabulary of label 5657
+2022/01/17 00:25:23 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:25:30 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:25:30 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:33:04 - INFO : Building Vocabulary....
+2022/01/17 00:33:04 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:33:04 - INFO : Vocabulary of token 50002
+2022/01/17 00:33:04 - INFO : Vocabulary of label 5657
+2022/01/17 00:33:08 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:33:15 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:33:15 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:33:32 - INFO : Building Vocabulary....
+2022/01/17 00:33:32 - INFO : Generating Vocabulary from Corpus...
+2022/01/17 00:33:32 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/17 00:33:36 - INFO : Loading TRAIN subset...
+2022/01/17 00:33:42 - INFO : Loading VAL subset...
+2022/01/17 00:33:43 - INFO : Loading TEST subset...
+2022/01/17 00:33:43 - INFO : Vocabulary of token 434853
+2022/01/17 00:33:43 - INFO : Vocabulary of label 5664
+2022/01/17 00:33:43 - INFO : Shrinking Vocabulary...
+2022/01/17 00:33:44 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/17 00:33:44 - INFO : Vocabulary of token with the size of 50002
+2022/01/17 00:33:44 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/17 00:33:44 - INFO : Vocabulary of label with the size of 5664
+2022/01/17 00:33:44 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/17 00:33:48 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:33:54 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:33:54 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:42:03 - INFO : Building Vocabulary....
+2022/01/17 00:42:03 - INFO : Generating Vocabulary from Corpus...
+2022/01/17 00:42:03 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/17 00:42:08 - INFO : Loading TRAIN subset...
+2022/01/17 00:42:14 - INFO : Loading VAL subset...
+2022/01/17 00:42:15 - INFO : Loading TEST subset...
+2022/01/17 00:42:15 - INFO : Vocabulary of token 434853
+2022/01/17 00:42:15 - INFO : Vocabulary of label 6218
+2022/01/17 00:42:15 - INFO : Shrinking Vocabulary...
+2022/01/17 00:42:16 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/17 00:42:16 - INFO : Vocabulary of token with the size of 50002
+2022/01/17 00:42:16 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/17 00:42:16 - INFO : Vocabulary of label with the size of 6218
+2022/01/17 00:42:16 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/17 00:42:19 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:42:26 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:42:26 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:44:27 - INFO : Building Vocabulary....
+2022/01/17 00:44:27 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:44:27 - INFO : Vocabulary of token 50002
+2022/01/17 00:44:27 - INFO : Vocabulary of label 6218
+2022/01/17 00:44:30 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:44:37 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:44:37 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:45:42 - INFO : Building Vocabulary....
+2022/01/17 00:45:42 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:45:42 - INFO : Vocabulary of token 50002
+2022/01/17 00:45:42 - INFO : Vocabulary of label 6218
+2022/01/17 00:45:45 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:45:52 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:45:52 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:46:59 - INFO : Building Vocabulary....
+2022/01/17 00:46:59 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:46:59 - INFO : Vocabulary of token 50002
+2022/01/17 00:46:59 - INFO : Vocabulary of label 6218
+2022/01/17 00:47:03 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:47:10 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:47:10 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:49:26 - INFO : Building Vocabulary....
+2022/01/17 00:49:26 - INFO : Generating Vocabulary from Corpus...
+2022/01/17 00:49:26 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/17 00:49:30 - INFO : Loading TRAIN subset...
+2022/01/17 00:49:35 - INFO : Loading VAL subset...
+2022/01/17 00:49:37 - INFO : Loading TEST subset...
+2022/01/17 00:49:37 - INFO : Vocabulary of token 434853
+2022/01/17 00:49:37 - INFO : Vocabulary of label 6217
+2022/01/17 00:49:37 - INFO : Shrinking Vocabulary...
+2022/01/17 00:49:38 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/17 00:49:38 - INFO : Vocabulary of token with the size of 50002
+2022/01/17 00:49:38 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/17 00:49:38 - INFO : Vocabulary of label with the size of 6217
+2022/01/17 00:49:38 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/17 00:49:41 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:49:48 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:49:48 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 00:52:46 - INFO : Building Vocabulary....
+2022/01/17 00:52:46 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 00:52:46 - INFO : Vocabulary of token 50002
+2022/01/17 00:52:46 - INFO : Vocabulary of label 6217
+2022/01/17 00:52:50 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 00:52:57 - INFO : Total vocab size of token is 50002.
+2022/01/17 00:52:57 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 01:03:46 - INFO : Building Vocabulary....
+2022/01/17 01:03:46 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 01:03:46 - INFO : Vocabulary of token 50002
+2022/01/17 01:03:46 - INFO : Vocabulary of label 6217
+2022/01/17 01:03:50 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 01:03:57 - INFO : Total vocab size of token is 50002.
+2022/01/17 01:03:57 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 01:05:11 - INFO : Building Vocabulary....
+2022/01/17 01:05:11 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 01:05:11 - INFO : Vocabulary of token 50002
+2022/01/17 01:05:11 - INFO : Vocabulary of label 6217
+2022/01/17 01:05:14 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 01:05:21 - INFO : Total vocab size of token is 50002.
+2022/01/17 01:05:21 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 01:08:44 - INFO : Building Vocabulary....
+2022/01/17 01:08:44 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 01:08:44 - INFO : Vocabulary of token 50002
+2022/01/17 01:08:44 - INFO : Vocabulary of label 6217
+2022/01/17 01:08:47 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 01:08:54 - INFO : Total vocab size of token is 50002.
+2022/01/17 01:08:54 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 01:12:23 - INFO : Building Vocabulary....
+2022/01/17 01:12:23 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 01:12:23 - INFO : Vocabulary of token 50002
+2022/01/17 01:12:23 - INFO : Vocabulary of label 6217
+2022/01/17 01:12:27 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 01:12:34 - INFO : Total vocab size of token is 50002.
+2022/01/17 01:12:34 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 01:21:05 - INFO : Building Vocabulary....
+2022/01/17 01:21:05 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 01:21:06 - INFO : Vocabulary of token 50002
+2022/01/17 01:21:06 - INFO : Vocabulary of label 6217
+2022/01/17 01:21:09 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 01:21:16 - INFO : Total vocab size of token is 50002.
+2022/01/17 01:21:16 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 01:25:22 - INFO : Building Vocabulary....
+2022/01/17 01:25:22 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 01:25:22 - INFO : Vocabulary of token 50002
+2022/01/17 01:25:22 - INFO : Vocabulary of label 6217
+2022/01/17 01:25:26 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 01:25:33 - INFO : Total vocab size of token is 50002.
+2022/01/17 01:25:33 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 01:29:04 - INFO : Building Vocabulary....
+2022/01/17 01:29:04 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 01:29:04 - INFO : Vocabulary of token 50002
+2022/01/17 01:29:04 - INFO : Vocabulary of label 6217
+2022/01/17 01:29:08 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 01:29:15 - INFO : Total vocab size of token is 50002.
+2022/01/17 01:29:15 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 11:26:45 - INFO : Building Vocabulary....
+2022/01/17 11:26:45 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/17 11:26:46 - INFO : Vocabulary of token 50002
+2022/01/17 11:26:46 - INFO : Vocabulary of label 6217
+2022/01/17 11:26:49 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 11:26:56 - INFO : Total vocab size of token is 50002.
+2022/01/17 11:26:56 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 11:28:28 - INFO : Building Vocabulary....
+2022/01/17 11:28:28 - INFO : Generating Vocabulary from Corpus...
+2022/01/17 11:28:28 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/17 11:28:32 - INFO : Loading TRAIN subset...
+2022/01/17 11:28:38 - INFO : Loading VAL subset...
+2022/01/17 11:28:39 - INFO : Loading TEST subset...
+2022/01/17 11:28:39 - INFO : Vocabulary of token 434853
+2022/01/17 11:28:39 - INFO : Vocabulary of label 6217
+2022/01/17 11:28:39 - INFO : Shrinking Vocabulary...
+2022/01/17 11:28:40 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/17 11:28:40 - INFO : Vocabulary of token with the size of 50002
+2022/01/17 11:28:40 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/17 11:28:40 - INFO : Vocabulary of label with the size of 6217
+2022/01/17 11:28:40 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/17 11:28:44 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 11:28:50 - INFO : Total vocab size of token is 50002.
+2022/01/17 11:28:50 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/17 11:30:50 - INFO : Building Vocabulary....
+2022/01/17 11:30:50 - INFO : Generating Vocabulary from Corpus...
+2022/01/17 11:30:50 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/17 11:30:55 - INFO : Loading TRAIN subset...
+2022/01/17 11:31:00 - INFO : Loading VAL subset...
+2022/01/17 11:31:02 - INFO : Loading TEST subset...
+2022/01/17 11:31:02 - INFO : Vocabulary of token 434853
+2022/01/17 11:31:02 - INFO : Vocabulary of label 6217
+2022/01/17 11:31:02 - INFO : Shrinking Vocabulary...
+2022/01/17 11:31:03 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/17 11:31:03 - INFO : Vocabulary of token with the size of 50002
+2022/01/17 11:31:03 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/17 11:31:03 - INFO : Vocabulary of label with the size of 6217
+2022/01/17 11:31:03 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/17 11:31:06 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/17 11:31:13 - INFO : Total vocab size of token is 50002.
+2022/01/17 11:31:13 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/19 23:27:53 - INFO : Building Vocabulary....
+2022/01/19 23:27:53 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/19 23:27:53 - INFO : Vocabulary of token 50002
+2022/01/19 23:27:53 - INFO : Vocabulary of label 6217
+2022/01/19 23:27:57 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/19 23:28:04 - INFO : Total vocab size of token is 50002.
+2022/01/19 23:28:04 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/19 23:29:06 - INFO : Building Vocabulary....
+2022/01/19 23:29:06 - INFO : Generating Vocabulary from Corpus...
+2022/01/19 23:29:06 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/19 23:29:10 - INFO : Loading TRAIN subset...
+2022/01/19 23:29:15 - INFO : Loading VAL subset...
+2022/01/19 23:29:17 - INFO : Loading TEST subset...
+2022/01/19 23:29:17 - INFO : Vocabulary of token 434853
+2022/01/19 23:29:17 - INFO : Vocabulary of label 6217
+2022/01/19 23:29:17 - INFO : Shrinking Vocabulary...
+2022/01/19 23:29:18 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/19 23:29:18 - INFO : Vocabulary of token with the size of 50002
+2022/01/19 23:29:18 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/19 23:29:18 - INFO : Vocabulary of label with the size of 6217
+2022/01/19 23:29:18 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/19 23:29:21 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/19 23:29:28 - INFO : Total vocab size of token is 50002.
+2022/01/19 23:29:28 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/30 13:41:00 - INFO : Building Vocabulary....
+2022/01/30 13:41:00 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/30 13:41:00 - INFO : Vocabulary of token 50002
+2022/01/30 13:41:00 - INFO : Vocabulary of label 6217
+2022/01/30 13:41:04 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/30 13:41:11 - INFO : Total vocab size of token is 50002.
+2022/01/30 13:41:11 - INFO : Pretrained vocab embedding has 48865 / 50002
+2022/01/30 13:41:21 - INFO : Building Vocabulary....
+2022/01/30 13:41:21 - INFO : Generating Vocabulary from Corpus...
+2022/01/30 13:41:21 - INFO : Loading vocabulary from pretrained embedding...
+2022/01/30 13:41:26 - INFO : Loading TRAIN subset...
+2022/01/30 13:41:27 - INFO : Loading VAL subset...
+2022/01/30 13:41:27 - INFO : Loading TEST subset...
+2022/01/30 13:42:04 - INFO : Vocabulary of token 709395
+2022/01/30 13:42:04 - INFO : Vocabulary of label 103
+2022/01/30 13:42:04 - INFO : Shrinking Vocabulary...
+2022/01/30 13:42:05 - INFO : Shrinking Vocabulary of tokens: 50000
+2022/01/30 13:42:05 - INFO : Vocabulary of token with the size of 50002
+2022/01/30 13:42:05 - INFO : Save Vocabulary in vocab/word.dict
+2022/01/30 13:42:05 - INFO : Vocabulary of label with the size of 103
+2022/01/30 13:42:05 - INFO : Save Vocabulary in vocab/label.dict
+2022/01/30 13:42:08 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/30 13:42:15 - INFO : Total vocab size of token is 50002.
+2022/01/30 13:42:15 - INFO : Pretrained vocab embedding has 46757 / 50002
+2022/01/30 13:42:43 - INFO : TRAIN performance at epoch 0 --- Precision: 0.718034, Recall: 0.527596, Micro-F1: 0.608257, Macro-F1: 0.127787, Loss: 0.138259.
+
+2022/01/30 13:42:45 - INFO : DEV performance at epoch 0 --- Precision: 0.721368, Recall: 0.528872, Micro-F1: 0.610301, Macro-F1: 0.125515, Loss: 0.137820.
+
+2022/01/30 13:42:45 - INFO : Improve Micro-F1 0.0% --> 0.6103010348071495%
+2022/01/30 13:42:45 - INFO : Improve Macro-F1 0.0% --> 0.12551503744849776%
+2022/01/30 13:42:46 - INFO : Epoch 0 Time Cost 25.448033571243286 secs.
+2022/01/30 13:43:08 - INFO : TRAIN performance at epoch 1 --- Precision: 0.751843, Recall: 0.643369, Micro-F1: 0.693389, Macro-F1: 0.231425, Loss: 0.090986.
+
+2022/01/30 13:43:10 - INFO : DEV performance at epoch 1 --- Precision: 0.745889, Recall: 0.640897, Micro-F1: 0.689418, Macro-F1: 0.226698, Loss: 0.092313.
+
+2022/01/30 13:43:10 - INFO : Improve Micro-F1 0.6103010348071495% --> 0.6894182987430576%
+2022/01/30 13:43:10 - INFO : Improve Macro-F1 0.12551503744849776% --> 0.22669833237936046%
+2022/01/30 13:43:11 - INFO : Epoch 1 Time Cost 25.49729347229004 secs.
+2022/01/30 13:43:33 - INFO : TRAIN performance at epoch 2 --- Precision: 0.760836, Recall: 0.711905, Micro-F1: 0.735558, Macro-F1: 0.323438, Loss: 0.080855.
+
+2022/01/30 13:43:35 - INFO : DEV performance at epoch 2 --- Precision: 0.755681, Recall: 0.711685, Micro-F1: 0.733023, Macro-F1: 0.324835, Loss: 0.081880.
+
+2022/01/30 13:43:35 - INFO : Improve Micro-F1 0.6894182987430576% --> 0.7330231256341182%
+2022/01/30 13:43:36 - INFO : Improve Macro-F1 0.22669833237936046% --> 0.32483494793802453%
+2022/01/30 13:43:37 - INFO : Epoch 2 Time Cost 25.299065351486206 secs.
+2022/01/30 13:43:58 - INFO : TRAIN performance at epoch 3 --- Precision: 0.762884, Recall: 0.753480, Micro-F1: 0.758153, Macro-F1: 0.375101, Loss: 0.070625.
+
+2022/01/30 13:44:00 - INFO : DEV performance at epoch 3 --- Precision: 0.755028, Recall: 0.749796, Micro-F1: 0.752403, Macro-F1: 0.361782, Loss: 0.071062.
+
+2022/01/30 13:44:00 - INFO : Improve Micro-F1 0.7330231256341182% --> 0.7524030267911924%
+2022/01/30 13:44:01 - INFO : Improve Macro-F1 0.32483494793802453% --> 0.36178206276416836%
+2022/01/30 13:44:02 - INFO : Epoch 3 Time Cost 25.015575408935547 secs.
+2022/01/30 13:44:24 - INFO : TRAIN performance at epoch 4 --- Precision: 0.793324, Recall: 0.764807, Micro-F1: 0.778804, Macro-F1: 0.408898, Loss: 0.063011.
+
+2022/01/30 13:44:26 - INFO : DEV performance at epoch 4 --- Precision: 0.783350, Recall: 0.758764, Micro-F1: 0.770861, Macro-F1: 0.393379, Loss: 0.065447.
+
+2022/01/30 13:44:26 - INFO : Improve Micro-F1 0.7524030267911924% --> 0.7708606529091034%
+2022/01/30 13:44:27 - INFO : Improve Macro-F1 0.36178206276416836% --> 0.3933788517943628%
+2022/01/30 13:44:27 - INFO : Epoch 4 Time Cost 25.55666756629944 secs.
+2022/01/30 13:44:49 - INFO : TRAIN performance at epoch 5 --- Precision: 0.829571, Recall: 0.756498, Micro-F1: 0.791351, Macro-F1: 0.427955, Loss: 0.055458.
+
+2022/01/30 13:44:51 - INFO : DEV performance at epoch 5 --- Precision: 0.816192, Recall: 0.747215, Micro-F1: 0.780182, Macro-F1: 0.408181, Loss: 0.057533.
+
+2022/01/30 13:44:51 - INFO : Improve Micro-F1 0.7708606529091034% --> 0.7801815860405732%
+2022/01/30 13:44:52 - INFO : Improve Macro-F1 0.3933788517943628% --> 0.40818067023983423%
+2022/01/30 13:44:52 - INFO : Epoch 5 Time Cost 25.1559100151062 secs.
+2022/01/30 13:45:14 - INFO : TRAIN performance at epoch 6 --- Precision: 0.834681, Recall: 0.777150, Micro-F1: 0.804889, Macro-F1: 0.467855, Loss: 0.054065.
+
+2022/01/30 13:45:16 - INFO : DEV performance at epoch 6 --- Precision: 0.815601, Recall: 0.765014, Micro-F1: 0.789498, Macro-F1: 0.442006, Loss: 0.054574.
+
+2022/01/30 13:45:16 - INFO : Improve Micro-F1 0.7801815860405732% --> 0.7894976688751008%
+2022/01/30 13:45:16 - INFO : Improve Macro-F1 0.40818067023983423% --> 0.44200642138416224%
+2022/01/30 13:45:17 - INFO : Epoch 6 Time Cost 24.69884967803955 secs.
+2022/01/30 13:45:39 - INFO : TRAIN performance at epoch 7 --- Precision: 0.845184, Recall: 0.782186, Micro-F1: 0.812466, Macro-F1: 0.474858, Loss: 0.051547.
+
+2022/01/30 13:45:41 - INFO : DEV performance at epoch 7 --- Precision: 0.826065, Recall: 0.772079, Micro-F1: 0.798160, Macro-F1: 0.459584, Loss: 0.053932.
+
+2022/01/30 13:45:41 - INFO : Improve Micro-F1 0.7894976688751008% --> 0.7981599831448837%
+2022/01/30 13:45:42 - INFO : Improve Macro-F1 0.44200642138416224% --> 0.45958395900959237%
+2022/01/30 13:45:43 - INFO : Epoch 7 Time Cost 25.716144323349 secs.
+2022/01/30 13:46:05 - INFO : TRAIN performance at epoch 8 --- Precision: 0.864097, Recall: 0.784628, Micro-F1: 0.822447, Macro-F1: 0.497345, Loss: 0.048299.
+
+2022/01/30 13:46:07 - INFO : DEV performance at epoch 8 --- Precision: 0.845410, Recall: 0.772011, Micro-F1: 0.807045, Macro-F1: 0.470029, Loss: 0.049892.
+
+2022/01/30 13:46:07 - INFO : Improve Micro-F1 0.7981599831448837% --> 0.8070449541935941%
+2022/01/30 13:46:07 - INFO : Improve Macro-F1 0.45958395900959237% --> 0.4700285809593672%
+2022/01/30 13:46:08 - INFO : Epoch 8 Time Cost 25.144440174102783 secs.
+2022/01/30 13:46:30 - INFO : TRAIN performance at epoch 9 --- Precision: 0.853837, Recall: 0.796463, Micro-F1: 0.824153, Macro-F1: 0.509939, Loss: 0.047781.
+
+2022/01/30 13:46:32 - INFO : DEV performance at epoch 9 --- Precision: 0.834593, Recall: 0.780163, Micro-F1: 0.806461, Macro-F1: 0.485274, Loss: 0.049034.
+
+2022/01/30 13:46:32 - INFO : Improve Macro-F1 0.4700285809593672% --> 0.4852738242463593%
+2022/01/30 13:46:32 - INFO : Epoch 9 Time Cost 24.453150749206543 secs.
+2022/01/30 13:46:54 - INFO : TRAIN performance at epoch 10 --- Precision: 0.856203, Recall: 0.811706, Micro-F1: 0.833361, Macro-F1: 0.541627, Loss: 0.046884.
+
+2022/01/30 13:46:56 - INFO : DEV performance at epoch 10 --- Precision: 0.834596, Recall: 0.793546, Micro-F1: 0.813553, Macro-F1: 0.498249, Loss: 0.050250.
+
+2022/01/30 13:46:56 - INFO : Improve Micro-F1 0.8070449541935941% --> 0.8135534196963367%
+2022/01/30 13:46:56 - INFO : Improve Macro-F1 0.4852738242463593% --> 0.49824939451411976%
+2022/01/30 13:46:57 - INFO : Epoch 10 Time Cost 24.634117364883423 secs.
+2022/01/30 13:47:18 - INFO : TRAIN performance at epoch 11 --- Precision: 0.859098, Recall: 0.818472, Micro-F1: 0.838293, Macro-F1: 0.546851, Loss: 0.044953.
+
+2022/01/30 13:47:20 - INFO : DEV performance at epoch 11 --- Precision: 0.832279, Recall: 0.795584, Micro-F1: 0.813518, Macro-F1: 0.499923, Loss: 0.048441.
+
+2022/01/30 13:47:20 - INFO : Improve Macro-F1 0.49824939451411976% --> 0.4999229596195218%
+2022/01/30 13:47:21 - INFO : Epoch 11 Time Cost 24.22114634513855 secs.
+2022/01/30 13:47:42 - INFO : TRAIN performance at epoch 12 --- Precision: 0.876778, Recall: 0.807857, Micro-F1: 0.840908, Macro-F1: 0.567056, Loss: 0.045151.
+
+2022/01/30 13:47:44 - INFO : DEV performance at epoch 12 --- Precision: 0.851495, Recall: 0.787228, Micro-F1: 0.818102, Macro-F1: 0.511698, Loss: 0.047065.
+
+2022/01/30 13:47:44 - INFO : Improve Micro-F1 0.8135534196963367% --> 0.8181015920081895%
+2022/01/30 13:47:45 - INFO : Improve Macro-F1 0.4999229596195218% --> 0.5116979092153525%
+2022/01/30 13:47:46 - INFO : Epoch 12 Time Cost 24.211726188659668 secs.
+2022/01/30 13:48:07 - INFO : TRAIN performance at epoch 13 --- Precision: 0.879542, Recall: 0.824542, Micro-F1: 0.851154, Macro-F1: 0.584062, Loss: 0.042521.
+
+2022/01/30 13:48:09 - INFO : DEV performance at epoch 13 --- Precision: 0.855382, Recall: 0.801630, Micro-F1: 0.827635, Macro-F1: 0.519929, Loss: 0.045671.
+
+2022/01/30 13:48:09 - INFO : Improve Micro-F1 0.8181015920081895% --> 0.8276345782921269%
+2022/01/30 13:48:10 - INFO : Improve Macro-F1 0.5116979092153525% --> 0.5199290740724298%
+2022/01/30 13:48:10 - INFO : Epoch 13 Time Cost 24.779998064041138 secs.
+2022/01/30 13:48:31 - INFO : TRAIN performance at epoch 14 --- Precision: 0.880291, Recall: 0.822049, Micro-F1: 0.850174, Macro-F1: 0.597791, Loss: 0.041927.
+
+2022/01/30 13:48:33 - INFO : DEV performance at epoch 14 --- Precision: 0.856757, Recall: 0.796807, Micro-F1: 0.825695, Macro-F1: 0.533849, Loss: 0.046597.
+
+2022/01/30 13:48:33 - INFO : Improve Macro-F1 0.5199290740724298% --> 0.5338490925029794%
+2022/01/30 13:48:34 - INFO : Epoch 14 Time Cost 23.779724836349487 secs.
+2022/01/30 13:48:56 - INFO : TRAIN performance at epoch 15 --- Precision: 0.885039, Recall: 0.833732, Micro-F1: 0.858620, Macro-F1: 0.609208, Loss: 0.040429.
+
+2022/01/30 13:48:58 - INFO : DEV performance at epoch 15 --- Precision: 0.855872, Recall: 0.810462, Micro-F1: 0.832548, Macro-F1: 0.545072, Loss: 0.043412.
+
+2022/01/30 13:48:58 - INFO : Improve Micro-F1 0.8276345782921269% --> 0.8325482396454866%
+2022/01/30 13:48:59 - INFO : Improve Macro-F1 0.5338490925029794% --> 0.5450715064299462%
+2022/01/30 13:48:59 - INFO : Epoch 15 Time Cost 25.26504921913147 secs.
+2022/01/30 13:49:21 - INFO : TRAIN performance at epoch 16 --- Precision: 0.881798, Recall: 0.838259, Micro-F1: 0.859477, Macro-F1: 0.606431, Loss: 0.040332.
+
+2022/01/30 13:49:23 - INFO : DEV performance at epoch 16 --- Precision: 0.853463, Recall: 0.810326, Micro-F1: 0.831335, Macro-F1: 0.537773, Loss: 0.043403.
+
+2022/01/30 13:49:23 - INFO : Epoch 16 Time Cost 23.90006947517395 secs.
+2022/01/30 13:49:45 - INFO : TRAIN performance at epoch 17 --- Precision: 0.884069, Recall: 0.846669, Micro-F1: 0.864965, Macro-F1: 0.624984, Loss: 0.039295.
+
+2022/01/30 13:49:47 - INFO : DEV performance at epoch 17 --- Precision: 0.855166, Recall: 0.818682, Micro-F1: 0.836526, Macro-F1: 0.552674, Loss: 0.043234.
+
+2022/01/30 13:49:47 - INFO : Improve Micro-F1 0.8325482396454866% --> 0.8365264473136195%
+2022/01/30 13:49:48 - INFO : Improve Macro-F1 0.5450715064299462% --> 0.5526742439047649%
+2022/01/30 13:49:48 - INFO : Epoch 17 Time Cost 25.182544231414795 secs.
+2022/01/30 13:50:10 - INFO : TRAIN performance at epoch 18 --- Precision: 0.895948, Recall: 0.848110, Micro-F1: 0.871373, Macro-F1: 0.647291, Loss: 0.036745.
+
+2022/01/30 13:50:12 - INFO : DEV performance at epoch 18 --- Precision: 0.864524, Recall: 0.818478, Micro-F1: 0.840871, Macro-F1: 0.564339, Loss: 0.039910.
+
+2022/01/30 13:50:12 - INFO : Improve Micro-F1 0.8365264473136195% --> 0.8408710217755444%
+2022/01/30 13:50:13 - INFO : Improve Macro-F1 0.5526742439047649% --> 0.564338608805496%
+2022/01/30 13:50:14 - INFO : Epoch 18 Time Cost 25.120455503463745 secs.
+2022/01/30 13:50:35 - INFO : TRAIN performance at epoch 19 --- Precision: 0.896450, Recall: 0.844770, Micro-F1: 0.869843, Macro-F1: 0.642896, Loss: 0.035185.
+
+2022/01/30 13:50:37 - INFO : DEV performance at epoch 19 --- Precision: 0.865813, Recall: 0.813111, Micro-F1: 0.838635, Macro-F1: 0.561526, Loss: 0.038796.
+
+2022/01/30 13:50:37 - INFO : Epoch 19 Time Cost 23.64588975906372 secs.
+2022/01/30 13:50:59 - INFO : TRAIN performance at epoch 20 --- Precision: 0.906269, Recall: 0.842667, Micro-F1: 0.873312, Macro-F1: 0.641953, Loss: 0.034447.
+
+2022/01/30 13:51:01 - INFO : DEV performance at epoch 20 --- Precision: 0.877562, Recall: 0.808764, Micro-F1: 0.841759, Macro-F1: 0.557182, Loss: 0.038194.
+
+2022/01/30 13:51:01 - INFO : Improve Micro-F1 0.8408710217755444% --> 0.8417591741497561%
+2022/01/30 13:51:02 - INFO : Epoch 20 Time Cost 24.599947690963745 secs.
+2022/01/30 13:51:28 - INFO : TRAIN performance at epoch 21 --- Precision: 0.903586, Recall: 0.858267, Micro-F1: 0.880344, Macro-F1: 0.671945, Loss: 0.032768.
+
+2022/01/30 13:51:30 - INFO : DEV performance at epoch 21 --- Precision: 0.872589, Recall: 0.823505, Micro-F1: 0.847337, Macro-F1: 0.569840, Loss: 0.038031.
+
+2022/01/30 13:51:30 - INFO : Improve Micro-F1 0.8417591741497561% --> 0.8473367817698868%
+2022/01/30 13:51:31 - INFO : Improve Macro-F1 0.564338608805496% --> 0.5698399711268096%
+2022/01/30 13:51:32 - INFO : Epoch 21 Time Cost 30.186235666275024 secs.
+2022/01/30 13:52:33 - INFO : TRAIN performance at epoch 22 --- Precision: 0.913168, Recall: 0.851094, Micro-F1: 0.881039, Macro-F1: 0.668055, Loss: 0.031523.
+
+2022/01/30 13:52:36 - INFO : DEV performance at epoch 22 --- Precision: 0.882137, Recall: 0.814538, Micro-F1: 0.846991, Macro-F1: 0.565575, Loss: 0.035721.
+
+2022/01/30 13:52:36 - INFO : Epoch 22 Time Cost 63.71339511871338 secs.
+2022/01/30 13:53:37 - INFO : TRAIN performance at epoch 23 --- Precision: 0.914070, Recall: 0.858894, Micro-F1: 0.885623, Macro-F1: 0.682429, Loss: 0.031294.
+
+2022/01/30 13:53:40 - INFO : DEV performance at epoch 23 --- Precision: 0.878883, Recall: 0.820788, Micro-F1: 0.848843, Macro-F1: 0.577311, Loss: 0.035630.
+
+2022/01/30 13:53:40 - INFO : Improve Micro-F1 0.8473367817698868% --> 0.8488425194084378%
+2022/01/30 13:53:41 - INFO : Improve Macro-F1 0.5698399711268096% --> 0.5773105435818583%
+2022/01/30 13:53:41 - INFO : Epoch 23 Time Cost 65.54321479797363 secs.
+2022/01/30 13:54:42 - INFO : TRAIN performance at epoch 24 --- Precision: 0.912005, Recall: 0.866372, Micro-F1: 0.888603, Macro-F1: 0.711622, Loss: 0.030770.
+
+2022/01/30 13:54:45 - INFO : DEV performance at epoch 24 --- Precision: 0.875936, Recall: 0.826902, Micro-F1: 0.850713, Macro-F1: 0.587958, Loss: 0.036329.
+
+2022/01/30 13:54:45 - INFO : Improve Micro-F1 0.8488425194084378% --> 0.850712887894884%
+2022/01/30 13:54:46 - INFO : Improve Macro-F1 0.5773105435818583% --> 0.5879582624209231%
+2022/01/30 13:54:46 - INFO : Epoch 24 Time Cost 65.25198602676392 secs.
+2022/01/30 13:55:47 - INFO : TRAIN performance at epoch 25 --- Precision: 0.913055, Recall: 0.870899, Micro-F1: 0.891479, Macro-F1: 0.713915, Loss: 0.029802.
+
+2022/01/30 13:55:50 - INFO : DEV performance at epoch 25 --- Precision: 0.874624, Recall: 0.828872, Micro-F1: 0.851134, Macro-F1: 0.590900, Loss: 0.035384.
+
+2022/01/30 13:55:50 - INFO : Improve Micro-F1 0.850712887894884% --> 0.8511335891175444%
+2022/01/30 13:55:51 - INFO : Improve Macro-F1 0.5879582624209231% --> 0.5909000784394967%
+2022/01/30 13:55:51 - INFO : Epoch 25 Time Cost 64.74885439872742 secs.
+2022/01/30 13:56:52 - INFO : TRAIN performance at epoch 26 --- Precision: 0.919244, Recall: 0.864286, Micro-F1: 0.890918, Macro-F1: 0.713950, Loss: 0.029251.
+
+2022/01/30 13:56:54 - INFO : DEV performance at epoch 26 --- Precision: 0.878737, Recall: 0.818682, Micro-F1: 0.847647, Macro-F1: 0.583810, Loss: 0.034465.
+
+2022/01/30 13:56:54 - INFO : Epoch 26 Time Cost 63.188732624053955 secs.
+2022/01/30 13:57:55 - INFO : TRAIN performance at epoch 27 --- Precision: 0.918390, Recall: 0.872001, Micro-F1: 0.894594, Macro-F1: 0.726941, Loss: 0.027593.
+
+2022/01/30 13:57:58 - INFO : DEV performance at epoch 27 --- Precision: 0.878170, Recall: 0.828057, Micro-F1: 0.852378, Macro-F1: 0.590191, Loss: 0.033276.
+
+2022/01/30 13:57:58 - INFO : Improve Micro-F1 0.8511335891175444% --> 0.8523776223776224%
+2022/01/30 13:57:59 - INFO : Epoch 27 Time Cost 64.2454240322113 secs.
+2022/01/30 13:59:00 - INFO : TRAIN performance at epoch 28 --- Precision: 0.917220, Recall: 0.878308, Micro-F1: 0.897343, Macro-F1: 0.741590, Loss: 0.027652.
+
+2022/01/30 13:59:02 - INFO : DEV performance at epoch 28 --- Precision: 0.875206, Recall: 0.831386, Micro-F1: 0.852733, Macro-F1: 0.586139, Loss: 0.032422.
+
+2022/01/30 13:59:02 - INFO : Improve Micro-F1 0.8523776223776224% --> 0.8527331637807896%
+2022/01/30 13:59:03 - INFO : Epoch 28 Time Cost 64.35462069511414 secs.
+2022/01/30 14:00:05 - INFO : TRAIN performance at epoch 29 --- Precision: 0.922259, Recall: 0.882242, Micro-F1: 0.901807, Macro-F1: 0.747437, Loss: 0.026691.
+
+2022/01/30 14:00:07 - INFO : DEV performance at epoch 29 --- Precision: 0.878554, Recall: 0.829076, Micro-F1: 0.853098, Macro-F1: 0.595337, Loss: 0.031860.
+
+2022/01/30 14:00:08 - INFO : Improve Micro-F1 0.8527331637807896% --> 0.8530984586347907%
+2022/01/30 14:00:08 - INFO : Improve Macro-F1 0.5909000784394967% --> 0.5953372462251402%
+2022/01/30 14:00:09 - INFO : Epoch 29 Time Cost 65.83835816383362 secs.
+2022/01/30 14:01:00 - INFO : TRAIN performance at epoch 30 --- Precision: 0.920695, Recall: 0.890737, Micro-F1: 0.905468, Macro-F1: 0.760624, Loss: 0.026947.
+
+2022/01/30 14:01:03 - INFO : DEV performance at epoch 30 --- Precision: 0.873515, Recall: 0.839334, Micro-F1: 0.856084, Macro-F1: 0.592934, Loss: 0.032371.
+
+2022/01/30 14:01:03 - INFO : Improve Micro-F1 0.8530984586347907% --> 0.8560837028824834%
+2022/01/30 14:01:04 - INFO : Epoch 30 Time Cost 54.68792223930359 secs.
+2022/01/30 14:01:58 - INFO : TRAIN performance at epoch 31 --- Precision: 0.924327, Recall: 0.887465, Micro-F1: 0.905521, Macro-F1: 0.754134, Loss: 0.025621.
+
+2022/01/30 14:02:01 - INFO : DEV performance at epoch 31 --- Precision: 0.875777, Recall: 0.832880, Micro-F1: 0.853790, Macro-F1: 0.592642, Loss: 0.030729.
+
+2022/01/30 14:02:01 - INFO : Epoch 31 Time Cost 57.56167244911194 secs.
+2022/01/30 14:03:01 - INFO : TRAIN performance at epoch 32 --- Precision: 0.928226, Recall: 0.892043, Micro-F1: 0.909775, Macro-F1: 0.775537, Loss: 0.024549.
+
+2022/01/30 14:03:04 - INFO : DEV performance at epoch 32 --- Precision: 0.879991, Recall: 0.835394, Micro-F1: 0.857113, Macro-F1: 0.593135, Loss: 0.030507.
+
+2022/01/30 14:03:04 - INFO : Improve Micro-F1 0.8560837028824834% --> 0.8571129852930927%
+2022/01/30 14:03:05 - INFO : Epoch 32 Time Cost 63.55633234977722 secs.
+2022/01/30 14:04:05 - INFO : TRAIN performance at epoch 33 --- Precision: 0.926048, Recall: 0.893247, Micro-F1: 0.909351, Macro-F1: 0.768145, Loss: 0.024964.
+
+2022/01/30 14:04:08 - INFO : DEV performance at epoch 33 --- Precision: 0.875757, Recall: 0.834647, Micro-F1: 0.854708, Macro-F1: 0.599571, Loss: 0.031685.
+
+2022/01/30 14:04:08 - INFO : Improve Macro-F1 0.5953372462251402% --> 0.5995711087535834%
+2022/01/30 14:04:09 - INFO : Epoch 33 Time Cost 63.86648154258728 secs.
+2022/01/30 14:05:09 - INFO : TRAIN performance at epoch 34 --- Precision: 0.925797, Recall: 0.897604, Micro-F1: 0.911483, Macro-F1: 0.778926, Loss: 0.024870.
+
+2022/01/30 14:05:11 - INFO : DEV performance at epoch 34 --- Precision: 0.873074, Recall: 0.839266, Micro-F1: 0.855837, Macro-F1: 0.604787, Loss: 0.031232.
+
+2022/01/30 14:05:11 - INFO : Improve Macro-F1 0.5995711087535834% --> 0.6047865904665831%
+2022/01/30 14:05:12 - INFO : Epoch 34 Time Cost 63.53304624557495 secs.
+2022/01/30 14:06:13 - INFO : TRAIN performance at epoch 35 --- Precision: 0.933492, Recall: 0.896027, Micro-F1: 0.914376, Macro-F1: 0.788902, Loss: 0.023242.
+
+2022/01/30 14:06:15 - INFO : DEV performance at epoch 35 --- Precision: 0.884228, Recall: 0.834851, Micro-F1: 0.858830, Macro-F1: 0.607185, Loss: 0.030537.
+
+2022/01/30 14:06:15 - INFO : Improve Micro-F1 0.8571129852930927% --> 0.858830106925711%
+2022/01/30 14:06:16 - INFO : Improve Macro-F1 0.6047865904665831% --> 0.6071845784355331%
+2022/01/30 14:06:17 - INFO : Epoch 35 Time Cost 64.66654658317566 secs.
+2022/01/30 14:07:17 - INFO : TRAIN performance at epoch 36 --- Precision: 0.939941, Recall: 0.897994, Micro-F1: 0.918489, Macro-F1: 0.803985, Loss: 0.022699.
+
+2022/01/30 14:07:20 - INFO : DEV performance at epoch 36 --- Precision: 0.887323, Recall: 0.834035, Micro-F1: 0.859854, Macro-F1: 0.614253, Loss: 0.029404.
+
+2022/01/30 14:07:20 - INFO : Improve Micro-F1 0.858830106925711% --> 0.85985432133352%
+2022/01/30 14:07:21 - INFO : Improve Macro-F1 0.6071845784355331% --> 0.6142525858839845%
+2022/01/30 14:07:21 - INFO : Epoch 36 Time Cost 64.60614371299744 secs.
+2022/01/30 14:08:22 - INFO : TRAIN performance at epoch 37 --- Precision: 0.927318, Recall: 0.907947, Micro-F1: 0.917531, Macro-F1: 0.798103, Loss: 0.022944.
+
+2022/01/30 14:08:25 - INFO : DEV performance at epoch 37 --- Precision: 0.871883, Recall: 0.845584, Micro-F1: 0.858532, Macro-F1: 0.616908, Loss: 0.029345.
+
+2022/01/30 14:08:25 - INFO : Improve Macro-F1 0.6142525858839845% --> 0.6169075830915589%
+2022/01/30 14:08:26 - INFO : Epoch 37 Time Cost 64.20867562294006 secs.
+2022/01/30 14:09:26 - INFO : TRAIN performance at epoch 38 --- Precision: 0.925516, Recall: 0.911220, Micro-F1: 0.918312, Macro-F1: 0.803867, Loss: 0.023147.
+
+2022/01/30 14:09:29 - INFO : DEV performance at epoch 38 --- Precision: 0.870078, Recall: 0.846671, Micro-F1: 0.858215, Macro-F1: 0.625198, Loss: 0.030253.
+
+2022/01/30 14:09:29 - INFO : Improve Macro-F1 0.6169075830915589% --> 0.625198232461957%
+2022/01/30 14:09:30 - INFO : Epoch 38 Time Cost 64.07413840293884 secs.
+2022/01/30 14:10:31 - INFO : TRAIN performance at epoch 39 --- Precision: 0.930064, Recall: 0.919104, Micro-F1: 0.924552, Macro-F1: 0.820710, Loss: 0.022024.
+
+2022/01/30 14:10:34 - INFO : DEV performance at epoch 39 --- Precision: 0.872943, Recall: 0.850408, Micro-F1: 0.861528, Macro-F1: 0.620053, Loss: 0.029218.
+
+2022/01/30 14:10:34 - INFO : Improve Micro-F1 0.85985432133352% --> 0.8615278733654508%
+2022/01/30 14:10:35 - INFO : Epoch 39 Time Cost 65.13290238380432 secs.
+2022/01/30 14:11:22 - INFO : TRAIN performance at epoch 40 --- Precision: 0.940333, Recall: 0.908269, Micro-F1: 0.924023, Macro-F1: 0.823092, Loss: 0.021049.
+
+2022/01/30 14:11:24 - INFO : DEV performance at epoch 40 --- Precision: 0.885725, Recall: 0.838791, Micro-F1: 0.861619, Macro-F1: 0.623565, Loss: 0.029098.
+
+2022/01/30 14:11:24 - INFO : Improve Micro-F1 0.8615278733654508% --> 0.861618981158409%
+2022/01/30 14:11:25 - INFO : Epoch 40 Time Cost 49.916019916534424 secs.
+2022/01/30 14:12:24 - INFO : TRAIN performance at epoch 41 --- Precision: 0.938830, Recall: 0.916815, Micro-F1: 0.927692, Macro-F1: 0.822412, Loss: 0.020709.
+
+2022/01/30 14:12:27 - INFO : DEV performance at epoch 41 --- Precision: 0.882303, Recall: 0.845380, Micro-F1: 0.863447, Macro-F1: 0.614161, Loss: 0.028607.
+
+2022/01/30 14:12:27 - INFO : Improve Micro-F1 0.861618981158409% --> 0.8634471273938386%
+2022/01/30 14:12:28 - INFO : Epoch 41 Time Cost 63.33945417404175 secs.
+2022/01/30 14:13:29 - INFO : TRAIN performance at epoch 42 --- Precision: 0.941760, Recall: 0.918782, Micro-F1: 0.930129, Macro-F1: 0.834989, Loss: 0.019518.
+
+2022/01/30 14:13:32 - INFO : DEV performance at epoch 42 --- Precision: 0.882265, Recall: 0.846603, Micro-F1: 0.864067, Macro-F1: 0.627616, Loss: 0.026898.
+
+2022/01/30 14:13:32 - INFO : Improve Micro-F1 0.8634471273938386% --> 0.8640665626625065%
+2022/01/30 14:13:33 - INFO : Improve Macro-F1 0.625198232461957% --> 0.6276160707020662%
+2022/01/30 14:13:34 - INFO : Epoch 42 Time Cost 65.57134342193604 secs.
+2022/01/30 14:14:35 - INFO : TRAIN performance at epoch 43 --- Precision: 0.938646, Recall: 0.924513, Micro-F1: 0.931526, Macro-F1: 0.839018, Loss: 0.019507.
+
+2022/01/30 14:14:38 - INFO : DEV performance at epoch 43 --- Precision: 0.878547, Recall: 0.849660, Micro-F1: 0.863862, Macro-F1: 0.637273, Loss: 0.029206.
+
+2022/01/30 14:14:38 - INFO : Improve Macro-F1 0.6276160707020662% --> 0.6372730933684306%
+2022/01/30 14:14:38 - INFO : Epoch 43 Time Cost 64.63379502296448 secs.
+2022/01/30 14:15:39 - INFO : TRAIN performance at epoch 44 --- Precision: 0.941474, Recall: 0.921647, Micro-F1: 0.931455, Macro-F1: 0.842018, Loss: 0.019499.
+
+2022/01/30 14:15:42 - INFO : DEV performance at epoch 44 --- Precision: 0.879466, Recall: 0.846128, Micro-F1: 0.862475, Macro-F1: 0.626097, Loss: 0.027096.
+
+2022/01/30 14:15:42 - INFO : Epoch 44 Time Cost 63.48680138587952 secs.
+2022/01/30 14:16:43 - INFO : TRAIN performance at epoch 45 --- Precision: 0.944730, Recall: 0.925988, Micro-F1: 0.935265, Macro-F1: 0.838322, Loss: 0.018511.
+
+2022/01/30 14:16:45 - INFO : DEV performance at epoch 45 --- Precision: 0.879662, Recall: 0.847690, Micro-F1: 0.863380, Macro-F1: 0.619630, Loss: 0.027652.
+
+2022/01/30 14:16:45 - INFO : Epoch 45 Time Cost 63.59264779090881 secs.
+2022/01/30 14:17:46 - INFO : TRAIN performance at epoch 46 --- Precision: 0.944026, Recall: 0.923394, Micro-F1: 0.933596, Macro-F1: 0.837672, Loss: 0.018704.
+
+2022/01/30 14:17:49 - INFO : DEV performance at epoch 46 --- Precision: 0.879955, Recall: 0.847554, Micro-F1: 0.863451, Macro-F1: 0.625292, Loss: 0.028389.
+
+2022/01/30 14:17:49 - INFO : Epoch 46 Time Cost 63.34371495246887 secs.
+2022/01/30 14:18:50 - INFO : TRAIN performance at epoch 47 --- Precision: 0.942451, Recall: 0.926599, Micro-F1: 0.934457, Macro-F1: 0.847732, Loss: 0.018653.
+
+2022/01/30 14:18:53 - INFO : DEV performance at epoch 47 --- Precision: 0.879129, Recall: 0.849864, Micro-F1: 0.864249, Macro-F1: 0.633584, Loss: 0.027125.
+
+2022/01/30 14:18:53 - INFO : Improve Micro-F1 0.8640665626625065% --> 0.8642487046632124%
+2022/01/30 14:18:54 - INFO : Epoch 47 Time Cost 64.95523142814636 secs.
+2022/01/30 14:19:55 - INFO : TRAIN performance at epoch 48 --- Precision: 0.946247, Recall: 0.926497, Micro-F1: 0.936268, Macro-F1: 0.847552, Loss: 0.017986.
+
+2022/01/30 14:19:57 - INFO : DEV performance at epoch 48 --- Precision: 0.878299, Recall: 0.847690, Micro-F1: 0.862723, Macro-F1: 0.633579, Loss: 0.026498.
+
+2022/01/30 14:19:57 - INFO : Epoch 48 Time Cost 63.80649447441101 secs.
+2022/01/30 14:20:59 - INFO : TRAIN performance at epoch 49 --- Precision: 0.950305, Recall: 0.925700, Micro-F1: 0.937841, Macro-F1: 0.856982, Loss: 0.017415.
+
+2022/01/30 14:21:01 - INFO : DEV performance at epoch 49 --- Precision: 0.885425, Recall: 0.843139, Micro-F1: 0.863764, Macro-F1: 0.632833, Loss: 0.026916.
+
+2022/01/30 14:21:01 - INFO : Epoch 49 Time Cost 63.566004514694214 secs.
+2022/01/30 14:21:44 - INFO : TRAIN performance at epoch 50 --- Precision: 0.946594, Recall: 0.938264, Micro-F1: 0.942411, Macro-F1: 0.865507, Loss: 0.017090.
+
+2022/01/30 14:21:47 - INFO : DEV performance at epoch 50 --- Precision: 0.880780, Recall: 0.852717, Micro-F1: 0.866522, Macro-F1: 0.634795, Loss: 0.025270.
+
+2022/01/30 14:21:47 - INFO : Improve Micro-F1 0.8642487046632124% --> 0.866521694107901%
+2022/01/30 14:21:48 - INFO : Epoch 50 Time Cost 46.53139901161194 secs.
+2022/01/30 14:22:48 - INFO : TRAIN performance at epoch 51 --- Precision: 0.949177, Recall: 0.931634, Micro-F1: 0.940324, Macro-F1: 0.855224, Loss: 0.016629.
+
+2022/01/30 14:22:51 - INFO : DEV performance at epoch 51 --- Precision: 0.882353, Recall: 0.847826, Micro-F1: 0.864745, Macro-F1: 0.630422, Loss: 0.027264.
+
+2022/01/30 14:22:51 - INFO : Epoch 51 Time Cost 63.68300771713257 secs.
+2022/01/30 14:23:52 - INFO : TRAIN performance at epoch 52 --- Precision: 0.956239, Recall: 0.927005, Micro-F1: 0.941395, Macro-F1: 0.859755, Loss: 0.016338.
+
+2022/01/30 14:23:55 - INFO : DEV performance at epoch 52 --- Precision: 0.891213, Recall: 0.839266, Micro-F1: 0.864460, Macro-F1: 0.632726, Loss: 0.025901.
+
+2022/01/30 14:23:55 - INFO : Epoch 52 Time Cost 63.42367959022522 secs.
+2022/01/30 14:24:55 - INFO : TRAIN performance at epoch 53 --- Precision: 0.950618, Recall: 0.936128, Micro-F1: 0.943317, Macro-F1: 0.868952, Loss: 0.016404.
+
+2022/01/30 14:24:58 - INFO : DEV performance at epoch 53 --- Precision: 0.881070, Recall: 0.848030, Micro-F1: 0.864234, Macro-F1: 0.637016, Loss: 0.027314.
+
+2022/01/30 14:24:58 - INFO : Epoch 53 Time Cost 63.012720346450806 secs.
+2022/01/30 14:25:58 - INFO : TRAIN performance at epoch 54 --- Precision: 0.952447, Recall: 0.935958, Micro-F1: 0.944130, Macro-F1: 0.867749, Loss: 0.016196.
+
+2022/01/30 14:26:01 - INFO : DEV performance at epoch 54 --- Precision: 0.880189, Recall: 0.846943, Micro-F1: 0.863246, Macro-F1: 0.623291, Loss: 0.026251.
+
+2022/01/30 14:26:01 - INFO : Epoch 54 Time Cost 63.48643684387207 secs.
+2022/01/30 14:27:02 - INFO : TRAIN performance at epoch 55 --- Precision: 0.961339, Recall: 0.938535, Micro-F1: 0.949801, Macro-F1: 0.883150, Loss: 0.014414.
+
+2022/01/30 14:27:05 - INFO : DEV performance at epoch 55 --- Precision: 0.890748, Recall: 0.846332, Micro-F1: 0.867972, Macro-F1: 0.626785, Loss: 0.025035.
+
+2022/01/30 14:27:05 - INFO : Improve Micro-F1 0.866521694107901% --> 0.8679718525743747%
+2022/01/30 14:27:05 - INFO : Epoch 55 Time Cost 64.0778124332428 secs.
+2022/01/30 14:28:06 - INFO : TRAIN performance at epoch 56 --- Precision: 0.957191, Recall: 0.937569, Micro-F1: 0.947278, Macro-F1: 0.876913, Loss: 0.014610.
+
+2022/01/30 14:28:08 - INFO : DEV performance at epoch 56 --- Precision: 0.887370, Recall: 0.842459, Micro-F1: 0.864332, Macro-F1: 0.631111, Loss: 0.024453.
+
+2022/01/30 14:28:08 - INFO : Epoch 56 Time Cost 63.29717040061951 secs.
+2022/01/30 14:29:09 - INFO : TRAIN performance at epoch 57 --- Precision: 0.958568, Recall: 0.939146, Micro-F1: 0.948758, Macro-F1: 0.873176, Loss: 0.015020.
+
+2022/01/30 14:29:12 - INFO : DEV performance at epoch 57 --- Precision: 0.886522, Recall: 0.845448, Micro-F1: 0.865498, Macro-F1: 0.626145, Loss: 0.024654.
+
+2022/01/30 14:29:12 - INFO : Epoch 57 Time Cost 63.37693452835083 secs.
+2022/01/30 14:30:13 - INFO : TRAIN performance at epoch 58 --- Precision: 0.953454, Recall: 0.952015, Micro-F1: 0.952734, Macro-F1: 0.885274, Loss: 0.014368.
+
+2022/01/30 14:30:15 - INFO : DEV performance at epoch 58 --- Precision: 0.878490, Recall: 0.857065, Micro-F1: 0.867646, Macro-F1: 0.643509, Loss: 0.024991.
+
+2022/01/30 14:30:15 - INFO : Improve Macro-F1 0.6372730933684306% --> 0.6435091033237158%
+2022/01/30 14:30:16 - INFO : Epoch 58 Time Cost 64.1954698562622 secs.
+2022/01/30 14:31:15 - INFO : TRAIN performance at epoch 59 --- Precision: 0.953487, Recall: 0.947166, Micro-F1: 0.950316, Macro-F1: 0.889438, Loss: 0.014572.
+
+2022/01/30 14:31:18 - INFO : DEV performance at epoch 59 --- Precision: 0.876802, Recall: 0.850951, Micro-F1: 0.863683, Macro-F1: 0.635619, Loss: 0.025257.
+
+2022/01/30 14:31:18 - INFO : Epoch 59 Time Cost 61.47780418395996 secs.
+2022/01/30 14:32:07 - INFO : TRAIN performance at epoch 60 --- Precision: 0.958652, Recall: 0.946623, Micro-F1: 0.952600, Macro-F1: 0.886250, Loss: 0.014081.
+
+2022/01/30 14:32:09 - INFO : DEV performance at epoch 60 --- Precision: 0.880185, Recall: 0.851902, Micro-F1: 0.865813, Macro-F1: 0.639104, Loss: 0.025514.
+
+2022/01/30 14:32:09 - INFO : Epoch 60 Time Cost 51.790897369384766 secs.
+2022/01/30 14:33:11 - INFO : TRAIN performance at epoch 61 --- Precision: 0.962539, Recall: 0.950625, Micro-F1: 0.956545, Macro-F1: 0.887692, Loss: 0.013023.
+
+2022/01/30 14:33:13 - INFO : DEV performance at epoch 61 --- Precision: 0.883099, Recall: 0.850883, Micro-F1: 0.866692, Macro-F1: 0.628423, Loss: 0.025795.
+
+2022/01/30 14:33:14 - INFO : Epoch 61 Time Cost 64.55086517333984 secs.
+2022/01/30 14:34:15 - INFO : TRAIN performance at epoch 62 --- Precision: 0.958621, Recall: 0.956492, Micro-F1: 0.957555, Macro-F1: 0.899570, Loss: 0.013163.
+
+2022/01/30 14:34:18 - INFO : DEV performance at epoch 62 --- Precision: 0.879107, Recall: 0.856114, Micro-F1: 0.867458, Macro-F1: 0.640121, Loss: 0.025415.
+
+2022/01/30 14:34:18 - INFO : Epoch 62 Time Cost 63.731595277786255 secs.
+2022/01/30 14:35:18 - INFO : TRAIN performance at epoch 63 --- Precision: 0.956860, Recall: 0.952999, Micro-F1: 0.954925, Macro-F1: 0.888773, Loss: 0.013524.
+
+2022/01/30 14:35:21 - INFO : DEV performance at epoch 63 --- Precision: 0.876500, Recall: 0.853397, Micro-F1: 0.864794, Macro-F1: 0.642591, Loss: 0.024845.
+
+2022/01/30 14:35:21 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/30 14:35:21 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/30 14:35:21 - INFO : Epoch 63 Time Cost 63.40185761451721 secs.
+2022/01/30 14:36:23 - INFO : TRAIN performance at epoch 64 --- Precision: 0.964086, Recall: 0.951761, Micro-F1: 0.957884, Macro-F1: 0.889239, Loss: 0.012649.
+
+2022/01/30 14:36:25 - INFO : DEV performance at epoch 64 --- Precision: 0.882386, Recall: 0.850136, Micro-F1: 0.865961, Macro-F1: 0.642314, Loss: 0.024712.
+
+2022/01/30 14:36:25 - INFO : Epoch 64 Time Cost 64.33728766441345 secs.
+2022/01/30 14:37:26 - INFO : TRAIN performance at epoch 65 --- Precision: 0.963978, Recall: 0.954677, Micro-F1: 0.959305, Macro-F1: 0.901512, Loss: 0.012204.
+
+2022/01/30 14:37:29 - INFO : DEV performance at epoch 65 --- Precision: 0.884640, Recall: 0.850204, Micro-F1: 0.867080, Macro-F1: 0.642447, Loss: 0.024926.
+
+2022/01/30 14:37:29 - INFO : Epoch 65 Time Cost 63.32621955871582 secs.
+2022/01/30 14:38:29 - INFO : TRAIN performance at epoch 66 --- Precision: 0.963848, Recall: 0.959730, Micro-F1: 0.961785, Macro-F1: 0.907457, Loss: 0.011883.
+
+2022/01/30 14:38:32 - INFO : DEV performance at epoch 66 --- Precision: 0.880907, Recall: 0.854755, Micro-F1: 0.867634, Macro-F1: 0.639997, Loss: 0.023824.
+
+2022/01/30 14:38:32 - INFO : Epoch 66 Time Cost 63.00517535209656 secs.
+2022/01/30 14:39:32 - INFO : TRAIN performance at epoch 67 --- Precision: 0.965667, Recall: 0.962409, Micro-F1: 0.964035, Macro-F1: 0.900059, Loss: 0.011913.
+
+2022/01/30 14:39:35 - INFO : DEV performance at epoch 67 --- Precision: 0.881805, Recall: 0.855027, Micro-F1: 0.868210, Macro-F1: 0.647227, Loss: 0.024864.
+
+2022/01/30 14:39:35 - INFO : Improve Micro-F1 0.8679718525743747% --> 0.8682095678267169%
+2022/01/30 14:39:35 - INFO : Improve Macro-F1 0.6435091033237158% --> 0.6472270696475958%
+2022/01/30 14:39:36 - INFO : Epoch 67 Time Cost 64.21009016036987 secs.
+2022/01/30 14:40:37 - INFO : TRAIN performance at epoch 68 --- Precision: 0.967531, Recall: 0.958475, Micro-F1: 0.962982, Macro-F1: 0.908709, Loss: 0.011735.
+
+2022/01/30 14:40:40 - INFO : DEV performance at epoch 68 --- Precision: 0.884659, Recall: 0.850883, Micro-F1: 0.867442, Macro-F1: 0.642979, Loss: 0.024207.
+
+2022/01/30 14:40:40 - INFO : Epoch 68 Time Cost 63.648369789123535 secs.
+2022/01/30 14:41:33 - INFO : TRAIN performance at epoch 69 --- Precision: 0.966454, Recall: 0.962341, Micro-F1: 0.964393, Macro-F1: 0.908675, Loss: 0.011469.
+
+2022/01/30 14:41:35 - INFO : DEV performance at epoch 69 --- Precision: 0.885464, Recall: 0.852921, Micro-F1: 0.868888, Macro-F1: 0.648072, Loss: 0.023403.
+
+2022/01/30 14:41:35 - INFO : Improve Micro-F1 0.8682095678267169% --> 0.8688881968234194%
+2022/01/30 14:41:35 - INFO : Improve Macro-F1 0.6472270696475958% --> 0.6480722288950681%
+2022/01/30 14:41:36 - INFO : Epoch 69 Time Cost 56.52399659156799 secs.
+2022/01/30 14:42:19 - INFO : TRAIN performance at epoch 70 --- Precision: 0.965404, Recall: 0.959561, Micro-F1: 0.962474, Macro-F1: 0.908976, Loss: 0.011292.
+
+2022/01/30 14:42:22 - INFO : DEV performance at epoch 70 --- Precision: 0.881197, Recall: 0.850068, Micro-F1: 0.865353, Macro-F1: 0.641748, Loss: 0.025387.
+
+2022/01/30 14:42:22 - INFO : Epoch 70 Time Cost 45.625144958496094 secs.
+2022/01/30 14:42:43 - INFO : TRAIN performance at epoch 71 --- Precision: 0.970961, Recall: 0.953592, Micro-F1: 0.962198, Macro-F1: 0.904772, Loss: 0.010818.
+
+2022/01/30 14:42:45 - INFO : DEV performance at epoch 71 --- Precision: 0.889908, Recall: 0.843478, Micro-F1: 0.866071, Macro-F1: 0.643523, Loss: 0.023258.
+
+2022/01/30 14:42:46 - INFO : Epoch 71 Time Cost 24.21692419052124 secs.
+2022/01/30 14:43:08 - INFO : TRAIN performance at epoch 72 --- Precision: 0.967452, Recall: 0.964647, Micro-F1: 0.966048, Macro-F1: 0.914075, Loss: 0.011041.
+
+2022/01/30 14:43:10 - INFO : DEV performance at epoch 72 --- Precision: 0.880800, Recall: 0.852378, Micro-F1: 0.866356, Macro-F1: 0.648653, Loss: 0.023819.
+
+2022/01/30 14:43:10 - INFO : Improve Macro-F1 0.6480722288950681% --> 0.6486525377475548%
+2022/01/30 14:43:10 - INFO : Epoch 72 Time Cost 24.222529888153076 secs.
+2022/01/30 14:43:33 - INFO : TRAIN performance at epoch 73 --- Precision: 0.966364, Recall: 0.967937, Micro-F1: 0.967150, Macro-F1: 0.916902, Loss: 0.010709.
+
+2022/01/30 14:43:34 - INFO : DEV performance at epoch 73 --- Precision: 0.879696, Recall: 0.855910, Micro-F1: 0.867640, Macro-F1: 0.649539, Loss: 0.023869.
+
+2022/01/30 14:43:35 - INFO : Improve Macro-F1 0.6486525377475548% --> 0.6495388469455439%
+2022/01/30 14:43:35 - INFO : Epoch 73 Time Cost 24.95772433280945 secs.
+2022/01/30 14:43:56 - INFO : TRAIN performance at epoch 74 --- Precision: 0.967104, Recall: 0.966563, Micro-F1: 0.966834, Macro-F1: 0.918839, Loss: 0.010380.
+
+2022/01/30 14:43:58 - INFO : DEV performance at epoch 74 --- Precision: 0.881282, Recall: 0.855299, Micro-F1: 0.868096, Macro-F1: 0.649851, Loss: 0.023396.
+
+2022/01/30 14:43:58 - INFO : Improve Macro-F1 0.6495388469455439% --> 0.649851231284437%
+2022/01/30 14:43:59 - INFO : Epoch 74 Time Cost 23.695331811904907 secs.
+2022/01/30 14:44:20 - INFO : TRAIN performance at epoch 75 --- Precision: 0.968768, Recall: 0.966682, Micro-F1: 0.967724, Macro-F1: 0.918626, Loss: 0.010466.
+
+2022/01/30 14:44:22 - INFO : DEV performance at epoch 75 --- Precision: 0.881204, Recall: 0.855163, Micro-F1: 0.867988, Macro-F1: 0.638738, Loss: 0.025595.
+
+2022/01/30 14:44:22 - INFO : Epoch 75 Time Cost 23.5016131401062 secs.
+2022/01/30 14:44:44 - INFO : TRAIN performance at epoch 76 --- Precision: 0.968377, Recall: 0.962646, Micro-F1: 0.965503, Macro-F1: 0.916615, Loss: 0.010314.
+
+2022/01/30 14:44:46 - INFO : DEV performance at epoch 76 --- Precision: 0.885027, Recall: 0.849253, Micro-F1: 0.866771, Macro-F1: 0.640065, Loss: 0.023063.
+
+2022/01/30 14:44:46 - INFO : Epoch 76 Time Cost 23.91865611076355 secs.
+2022/01/30 14:45:09 - INFO : TRAIN performance at epoch 77 --- Precision: 0.968533, Recall: 0.967581, Micro-F1: 0.968057, Macro-F1: 0.919714, Loss: 0.009949.
+
+2022/01/30 14:45:11 - INFO : DEV performance at epoch 77 --- Precision: 0.881269, Recall: 0.851155, Micro-F1: 0.865950, Macro-F1: 0.644003, Loss: 0.024314.
+
+2022/01/30 14:45:11 - INFO : Epoch 77 Time Cost 24.427591562271118 secs.
+2022/01/30 14:45:33 - INFO : TRAIN performance at epoch 78 --- Precision: 0.968841, Recall: 0.971650, Micro-F1: 0.970243, Macro-F1: 0.920313, Loss: 0.010241.
+
+2022/01/30 14:45:35 - INFO : DEV performance at epoch 78 --- Precision: 0.878576, Recall: 0.855299, Micro-F1: 0.866781, Macro-F1: 0.654812, Loss: 0.023488.
+
+2022/01/30 14:45:35 - INFO : Improve Macro-F1 0.649851231284437% --> 0.6548120191116%
+2022/01/30 14:45:35 - INFO : Epoch 78 Time Cost 24.84582018852234 secs.
+2022/01/30 14:45:58 - INFO : TRAIN performance at epoch 79 --- Precision: 0.972595, Recall: 0.974244, Micro-F1: 0.973419, Macro-F1: 0.927424, Loss: 0.009432.
+
+2022/01/30 14:46:00 - INFO : DEV performance at epoch 79 --- Precision: 0.883541, Recall: 0.855571, Micro-F1: 0.869331, Macro-F1: 0.658018, Loss: 0.023896.
+
+2022/01/30 14:46:00 - INFO : Improve Micro-F1 0.8688881968234194% --> 0.8693311244564093%
+2022/01/30 14:46:00 - INFO : Improve Macro-F1 0.6548120191116% --> 0.6580178875988634%
+2022/01/30 14:46:01 - INFO : Epoch 79 Time Cost 25.404772520065308 secs.
+2022/01/30 14:46:23 - INFO : TRAIN performance at epoch 80 --- Precision: 0.973148, Recall: 0.969666, Micro-F1: 0.971404, Macro-F1: 0.929375, Loss: 0.009479.
+
+2022/01/30 14:46:25 - INFO : DEV performance at epoch 80 --- Precision: 0.881357, Recall: 0.852378, Micro-F1: 0.866625, Macro-F1: 0.638520, Loss: 0.024257.
+
+2022/01/30 14:46:25 - INFO : Epoch 80 Time Cost 24.086926221847534 secs.
+2022/01/30 14:46:47 - INFO : TRAIN performance at epoch 81 --- Precision: 0.975260, Recall: 0.975194, Micro-F1: 0.975227, Macro-F1: 0.923494, Loss: 0.008850.
+
+2022/01/30 14:46:49 - INFO : DEV performance at epoch 81 --- Precision: 0.883979, Recall: 0.856114, Micro-F1: 0.869823, Macro-F1: 0.650693, Loss: 0.023925.
+
+2022/01/30 14:46:49 - INFO : Improve Micro-F1 0.8693311244564093% --> 0.8698233020430701%
+2022/01/30 14:46:50 - INFO : Epoch 81 Time Cost 25.399879932403564 secs.
+2022/01/30 14:47:12 - INFO : TRAIN performance at epoch 82 --- Precision: 0.974831, Recall: 0.971294, Micro-F1: 0.973059, Macro-F1: 0.921435, Loss: 0.009031.
+
+2022/01/30 14:47:14 - INFO : DEV performance at epoch 82 --- Precision: 0.882581, Recall: 0.851223, Micro-F1: 0.866618, Macro-F1: 0.639485, Loss: 0.024417.
+
+2022/01/30 14:47:14 - INFO : Epoch 82 Time Cost 23.58779549598694 secs.
+2022/01/30 14:47:36 - INFO : TRAIN performance at epoch 83 --- Precision: 0.973646, Recall: 0.974109, Micro-F1: 0.973877, Macro-F1: 0.922364, Loss: 0.009187.
+
+2022/01/30 14:47:38 - INFO : DEV performance at epoch 83 --- Precision: 0.883800, Recall: 0.852038, Micro-F1: 0.867628, Macro-F1: 0.643633, Loss: 0.024412.
+
+2022/01/30 14:47:38 - INFO : Epoch 83 Time Cost 23.67392873764038 secs.
+2022/01/30 14:48:00 - INFO : TRAIN performance at epoch 84 --- Precision: 0.973931, Recall: 0.973006, Micro-F1: 0.973469, Macro-F1: 0.936374, Loss: 0.008761.
+
+2022/01/30 14:48:02 - INFO : DEV performance at epoch 84 --- Precision: 0.881396, Recall: 0.854212, Micro-F1: 0.867591, Macro-F1: 0.652363, Loss: 0.023420.
+
+2022/01/30 14:48:02 - INFO : Epoch 84 Time Cost 24.093876600265503 secs.
+2022/01/30 14:48:23 - INFO : TRAIN performance at epoch 85 --- Precision: 0.976094, Recall: 0.971311, Micro-F1: 0.973697, Macro-F1: 0.932413, Loss: 0.008772.
+
+2022/01/30 14:48:25 - INFO : DEV performance at epoch 85 --- Precision: 0.881475, Recall: 0.850815, Micro-F1: 0.865874, Macro-F1: 0.650829, Loss: 0.024711.
+
+2022/01/30 14:48:25 - INFO : Epoch 85 Time Cost 23.2654128074646 secs.
+2022/01/30 14:48:47 - INFO : TRAIN performance at epoch 86 --- Precision: 0.973670, Recall: 0.980670, Micro-F1: 0.977158, Macro-F1: 0.933065, Loss: 0.008410.
+
+2022/01/30 14:48:49 - INFO : DEV performance at epoch 86 --- Precision: 0.878191, Recall: 0.860054, Micro-F1: 0.869028, Macro-F1: 0.653343, Loss: 0.024477.
+
+2022/01/30 14:48:49 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/30 14:48:49 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/30 14:48:49 - INFO : Epoch 86 Time Cost 24.196969985961914 secs.
+2022/01/30 14:49:11 - INFO : TRAIN performance at epoch 87 --- Precision: 0.976976, Recall: 0.974159, Micro-F1: 0.975565, Macro-F1: 0.933263, Loss: 0.007992.
+
+2022/01/30 14:49:13 - INFO : DEV performance at epoch 87 --- Precision: 0.883373, Recall: 0.854688, Micro-F1: 0.868794, Macro-F1: 0.651236, Loss: 0.024474.
+
+2022/01/30 14:49:13 - INFO : Epoch 87 Time Cost 23.752917766571045 secs.
+2022/01/30 14:49:35 - INFO : TRAIN performance at epoch 88 --- Precision: 0.971186, Recall: 0.978992, Micro-F1: 0.975073, Macro-F1: 0.935501, Loss: 0.008709.
+
+2022/01/30 14:49:37 - INFO : DEV performance at epoch 88 --- Precision: 0.873427, Recall: 0.858356, Micro-F1: 0.865826, Macro-F1: 0.656618, Loss: 0.025557.
+
+2022/01/30 14:49:37 - INFO : Epoch 88 Time Cost 24.02305316925049 secs.
+2022/01/30 14:49:59 - INFO : TRAIN performance at epoch 89 --- Precision: 0.972267, Recall: 0.983214, Micro-F1: 0.977710, Macro-F1: 0.942273, Loss: 0.008169.
+
+2022/01/30 14:50:01 - INFO : DEV performance at epoch 89 --- Precision: 0.876531, Recall: 0.860394, Micro-F1: 0.868388, Macro-F1: 0.648523, Loss: 0.023114.
+
+2022/01/30 14:50:01 - INFO : Epoch 89 Time Cost 24.017771244049072 secs.
+2022/01/30 14:50:23 - INFO : TRAIN performance at epoch 90 --- Precision: 0.975920, Recall: 0.981315, Micro-F1: 0.978610, Macro-F1: 0.940202, Loss: 0.007946.
+
+2022/01/30 14:50:25 - INFO : DEV performance at epoch 90 --- Precision: 0.879465, Recall: 0.858016, Micro-F1: 0.868608, Macro-F1: 0.647712, Loss: 0.023341.
+
+2022/01/30 14:50:25 - INFO : Epoch 90 Time Cost 23.657328367233276 secs.
+2022/01/30 14:50:47 - INFO : TRAIN performance at epoch 91 --- Precision: 0.973525, Recall: 0.980755, Micro-F1: 0.977127, Macro-F1: 0.938184, Loss: 0.007866.
+
+2022/01/30 14:50:49 - INFO : DEV performance at epoch 91 --- Precision: 0.879618, Recall: 0.857269, Micro-F1: 0.868300, Macro-F1: 0.655599, Loss: 0.023913.
+
+2022/01/30 14:50:49 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2022/01/30 14:50:49 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/30 14:50:49 - INFO : Epoch 91 Time Cost 24.611015796661377 secs.
+2022/01/30 14:51:11 - INFO : TRAIN performance at epoch 92 --- Precision: 0.974223, Recall: 0.978568, Micro-F1: 0.976391, Macro-F1: 0.939371, Loss: 0.007816.
+
+2022/01/30 14:51:13 - INFO : DEV performance at epoch 92 --- Precision: 0.877554, Recall: 0.857880, Micro-F1: 0.867606, Macro-F1: 0.652525, Loss: 0.023739.
+
+2022/01/30 14:51:13 - INFO : Epoch 92 Time Cost 23.664010763168335 secs.
+2022/01/30 14:51:34 - INFO : TRAIN performance at epoch 93 --- Precision: 0.977296, Recall: 0.980213, Micro-F1: 0.978752, Macro-F1: 0.939686, Loss: 0.007648.
+
+2022/01/30 14:51:36 - INFO : DEV performance at epoch 93 --- Precision: 0.882365, Recall: 0.851495, Micro-F1: 0.866655, Macro-F1: 0.651323, Loss: 0.025237.
+
+2022/01/30 14:51:36 - INFO : Epoch 93 Time Cost 23.377580642700195 secs.
+2022/01/30 14:51:58 - INFO : TRAIN performance at epoch 94 --- Precision: 0.971293, Recall: 0.984452, Micro-F1: 0.977828, Macro-F1: 0.937441, Loss: 0.007933.
+
+2022/01/30 14:52:00 - INFO : DEV performance at epoch 94 --- Precision: 0.868121, Recall: 0.864878, Micro-F1: 0.866497, Macro-F1: 0.656387, Loss: 0.024567.
+
+2022/01/30 14:52:00 - INFO : Epoch 94 Time Cost 23.755979776382446 secs.
+2022/01/30 14:52:22 - INFO : TRAIN performance at epoch 95 --- Precision: 0.979712, Recall: 0.980908, Micro-F1: 0.980309, Macro-F1: 0.940903, Loss: 0.007203.
+
+2022/01/30 14:52:24 - INFO : DEV performance at epoch 95 --- Precision: 0.883038, Recall: 0.855503, Micro-F1: 0.869052, Macro-F1: 0.659839, Loss: 0.023962.
+
+2022/01/30 14:52:24 - INFO : Improve Macro-F1 0.6580178875988634% --> 0.6598387918980774%
+2022/01/30 14:52:25 - INFO : Epoch 95 Time Cost 24.855113983154297 secs.
+2022/01/30 14:52:47 - INFO : TRAIN performance at epoch 96 --- Precision: 0.974389, Recall: 0.981179, Micro-F1: 0.977772, Macro-F1: 0.939517, Loss: 0.007672.
+
+2022/01/30 14:52:49 - INFO : DEV performance at epoch 96 --- Precision: 0.873240, Recall: 0.859715, Micro-F1: 0.866425, Macro-F1: 0.658207, Loss: 0.023175.
+
+2022/01/30 14:52:49 - INFO : Epoch 96 Time Cost 23.789066076278687 secs.
+2022/01/30 14:53:11 - INFO : TRAIN performance at epoch 97 --- Precision: 0.979992, Recall: 0.979992, Micro-F1: 0.979992, Macro-F1: 0.941463, Loss: 0.007061.
+
+2022/01/30 14:53:13 - INFO : DEV performance at epoch 97 --- Precision: 0.883237, Recall: 0.850476, Micro-F1: 0.866547, Macro-F1: 0.652222, Loss: 0.023930.
+
+2022/01/30 14:53:13 - INFO : Epoch 97 Time Cost 24.0843448638916 secs.
+2022/01/30 14:53:35 - INFO : TRAIN performance at epoch 98 --- Precision: 0.976701, Recall: 0.982332, Micro-F1: 0.979509, Macro-F1: 0.942063, Loss: 0.007470.
+
+2022/01/30 14:53:37 - INFO : DEV performance at epoch 98 --- Precision: 0.874343, Recall: 0.858899, Micro-F1: 0.866552, Macro-F1: 0.658076, Loss: 0.024151.
+
+2022/01/30 14:53:37 - INFO : Epoch 98 Time Cost 24.12729787826538 secs.
+2022/01/30 14:53:59 - INFO : TRAIN performance at epoch 99 --- Precision: 0.976833, Recall: 0.983739, Micro-F1: 0.980274, Macro-F1: 0.941089, Loss: 0.007472.
+
+2022/01/30 14:54:01 - INFO : DEV performance at epoch 99 --- Precision: 0.871134, Recall: 0.859239, Micro-F1: 0.865146, Macro-F1: 0.648849, Loss: 0.024711.
+
+2022/01/30 14:54:01 - INFO : Epoch 99 Time Cost 23.649526119232178 secs.
+2022/01/30 14:54:22 - INFO : TRAIN performance at epoch 100 --- Precision: 0.977633, Recall: 0.984960, Micro-F1: 0.981283, Macro-F1: 0.941764, Loss: 0.007039.
+
+2022/01/30 14:54:24 - INFO : DEV performance at epoch 100 --- Precision: 0.874490, Recall: 0.858628, Micro-F1: 0.866486, Macro-F1: 0.660731, Loss: 0.023684.
+
+2022/01/30 14:54:24 - INFO : Improve Macro-F1 0.6598387918980774% --> 0.6607305969971248%
+2022/01/30 14:54:25 - INFO : Epoch 100 Time Cost 24.272940158843994 secs.
+2022/01/30 14:54:46 - INFO : TRAIN performance at epoch 101 --- Precision: 0.979596, Recall: 0.985808, Micro-F1: 0.982692, Macro-F1: 0.946461, Loss: 0.006683.
+
+2022/01/30 14:54:48 - INFO : DEV performance at epoch 101 --- Precision: 0.878997, Recall: 0.857201, Micro-F1: 0.867962, Macro-F1: 0.658494, Loss: 0.024655.
+
+2022/01/30 14:54:49 - INFO : Epoch 101 Time Cost 23.71886396408081 secs.
+2022/01/30 14:55:10 - INFO : TRAIN performance at epoch 102 --- Precision: 0.980043, Recall: 0.982519, Micro-F1: 0.981279, Macro-F1: 0.938403, Loss: 0.006568.
+
+2022/01/30 14:55:12 - INFO : DEV performance at epoch 102 --- Precision: 0.881280, Recall: 0.853261, Micro-F1: 0.867044, Macro-F1: 0.646275, Loss: 0.023837.
+
+2022/01/30 14:55:12 - INFO : Epoch 102 Time Cost 23.284451723098755 secs.
+2022/01/30 14:55:33 - INFO : TRAIN performance at epoch 103 --- Precision: 0.981868, Recall: 0.987063, Micro-F1: 0.984459, Macro-F1: 0.948119, Loss: 0.006164.
+
+2022/01/30 14:55:35 - INFO : DEV performance at epoch 103 --- Precision: 0.879154, Recall: 0.858967, Micro-F1: 0.868944, Macro-F1: 0.660139, Loss: 0.023807.
+
+2022/01/30 14:55:35 - INFO : Epoch 103 Time Cost 23.370447397232056 secs.
+2022/01/30 14:55:56 - INFO : TRAIN performance at epoch 104 --- Precision: 0.975980, Recall: 0.987944, Micro-F1: 0.981926, Macro-F1: 0.947725, Loss: 0.006936.
+
+2022/01/30 14:55:58 - INFO : DEV performance at epoch 104 --- Precision: 0.871216, Recall: 0.862160, Micro-F1: 0.866664, Macro-F1: 0.645815, Loss: 0.023741.
+
+2022/01/30 14:55:58 - INFO : Epoch 104 Time Cost 22.946932554244995 secs.
+2022/01/30 14:56:20 - INFO : TRAIN performance at epoch 105 --- Precision: 0.977881, Recall: 0.988724, Micro-F1: 0.983273, Macro-F1: 0.944597, Loss: 0.006420.
+
+2022/01/30 14:56:22 - INFO : DEV performance at epoch 105 --- Precision: 0.872677, Recall: 0.864674, Micro-F1: 0.868657, Macro-F1: 0.654816, Loss: 0.025324.
+
+2022/01/30 14:56:22 - WARNING : Performance has not been improved for 5 epochs, updating learning rate
+2022/01/30 14:56:22 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/30 14:56:22 - INFO : Epoch 105 Time Cost 23.519936323165894 secs.
+2022/01/30 14:56:43 - INFO : TRAIN performance at epoch 106 --- Precision: 0.979400, Recall: 0.987504, Micro-F1: 0.983435, Macro-F1: 0.950558, Loss: 0.006490.
+
+2022/01/30 14:56:45 - INFO : DEV performance at epoch 106 --- Precision: 0.874015, Recall: 0.859171, Micro-F1: 0.866530, Macro-F1: 0.655440, Loss: 0.024167.
+
+2022/01/30 14:56:45 - INFO : Epoch 106 Time Cost 23.366577863693237 secs.
+2022/01/30 14:57:07 - INFO : TRAIN performance at epoch 107 --- Precision: 0.981087, Recall: 0.987741, Micro-F1: 0.984403, Macro-F1: 0.940092, Loss: 0.006186.
+
+2022/01/30 14:57:09 - INFO : DEV performance at epoch 107 --- Precision: 0.878495, Recall: 0.858084, Micro-F1: 0.868170, Macro-F1: 0.655536, Loss: 0.024018.
+
+2022/01/30 14:57:09 - INFO : Epoch 107 Time Cost 24.06712532043457 secs.
+2022/01/30 14:57:31 - INFO : TRAIN performance at epoch 108 --- Precision: 0.981427, Recall: 0.988250, Micro-F1: 0.984826, Macro-F1: 0.943036, Loss: 0.006116.
+
+2022/01/30 14:57:33 - INFO : DEV performance at epoch 108 --- Precision: 0.878227, Recall: 0.857405, Micro-F1: 0.867691, Macro-F1: 0.652671, Loss: 0.026031.
+
+2022/01/30 14:57:33 - INFO : Epoch 108 Time Cost 23.97835087776184 secs.
+2022/01/30 14:57:55 - INFO : TRAIN performance at epoch 109 --- Precision: 0.982657, Recall: 0.988572, Micro-F1: 0.985605, Macro-F1: 0.947873, Loss: 0.005835.
+
+2022/01/30 14:57:58 - INFO : DEV performance at epoch 109 --- Precision: 0.880731, Recall: 0.857337, Micro-F1: 0.868877, Macro-F1: 0.660059, Loss: 0.026727.
+
+2022/01/30 14:57:58 - INFO : Epoch 109 Time Cost 24.41270160675049 secs.
+2022/01/30 14:58:20 - INFO : TRAIN performance at epoch 110 --- Precision: 0.982655, Recall: 0.985554, Micro-F1: 0.984102, Macro-F1: 0.946873, Loss: 0.005883.
+
+2022/01/30 14:58:22 - INFO : DEV performance at epoch 110 --- Precision: 0.881039, Recall: 0.852310, Micro-F1: 0.866436, Macro-F1: 0.645734, Loss: 0.025706.
+
+2022/01/30 14:58:22 - WARNING : Performance has not been improved for 10 epochs, updating learning rate
+2022/01/30 14:58:22 - WARNING : Learning rate update 0.0001--->0.0001
+2022/01/30 14:58:22 - INFO : Epoch 110 Time Cost 24.14064335823059 secs.
+2022/01/30 14:58:44 - INFO : TRAIN performance at epoch 111 --- Precision: 0.980534, Recall: 0.989047, Micro-F1: 0.984772, Macro-F1: 0.949538, Loss: 0.006055.
+
+2022/01/30 14:58:46 - INFO : DEV performance at epoch 111 --- Precision: 0.877013, Recall: 0.858424, Micro-F1: 0.867619, Macro-F1: 0.660513, Loss: 0.024051.
+
+2022/01/30 14:58:46 - INFO : Epoch 111 Time Cost 24.60765528678894 secs.
+2022/01/30 14:59:08 - INFO : TRAIN performance at epoch 112 --- Precision: 0.982657, Recall: 0.988572, Micro-F1: 0.985605, Macro-F1: 0.948932, Loss: 0.005650.
+
+2022/01/30 14:59:10 - INFO : DEV performance at epoch 112 --- Precision: 0.881924, Recall: 0.854484, Micro-F1: 0.867987, Macro-F1: 0.655185, Loss: 0.024406.
+
+2022/01/30 14:59:10 - INFO : Epoch 112 Time Cost 24.0254225730896 secs.
+2022/01/30 14:59:32 - INFO : TRAIN performance at epoch 113 --- Precision: 0.979297, Recall: 0.988097, Micro-F1: 0.983677, Macro-F1: 0.945414, Loss: 0.005921.
+
+2022/01/30 14:59:34 - INFO : DEV performance at epoch 113 --- Precision: 0.874671, Recall: 0.859103, Micro-F1: 0.866817, Macro-F1: 0.651498, Loss: 0.026630.
+
+2022/01/30 14:59:34 - INFO : Epoch 113 Time Cost 23.36040735244751 secs.
+2022/01/30 14:59:56 - INFO : TRAIN performance at epoch 114 --- Precision: 0.979763, Recall: 0.988351, Micro-F1: 0.984038, Macro-F1: 0.946122, Loss: 0.005909.
+
+2022/01/30 14:59:58 - INFO : DEV performance at epoch 114 --- Precision: 0.871526, Recall: 0.858560, Micro-F1: 0.864994, Macro-F1: 0.648724, Loss: 0.025174.
+
+2022/01/30 14:59:58 - INFO : Epoch 114 Time Cost 24.06036376953125 secs.
+2022/01/30 15:00:46 - INFO : Building Vocabulary....
+2022/01/30 15:00:46 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/30 15:00:46 - INFO : Vocabulary of token 50002
+2022/01/30 15:00:46 - INFO : Vocabulary of label 103
+2022/01/30 15:00:49 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/30 15:00:56 - INFO : Total vocab size of token is 50002.
+2022/01/30 15:00:56 - INFO : Pretrained vocab embedding has 46757 / 50002
+2022/01/30 15:01:00 - INFO : Loading Previous Checkpoint...
+2022/01/30 15:01:00 - INFO : Loading from rcv1_hiagm_tp_checkpoint/HiAGM-TP_epoch_111
+2022/01/30 15:01:00 - INFO : Previous Best Performance---- Micro-F1: 0.8698233020430701%, Macro-F1: 0.6607305969971248%
+2022/01/30 15:05:32 - INFO : TEST performance at epoch -1 --- Precision: 0.865686, Recall: 0.813687, Micro-F1: 0.838882, Macro-F1: 0.613798, Loss: 0.028620.
+
+2022/01/30 15:10:05 - INFO : TEST performance at epoch -1 --- Precision: 0.854634, Recall: 0.822303, Micro-F1: 0.838157, Macro-F1: 0.615347, Loss: 0.029260.
+
+2022/01/30 15:14:17 - INFO : Building Vocabulary....
+2022/01/30 15:14:17 - INFO : Loading Vocabulary from Cached Dictionary...
+2022/01/30 15:14:17 - INFO : Vocabulary of token 50002
+2022/01/30 15:14:17 - INFO : Vocabulary of label 103
+2022/01/30 15:14:21 - INFO : Loading 300-dimension token embedding from pretrained file: glove.6B.300d.txt
+2022/01/30 15:14:28 - INFO : Total vocab size of token is 50002.
+2022/01/30 15:14:28 - INFO : Pretrained vocab embedding has 46757 / 50002
+2022/01/30 15:14:32 - INFO : Loading Previous Checkpoint...
+2022/01/30 15:14:32 - INFO : Loading from rcv1_hiagm_tp_checkpoint/HiAGM-TP_epoch_111
+2022/01/30 15:14:32 - INFO : Previous Best Performance---- Micro-F1: 0.8698233020430701%, Macro-F1: 0.6607305969971248%
+2022/01/30 15:19:13 - INFO : TEST performance at epoch -1 --- Precision: 0.710437, Recall: 0.898687, Micro-F1: 0.793550, Macro-F1: 0.594647, Loss: 0.028620.
+
+2022/01/30 15:23:56 - INFO : TEST performance at epoch -1 --- Precision: 0.716107, Recall: 0.896664, Micro-F1: 0.796279, Macro-F1: 0.600216, Loss: 0.029260.
+
