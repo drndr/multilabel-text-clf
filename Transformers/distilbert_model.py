@@ -10,17 +10,19 @@ import torch
 from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
 from transformers import DistilBertTokenizer, DistilBertModel
 import logging
+import json
 logging.basicConfig(level=logging.ERROR)
 
 
 # Source Data
-dataset = "distilbert_reuters"   #[ 'R21578', 'RCV1-V2', 'Econbix', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
-labels = 90                      #[90,103,5661,531,298,166,28]
-train_list = json.load(open("../multi_label_data/reuters/train_data.json", ))
+dataset = "distilbert_R21578"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
+labels = 90                     #[90,103,5661,512,298,166,28]
+epochs = 15                      #[15,15,15,15,5,15,5]
+train_list = json.load(open("/media/nvme4n1/project-textmlp/datasets/reuters/train_data.json", )) #change dataset name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
 train_labels= np.array(list(map(lambda x: list(x.values())[2], train_list)),dtype=object)
 
-test_list = json.load(open("../multi_label_data/reuters/test_data.json", ))
+test_list = json.load(open("/media/nvme4n1/project-textmlp/datasets/reuters/test_data.json", )) #change dataset name
 train_list = train_list + test_list
 test_data = np.array(list(map(lambda x: list(x.values())[:2], test_list)),dtype=object)
 test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype=object)
@@ -49,7 +51,7 @@ print("Number of test labels ",len(test_df['labels']))
 
 # Setting up the device for GPU usage
 from torch import cuda
-device = 'cuda' if cuda.is_available() else 'cpu
+device = 'cuda' if cuda.is_available() else 'cpu'
 
 # Sections of config
 
@@ -57,7 +59,7 @@ device = 'cuda' if cuda.is_available() else 'cpu
 MAX_LEN = 512
 TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 4
-EPOCHS = 15
+EPOCHS = epochs
 LEARNING_RATE = 1e-05
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased', truncation=True, do_lower_case=True)
 
@@ -141,7 +143,7 @@ class DistilBERTClass(torch.nn.Module):
         self.embed = torch.nn.Embedding(num_tokens, d_model,sparse=True)
         self.pre_classifier = torch.nn.Linear(768, 768)
         self.dropout = torch.nn.Dropout(0.3)
-        self.classifier = torch.nn.Linear(768, 90)
+        self.classifier = torch.nn.Linear(768, labels)
 
     def forward(self, input_ids, attention_mask):
         output_1 = self.l1(input_ids=input_ids, attention_mask=attention_mask)
@@ -233,7 +235,7 @@ def train_model(start_epochs,  n_epochs,
   loss_plot(np.linspace(1, n_epochs, n_epochs).astype(int), loss_vals)
   return model
 
-trained_model = train_model(1,15, training_loader, validation_loader, model, optimizer)
+trained_model = train_model(1,epochs, training_loader, validation_loader, model, optimizer)
 
 def validation(testing_loader):
     model.eval()

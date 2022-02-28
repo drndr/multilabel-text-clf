@@ -15,12 +15,13 @@ import numpy as np
 import json
 
 # Source Data
-dataset = "bert_reuters"   #[ 'R21578', 'RCV1-V2', 'Econbix', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
-labels = 90                #[90,103,5661,531,298,166,28]
-train_list = json.load(open("../multi_label_data/reuters/train_data.json"))
+dataset = "bert_R21578"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
+labels = 90                #[90,103,5661,512,298,166,28]
+epochs = 15                #[15,15,15,15,5,15,5]
+train_list = json.load(open("/media/nvme4n1/project-textmlp/datasets/reuters/train_data.json")) #change the dataset folder name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
 train_labels= np.array(list(map(lambda x: list(x.values())[2], train_list)),dtype=object)
-test_list = json.load(open("../multi_label_data/reuters/test_data.json"))
+test_list = json.load(open("/media/nvme4n1/project-textmlp/datasets/reuters/test_data.json")) #change dataset folder name
 test_data = np.array(list(map(lambda x: list(x.values())[:2], test_list)),dtype=object)
 test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype=object)
 
@@ -70,7 +71,7 @@ from transformers import BertTokenizer, BertModel, BertConfig
 MAX_LEN = 512
 TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 4
-EPOCHS = 15
+EPOCHS = epochs
 LEARNING_RATE = 1e-05
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True, padding=True)
 
@@ -148,7 +149,7 @@ class BERTClass(torch.nn.Module):
         super(BERTClass, self).__init__()
         self.l1 = transformers.BertModel.from_pretrained('bert-base-uncased')
         self.l2 = torch.nn.Dropout(0.3)
-        self.l3 = torch.nn.Linear(768, 90)
+        self.l3 = torch.nn.Linear(768, labels)
 
     def forward(self, ids, mask,token_type_ids):
         output_1 = self.l1(ids, attention_mask=mask,token_type_ids=token_type_ids)
@@ -226,7 +227,7 @@ def train_model(start_epochs, n_epochs,
             train_loss = train_loss / len(training_loader)
             valid_loss = valid_loss / len(validation_loader)
             # print training/validation statistics
-            print('Epoch: {} \tAvgerage Training Loss: {:.6f} \tAverage Validation Loss: {:.6f}'.format(
+            print('Epoch: {} \tAverage Training Loss: {:.6f} \tAverage Validation Loss: {:.6f}'.format(
                 epoch,
                 train_loss,
                 valid_loss
@@ -237,7 +238,7 @@ def train_model(start_epochs, n_epochs,
     return model
 
 
-trained_model = train_model(1, 15, training_loader, validation_loader, model, optimizer)
+trained_model = train_model(1, epochs, training_loader, validation_loader, model, optimizer)
 
 
 def validation(testing_loader):
