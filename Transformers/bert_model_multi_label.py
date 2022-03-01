@@ -18,10 +18,10 @@ import json
 dataset = "bert_R21578"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
 labels = 90                #[90,103,5661,512,298,166,28]
 epochs = 15                #[15,15,15,15,5,15,5]
-train_list = json.load(open("/media/nvme4n1/project-textmlp/datasets/reuters/train_data.json")) #change the dataset folder name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
+train_list = json.load(open("../multi_label_dat/reuters/train_data.json")) #change the dataset folder name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
 train_labels= np.array(list(map(lambda x: list(x.values())[2], train_list)),dtype=object)
-test_list = json.load(open("/media/nvme4n1/project-textmlp/datasets/reuters/test_data.json")) #change dataset folder name
+test_list = json.load(open("../multi_label_data/reuters/test_data.json")) #change dataset folder name
 test_data = np.array(list(map(lambda x: list(x.values())[:2], test_list)),dtype=object)
 test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype=object)
 
