@@ -2,7 +2,7 @@
 Project Submission for Project Data Science on Very Large Datasets 2021/22
 
 Contributions:
-gMLP : Andor
+gMLP: Andor
 HiAGM: Tushar
 WideMLP: Tim
 Transformers: Bhakti & Shirney
