@@ -3,7 +3,7 @@
 ## Code overview
 
 For every multi-label dataset used in the paper there is a folder containing:
-- the original dataset (see [Datasets](#datasets))(on Serverc)
+- the original dataset (see [Datasets](#datasets)/ on Serverc)
 - the train-test split (train/test-data.json) as JSON format (see [JSON format](#JSON-format))(on Serverc)
 - the label distribution as png
 - the label per document distribution as png
@@ -26,7 +26,7 @@ NOTE: Datasets and JSON is not included, because of file size.
    - Source: Licensed (Provided by Lukas)
    - train-test split: From [HiAGM paper](https://github.com/Alibaba-NLP/HiAGM/tree/master/data)
 - Amazon-531
-   - Source: [Amazon used in TacoClass](https://aclanthology.org/2021.naacl-main.335/)
+   - Source: [Amazon used in TaxoClass](https://aclanthology.org/2021.naacl-main.335/)
    - train-test split: split from TaxoClass (asked authors)
 - DBPedia-298
    - Source: [DBPedia used in TaxoClass](https://aclanthology.org/2021.naacl-main.335/)
