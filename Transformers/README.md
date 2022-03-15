@@ -16,7 +16,7 @@
 
 ## Running experiments
 
-The scripts `bert_model_multi_label.py` and `distilbert_model_multi_label.py are the main entry point for running an experiment. Variables at the begining of the scripts should be set accordingly to datasets and model type.
+The scripts `bert_model_multi_label.py` and `distilbert_model_multi_label.py` are the main entry point for running an experiment. Variables at the begining of the scripts should be set accordingly to datasets and model type.
 
 ## References
 
