@@ -4,7 +4,7 @@ This folder contains our implementation of the gMLP/aMLP model based on the pape
 
 ## Get up and running
 
-1. Download the data folder from serverc and make sure that the data is placed into a subfolders `./data/multi_label_datasets` and './data/single_label_datasets' in the exact same directory structure or set the DATASET_FOLDER accordingly.
+1. Download the data folder from serverc and make sure that the data is placed into a subfolders `./data/multi_label_datasets` and './data/single_label_datasets' accordingly.
 
 2. Check for dependencies `numpy`, `torch`, `transformers`, `pandas`, `nltk`, `sklearn`, `einops` and `matplotlib`
 
@@ -25,4 +25,4 @@ This folder contains our implementation of the gMLP/aMLP model based on the pape
 
 ## Running experiments
 
-The scripts 'train_test_multi_label.py' and 'train_test_single_label.py' are the main entry point for running an experiment. Variables at the begining of the scripts should be set accordingly to datasets and model type.
+The scripts `train_test_multi_label.py` and `train_test_single_label.py` are the main entry point for running an experiment. Variables at the begining of the scripts should be set accordingly to datasets and model type.
