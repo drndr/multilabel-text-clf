@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.ERROR)
 
 # Source Data
 dataset = "distilbert_R21578"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
-labels = 90                     #[90,103,5661,512,298,166,28]
+labels = 90                     #[90,101,5658,512,298,166,28]
 epochs = 15                      #[15,15,15,15,5,15,5]
 train_list = json.load(open("../multi_label_data/reuters/train_data.json", )) #change dataset name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
