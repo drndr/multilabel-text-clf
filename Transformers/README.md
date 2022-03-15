@@ -12,7 +12,8 @@
 
 - In `bert_model_multi_label.py`and `distilbert_model_multi_label.py` you can find the implementation for the Bert and DistilBERT models for multi label classification.
   The experimental setup can be configured in the begining of the script:
-    - valid datasets for the 'dataset' variable and corresponding label number: { 'amazon' - 531, 'dbpedia' - 298, 'econbiz' - 5661, 'nyt' - 166, 'reuters' - 90, 'rcv1-v2' - 103, 'goemotions' -28 }
+    - valid datasets are: {'amazon', 'dbpedia', 'econbiz', 'nyt', 'reuters', 'rcv1-v2', 'goemotions'}
+    - the corresponding label number can be found in the python scripts
 
 ## Running experiments
 
