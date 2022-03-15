@@ -4,7 +4,7 @@ This folder contains our implementation of the gMLP/aMLP model based on the pape
 
 ## Get up and running
 
-1. Download the data folder from serverc and make sure that the data is placed into a subfolders `./data/multi_label_datasets` and './data/single_label_datasets' accordingly.
+1. Download the data folder from serverc and make sure that the data is placed into a subfolders `./data/multi_label_data` and `./data/single_label_datasets` accordingly.
 
 2. Check for dependencies `numpy`, `torch`, `transformers`, `pandas`, `nltk`, `sklearn`, `einops` and `matplotlib`
 
