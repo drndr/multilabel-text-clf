@@ -12,5 +12,6 @@ This repository contains code to reproduce the results in our paper 'Bag-of-Word
     │   ├── sparse-multilabel-processing     # Code for further WideMLP experiments on Pubmed dataset
     ├── gMLP                                 # Code for gMLP
     ├── multi-label_data_preprocessing       # Code to preprocess datasets into JSON format     
-    ├── multi_label_data                     # Used datasets in JSON format
+    ├── multi_label_data                     # Used multi-label datasets in JSON format
+    ├── single_label_data                     # Used single-label datasets
     └── README                               # Project structure overview
