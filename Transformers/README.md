@@ -6,7 +6,7 @@ We have used pre-trained Bert and DistilBert models from Transformers (Hugging F
 
 1. Download the data folder from serverc and make sure that the data is placed into a subfolder `./data/multi_label_data`.
 
-2. Check for dependencies `numpy`, `torch`, `transformers`, `pandas`, `nltk`, `sklearn`,`tqdm`,`json`,and `matplotlib`
+2. Check for dependencies `numpy`, `torch`, `transformers`, `pandas`, `nltk`, `sklearn`,`tqdm` and `matplotlib`
 
 
 ## Code overview
