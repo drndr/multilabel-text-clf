@@ -1,7 +1,8 @@
 # Bag-of-Words Models vs. Graph- and Hierarchy-based Models vs. Sequence-based Models for Single-label and Multi-label Text Classification
 
 This repository contains code to reproduce the results in our paper 'Bag-of-Words Models vs. Graph- and Hierarchy-based Models vs. Sequence-based Models for Single-label and Multi-label Text Classification', which is an extension to the paper 'Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP' published in ACL 2022.
-The goal of this study was to compare a simple WideMLP model with current state-of-art models (HiAGM, BERT, DistilBERT, gMLP/aMLP) on multi-label classification and compare the results to the single-label classification case, where WideMLP showed a strong performance. We split the repository into subfolders based on the different models (see [folder structure](#folder-structure)). Every subfolder has a README with introductions on how to run experiments.
+
+The goal of this study was to compare a simple WideMLP model with current state-of-art models (HiAGM, BERT, DistilBERT, gMLP/aMLP) on multi-label classification and compare the results to the single-label classification case, where WideMLP showed a strong performance. We split the repository into subfolders based on the different models (see [folder structure](#folder-structure)).
 
 ### Folder structure:
     ├── HiAGM                                # Code for HiAGM
@@ -14,7 +15,9 @@ The goal of this study was to compare a simple WideMLP model with current state-
     ├── multi_label_data_preprocessing       # Code to preprocess datasets into JSON format     
     ├── single_label_data                    # Used single-label datasets
     └── README                               # Project structure overview
+Every subfolder has a README with introductions on how to run experiments.
 
 The code for single-label results (with the exception of gMLP/aMLP) can be found in this [repository](https://github.com/lgalke/text-clf-baselines)
 
-Contributors: Andor Diera, Bao Xin Lin, Bhakti Khera, Tim Meuser, Tushar Singhal, Lukas Galke and Ansgar Scherp
+### Contributors:
+Andor Diera, Bao Xin Lin, Bhakti Khera, Tim Meuser, Tushar Singhal, Lukas Galke and Ansgar Scherp
