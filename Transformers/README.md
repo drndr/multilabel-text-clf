@@ -18,7 +18,7 @@ We have used pre-trained Bert and DistilBert models from Transformers (Hugging F
 
 ## Running experiments
 
-The scripts `bert_model_multi_label.py` and `distilbert_model_multi_label.py` are the main entry point for running an experiment. Variables at the begining of the scripts should be set accordingly to datasets and label number.
+The scripts `bert_model_multi_label.py` and `distilbert_model_multi_label.py` are the main entry point for running an experiment. Variables at the beginning of the scripts should be set accordingly to datasets and label number.
 
 ## References
 
