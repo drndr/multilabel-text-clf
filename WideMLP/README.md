@@ -1,6 +1,6 @@
 # WideMLP
 
-This folder contains the code to run experiments on WideMLP.
+This folder contains the code to run experiments on WideMLP. The code is based on [text-clf-baselines](https://github.com/lgalke/text-clf-baselines). 
 
 ## Folder overview
 
