@@ -11,7 +11,7 @@ We have used pre-trained BERT and DistilBERT models from Transformers (Hugging F
 
 ## Code overview
 
-- In `bert_model_multi_label.py`and `distilbert_model_multi_label.py` you can find the implementation for the Bert and DistilBERT models for multi label classification.
+- In `bert_model_multi_label.py`and `distilbert_model_multi_label.py` you can find the implementation for the BERT and DistilBERT models for multi label classification.
   The experimental setup can be configured in the beginning of the script:
     - valid datasets are: {'amazon', 'dbpedia', 'econbiz', 'nyt', 'reuters', 'rcv1-v2', 'goemotions'}
     - the corresponding label number can be found in the python files.
