@@ -1,16 +1,18 @@
-# Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP -- Code for Dataset Formatter
+# Preprocessing for multi-label datasets
+
+This code is used to generate a unified dataset format for the experiments. The sources for the original datasets and the used train-test split are referenced in [datasets](#datasets). The generated JSON format for most datasets can be found at [multi-label-data](https://github.com/drndr/project_ds_textclass/tree/main/multi_label_data) (Note: JSON for pubmed and RCV1-V2 is not included, because of file size). Additionally, scripts are included to generate plots for label distribution and label per document distribution for both multi-label and single-label datasets.
 
 ## Code overview
 
 For every multi-label dataset used in the paper there is a folder containing:
-- the original dataset (see [Datasets](#datasets)/ on Serverc)
-- the train-test split (train/test-data.json) as JSON format (see [JSON format](#JSON-format))(on Serverc)
+- a main.py to generate the train-test split in JSON format (see [format](#json-format)), label distribution, label per document distribution
 - the label distribution as png
 - the label per document distribution as png
-- a main.py to generate train-test split, label distribution, label per document distribution
-- a main.py to generate label distribution for single label datasets
 
-NOTE: Datasets and JSON is not included, because of file size.
+For every single-label dataset used in the paper there is a folder containing:
+- a main.py to generate label distribution
+- the label distribution as png
+
 
 ## Datasets
 - Econbiz
@@ -23,7 +25,7 @@ NOTE: Datasets and JSON is not included, because of file size.
    - Source: [Link to NYT AC (Licensed)](https://catalog.ldc.upenn.edu/LDC2008T19)
    - train-test split: From [HiAGM paper](https://github.com/Alibaba-NLP/HiAGM/tree/master/data)
 - RCV1-V2
-   - Source: Licensed (Provided by Lukas)
+   - Source: Licensed
    - train-test split: From [HiAGM paper](https://github.com/Alibaba-NLP/HiAGM/tree/master/data)
 - Amazon-531
    - Source: [Amazon used in TaxoClass](https://aclanthology.org/2021.naacl-main.335/)
