@@ -1,16 +1,16 @@
-# project_ds_textclass
+# Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP
 
 ## Project Submission for Project Data Science on Very Large Datasets 2021/22
 
-**Contributions:**
-- gMLP: Andor
-- HiAGM: Tushar
-- WideMLP/dataset format transformation: Tim
-- Transformers: Bhakti & Shirney
+This repository contains code to reproduce the results in our paper 'Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP'. The goal of this project was to compare a simple WideMLP model with current state-of-art models (HiAGM, BERT, DistilBERT, gMLP) on multi-label classification and compare the results to the single-label classification case, where WideMLP showed a strong performance. We split the repository into subfolders based on the different models (see [folder structure](#folder-structure)). Every subfolder has a README with introductions on how to run experiments.
 
-**Datasets:**
-Datasets included in .gitignore are only accesible on server c:
-- original datasets: /media/nvme4n1/project-textmlp/original_datasets
-- our transformed datasets: /media/nvme4n1/project-textmlp/datasets
-
-Saved trained models are also found on server c
+### Folder structure:
+    ├── HiAGM                                # Code for HiAGM
+    ├── Transformers                         # Code for transformer models (BERT & DistilBERT)
+    ├── WideMLP                              # Overview WideMLP
+    │   ├── multilabel-processing            # Code for main WideMLP experiments reported in the paper
+    │   ├── sparse-multilabel-processing     # Code for further WideMLP experiments on Pubmed dataset
+    ├── gMLP                                 # Code for gMLP
+    ├── multi-label_data_preprocessing       # Code to preprocess datasets into JSON format     
+    ├── multi_label_data                     # Used datasets in JSON format
+    └── README                               # Project structure overview
