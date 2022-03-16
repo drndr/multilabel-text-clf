@@ -1,6 +1,6 @@
-## Transformer Models - Bert and DistilBERT 
+## Transformer Models - BERT and DistilBERT 
 
-We have used pre-trained Bert and DistilBERT models from Transformers (Hugging Face) for multi-label text classification.
+We have used pre-trained BERT and DistilBERT models from Transformers (Hugging Face) for multi-label text classification.
 
 ## Get up and running
 
