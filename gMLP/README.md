@@ -1,3 +1,5 @@
+## gMLP
+
 This folder contains our implementation of the gMLP/aMLP model based on the paper [Pay Attention to MLPs](https://arxiv.org/abs/2105.08050) for single-label and multi-label text classification.
 
 ## Get up and running
