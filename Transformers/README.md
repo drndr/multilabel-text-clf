@@ -1,10 +1,10 @@
 ## Transformer Models - BERT and DistilBERT 
 
-We have used pre-trained BERT and DistilBERT models from Transformers (Hugging Face) for multi-label text classification.
+This folder contains are implementation of pre-trained BERT and DistilBERT models from Transformers (Hugging Face) customized multi-label text classification.
 
 ## Get up and running
 
-1. Download the data folder from serverc and make sure that the data is placed into a subfolder `./data/multi_label_data`.
+1. Make sure that the datasets are placed into a subfolder `./data/multi_label_data`.
 
 2. Check for dependencies `numpy`, `torch`, `transformers`, `pandas`,`sklearn`,`tqdm` and `matplotlib`
 
