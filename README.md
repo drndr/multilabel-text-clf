@@ -1,4 +1,4 @@
-# Bag-of-Words Models vs. Graph- and Hierarchy-based Models vs. Sequence-based Models for Single-label and Multi-label Text Classification
+# Bag-of-Words Models vs. Graph- and Hierarchy-based Models vs. Sequence-based Models: A Comparison Study on Single-label and Multi-label Text Classification
 
 This repository contains code to reproduce the results in our paper 'Bag-of-Words Models vs. Graph- and Hierarchy-based Models vs. Sequence-based Models: A Comparision Study on Single-label and Multi-label Text Classification', which is an extension to the paper 'Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP' published in ACL 2022.
 
