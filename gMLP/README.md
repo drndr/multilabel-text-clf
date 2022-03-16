@@ -1,10 +1,8 @@
-# Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP -- Code for Experiments
-
-This folder contains our implementation of the gMLP/aMLP model based on the paper [Pay Attention to MLPs](https://arxiv.org/abs/2105.08050) 
+This folder contains our implementation of the gMLP/aMLP model based on the paper [Pay Attention to MLPs](https://arxiv.org/abs/2105.08050) for single-label and multi-label text classification.
 
 ## Get up and running
 
-1. Download the data folder from serverc and make sure that the data is placed into a subfolders `./data/multi_label_data` and `./data/single_label_datasets` accordingly.
+1. Make sure that the datasets are placed into a subfolders `./data/multi_label_data` and `./data/single_label_datasets`.
 
 2. Check for dependencies `numpy`, `torch`, `transformers`, `pandas`, `nltk`, `sklearn`, `einops` and `matplotlib`
 
