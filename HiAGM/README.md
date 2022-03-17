@@ -1,6 +1,6 @@
 # HiAGM: Hierarchy-Aware Global Model for Hierarchical Text Classification
 This repository implements the hierarchy-aware structure encoders for mutual interaction between label space and text features. 
-This work is an extension of paper '[Hierarchy-Aware Global Model for Hierarchical Text Classification](https://www.aclweb.org/anthology/2020.acl-main.104/)' in ACL 2020. The dataset splits of NYTimes (New York Times), WoS (Web of Science), Amazon and DBpedia are proposed in this repository.
+The dataset splits of NYTimes (New York Times), Reuters V2, Amazon and DBpedia are proposed in this repository.
 
 
 ### Hierarchy-Aware Global Model
@@ -12,6 +12,9 @@ The project folder consists of following parts:
 + helper: Configure / Hierarchy_Statistic / Logger / Utils
 + models: StructureModel / EmbeddingLayer / TextEncoder / TextPropagation (HiAGM-TP) / Multi-Label Attention (HiAGM-LA)
 + train_modules: Criterions / EvaluationMetrics / Trainer
++ preprocess_labels.py: create taxonomy file from label hierarchy and label ids
++ remove_duplicate.py: remove duplicate from taxonomy file
++ HiAGM_format.ipynb: transform to json format file {'token': List[str], 'label': List[str]}
 
 #### Hierarchy-Aware Structure Encoder
 + Bidirectional TreeLSTM: weighted_tree_lstm.py & tree.py
@@ -24,11 +27,7 @@ The project folder consists of following parts:
 
 ### Preprocess
 #### data_modules.preprocess
-+ transform to json format file {'token': List[str], 'label': List[str]}
 + clean stopwords
-+ [RCV1-V2](http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/lyrl2004_rcv1v2_README.htm): The preprocess code could refer to the [repository of reuters_loader](https://github.com/ductri/reuters_loader).
-+ [NYTimes](https://catalog.ldc.upenn.edu/LDC2008T19) & [WoS](https://github.com/kk7nc/HDLTex): data.preprocess_nyt & data.preprocess_wos. 
-Please download the origin datasets and then use these codes to preprocess for HTC. 
 
 #### Prior Probability
 + helper.hierarchical_statistic
@@ -46,7 +45,7 @@ python train.py config/gcn-rcv1-v2.json
 + Hyper-parameters are set in config.train
 
 ## Citation
-Please cite our ACL 2020 paper:
+Please cite ACL 2020 paper if using HiAGM:
 
     @article{jie2020hierarchy,  
      title={Hierarchy-Aware Global Model for Hierarchical Text Classification},  
@@ -54,9 +53,4 @@ Please cite our ACL 2020 paper:
      booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)},
      year={2020}  
     }
-
-
-
-
-
 
