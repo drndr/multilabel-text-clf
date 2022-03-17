@@ -8,6 +8,8 @@ For every multi-label dataset used in the paper there is a folder containing:
 - train_data.json: containing the data used for training
 - test_data.json: containing the data used for testing
 
+Note: The NYT dataset has a additional val_data.json, which contains the data used for validation. Only for the NYT dataset we had access to a validation split provided by the [HiAGM paper](https://github.com/Alibaba-NLP/HiAGM).
+
 ## Not included data (file size > 100 MB)
 - DBPedia: train_data.json (162 MB)
 - EconBiz: train_data.json (171 MB)
