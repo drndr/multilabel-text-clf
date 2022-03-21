@@ -1,6 +1,6 @@
 # Multi-label datasets
 
-The folder contains the preprocessed datasets in a JSON format, that were used in our experiments. For information about the original dataset source, preprocessing and JSON format check [multi_label_data_preprocessing](https://github.com/drndr/project_ds_textclass/tree/main/multi_label_data_preprocessing). Not included data, because of exceeding file size are listed [here](#not-included-data-file-size--100-mb).
+The folder contains the preprocessed datasets in a JSON format, that were used in our experiments. For information about the original dataset source, preprocessing and JSON format check [multi_label_data_preprocessing](https://github.com/drndr/project_ds_textclass/tree/main/multi_label_data_preprocessing). Not included data, because of exceeding file size is listed [here](#not-included-data-file-size--100-mb).
 
 ## Folder overview
 
