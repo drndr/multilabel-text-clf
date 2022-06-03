@@ -25,6 +25,7 @@ from sklearn import metrics
 ##############################################################
 # Experiment Setup
 ##############################################################
+dataset="dbpedia"
 n_labels=298 # reuters 90, dbpedia 298
 has_attention = True
 
@@ -36,11 +37,11 @@ num_epochs = 300
 ###############################################################
 # Source Data
 ###############################################################
-train_list = json.load(open("../multi_label_data/dbpedia/train_data.json",))
+train_list = json.load(open("../multi_label_data/"+dataset+"/train_data.json",))
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
 train_labels= np.array(list(map(lambda x: list(x.values())[2], train_list)),dtype=object)
 print(len(train_data))
-test_list = json.load(open("../multi_label_data/dbpedia/test_data.json",))
+test_list = json.load(open("../multi_label_data/"+dataset+"/test_data.json",))
 test_data = np.array(list(map(lambda x: list(x.values())[:2], test_list)),dtype=object)
 test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype=object)
 

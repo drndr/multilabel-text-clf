@@ -11,7 +11,7 @@ RESULTS_FILE="results_mlp.csv"
 set -e 
 
 for seed in 1 2 3 4 5 6; do
-for DATASET in "reuters" "goemotions" "amazon" "nyt" "rcv1-v2"; do
+for DATASET in "pubmed"; do
 	python3 run_text_classification.py --dataset_folder "$DATASET_FOLDER" --model_type "$MODEL_TYPE" --threshold "$THRESHOLD" --tokenizer_name "$TOKENIZER_NAME" \
 		--batch_size $BATCH_SIZE --learning_rate "0.1"\
 		--epochs $EPOCHS --num_workers 4 --results_file "$RESULTS_FILE" "$DATASET"
