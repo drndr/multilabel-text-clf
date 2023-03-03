@@ -30,6 +30,7 @@ def set_optimizer(config, model):
 
 
 def train(config):
+    print("train start?")
     """
     :param config: helper.configure, Configure Object
     """
@@ -43,6 +44,9 @@ def train(config):
 
     # build up model
     hiagm = HiAGM(config, corpus_vocab, model_type=config.model.type, model_mode='TRAIN')
+    print(hiagm.optimize_params_dict())
+    # return hiagm.optimize_params_dict()
+
     hiagm.to(config.train.device_setting.device)
     # define training objective & optimizer
     criterion = ClassificationLoss(os.path.join(config.data.data_dir, config.data.hierarchy),
@@ -162,11 +166,12 @@ if __name__ == "__main__":
     configs = Configure(config_json_file=sys.argv[1])
 
     if configs.train.device_setting.device == 'cuda':
-        os.system('CUDA_VISIBLE_DEVICES=' + str(configs.train.device_setting.visible_device_list))
+        os.environ["CUDA_VISIBLE_DEVICES"]= str(configs.train.device_setting.visible_device_list)
+        #print(str(configs.train.device_setting.visible_device_list))
     else:
         os.system("CUDA_VISIBLE_DEVICES=''")
-    torch.manual_seed(2019)
-    torch.cuda.manual_seed(2019)
+    torch.manual_seed(1992)
+    torch.cuda.manual_seed(1992)
     logger.Logger(configs)
 
     if not os.path.isdir(configs.train.checkpoint.dir):

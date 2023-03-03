@@ -18,13 +18,13 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"]="2"
 
 # Source Data
-dataset = "DBPedia-298"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
-labels = 298                #[90,103,5661,531,298,166,28]
-epochs = 5                #[15,15,15,15,5,15,5]
-train_list = json.load(open("../datasets/dbpedia/train_data.json")) #change the dataset folder name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
+dataset = "Econbiz"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
+labels = 5661                #[90,103,5661,531,298,166,28]
+epochs = 15                #[15,15,15,15,5,15,5]
+train_list = json.load(open("../datasets/econbiz/train_data.json")) #change the dataset folder name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
 train_labels= np.array(list(map(lambda x: list(x.values())[2], train_list)),dtype=object)
-test_list = json.load(open("../datasets/dbpedia/test_data.json")) #change dataset folder name
+test_list = json.load(open("../datasets/econbiz/test_data.json")) #change dataset folder name
 test_data = np.array(list(map(lambda x: list(x.values())[:2], test_list)),dtype=object)
 test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype=object)
 
@@ -65,8 +65,8 @@ MAX_LEN = 512
 TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 4
 EPOCHS = epochs
-LEARNING_RATE = 5e-05
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True, padding=True)
+LEARNING_RATE = 1e-05
+tokenizer = BertTokenizer.from_pretrained('bert-large-uncased', do_lower_case=True, padding=True)
 
 # Define CustomDataset
 class CustomDataset(Dataset):
@@ -137,12 +137,12 @@ validation_loader = DataLoader(validation_set, **test_params)
 testing_loader = DataLoader(testing_set, **test_params)
 
 # Creating the customized model, by adding a drop out and a dense layer on top of distil bert to get the final output for the model.
-class BERTClass(torch.nn.Module):
+class BERTLargeClass(torch.nn.Module):
     def __init__(self):
-        super(BERTClass, self).__init__()
-        self.l1 = transformers.BertModel.from_pretrained('bert-base-uncased')
+        super(BERTLargeClass, self).__init__()
+        self.l1 = transformers.BertModel.from_pretrained('bert-large-uncased')
         self.l2 = torch.nn.Dropout(0.3)
-        self.l3 = torch.nn.Linear(768, labels)
+        self.l3 = torch.nn.Linear(1024, labels)
 
     def forward(self, ids, mask,token_type_ids):
         outputs = self.l1(ids, attention_mask=mask,token_type_ids=token_type_ids)
@@ -152,7 +152,7 @@ class BERTClass(torch.nn.Module):
         return output
 
 
-model = BERTClass()
+model = BERTLargeClass()
 model.to(device)
 
 # Define Loss function 

@@ -8,6 +8,7 @@ from models.embedding_layer import EmbeddingLayer
 from models.multi_label_attention import HiAGMLA
 from models.text_feature_propagation import HiAGMTP
 from models.origin import Classifier
+import numpy as np
 
 
 DATAFLOW_TYPE = {
@@ -82,6 +83,13 @@ class HiAGM(nn.Module):
         params.append({'params': self.text_encoder.parameters()})
         params.append({'params': self.token_embedding.parameters()})
         params.append({'params': self.hiagm.parameters()})
+        print("text_encoder params",sum(p.numel() for p in self.text_encoder.parameters()))
+        print("Token Embedding params",sum(p.numel() for p in self.token_embedding.parameters()))
+        print("HiAGM params",sum(p.numel() for p in self.hiagm.parameters()))
+
+        model_parameters = filter(lambda p: p.requires_grad, self.hiagm.parameters())
+        #params = sum([np.prod(p.size()) for p in model_parameters])
+        #print(params)
         return params
 
     def forward(self, batch):

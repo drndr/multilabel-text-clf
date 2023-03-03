@@ -6,25 +6,25 @@ import pandas as pd
 from tqdm import tqdm
 from sklearn import metrics
 import transformers
-from transformers import BertTokenizer, BertModel, BertConfig
 import torch
 from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
+from transformers import DebertaTokenizer, DebertaModel, DebertaPreTrainedModel
 import logging
 logging.basicConfig(level=logging.ERROR)
 import numpy as np
 import json
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"]="2"
+os.environ["CUDA_VISIBLE_DEVICES"]="3"
 
 # Source Data
-dataset = "DBPedia-298"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
-labels = 298                #[90,103,5661,531,298,166,28]
-epochs = 5                #[15,15,15,15,5,15,5]
-train_list = json.load(open("../datasets/dbpedia/train_data.json")) #change the dataset folder name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
+dataset = "Econbiz"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
+labels = 5661                #[90,103,5661,512,298,166,28]
+epochs = 15                #[15,15,15,15,5,15,5]
+train_list = json.load(open("../datasets/econbiz/train_data.json")) #change the dataset folder name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
 train_labels= np.array(list(map(lambda x: list(x.values())[2], train_list)),dtype=object)
-test_list = json.load(open("../datasets/dbpedia/test_data.json")) #change dataset folder name
+test_list = json.load(open("../datasets/econbiz/test_data.json")) #change dataset folder name
 test_data = np.array(list(map(lambda x: list(x.values())[:2], test_list)),dtype=object)
 test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype=object)
 
@@ -58,6 +58,16 @@ from torch import cuda
 
 device = 'cuda' if cuda.is_available() else 'cpu'
 
+# Importing stock ml libraries
+import numpy as np
+import pandas as pd
+from sklearn import metrics
+import transformers
+import torch
+from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler
+from transformers import DebertaConfig
+
+
 
 # Sections of config
 # Defining some key variables that will be used later on in the training
@@ -66,7 +76,8 @@ TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 4
 EPOCHS = epochs
 LEARNING_RATE = 5e-05
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True, padding=True)
+config = DebertaConfig()
+tokenizer = DebertaTokenizer.from_pretrained("microsoft/deberta-base")
 
 # Define CustomDataset
 class CustomDataset(Dataset):
@@ -137,22 +148,30 @@ validation_loader = DataLoader(validation_set, **test_params)
 testing_loader = DataLoader(testing_set, **test_params)
 
 # Creating the customized model, by adding a drop out and a dense layer on top of distil bert to get the final output for the model.
-class BERTClass(torch.nn.Module):
+class DebertaClass(DebertaPreTrainedModel):
     def __init__(self):
-        super(BERTClass, self).__init__()
-        self.l1 = transformers.BertModel.from_pretrained('bert-base-uncased')
-        self.l2 = torch.nn.Dropout(0.3)
-        self.l3 = torch.nn.Linear(768, labels)
+        super(DebertaClass, self).__init__(config)
+        self.deberta = transformers.DebertaForSequenceClassification.from_pretrained("microsoft/deberta-base",num_labels=labels,problem_type="multi_label_classification")
+        #self.pooler = transformers.ContextPooler(config)
+        #output_dim = self.pooler.output_dim
+        #self.classifier = nn.Linear(output_dim, num_labels)
+        #drop_out = getattr(config, "cls_dropout", None)
+        #drop_out = self.config.hidden_dropout_prob if drop_out is None else drop_out
+        #self.dropout = transformers.StableDropout(drop_out)
+
+        # Initialize weights and apply final processing
+        #self.post_init()
 
     def forward(self, ids, mask,token_type_ids):
-        outputs = self.l1(ids, attention_mask=mask,token_type_ids=token_type_ids)
-        pooled_output = outputs[1]
-        pooled_output = self.l2(pooled_output)
-        output = self.l3(pooled_output)
-        return output
+        #outputs = self.deberta(ids, attention_mask=mask,token_type_ids=token_type_ids)
+        #encoder_layer = outputs[0]
+        #pooled_output = self.pooler(encoder_layer)
+        #pooled_output = self.dropout(pooled_output)
+        #logits = self.classifier(pooled_output)
+        logits = self.deberta(ids, attention_mask=mask,token_type_ids=token_type_ids).logits
+        return logits
 
-
-model = BERTClass()
+model = DebertaClass()
 model.to(device)
 
 # Define Loss function 

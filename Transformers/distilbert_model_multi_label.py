@@ -12,18 +12,20 @@ from transformers import DistilBertTokenizer, DistilBertModel
 import logging
 import json
 logging.basicConfig(level=logging.ERROR)
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"]="3"
 
 
 # Source Data
-dataset = "distilbert_R21578"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
-labels = 90                     #[90,101,5658,512,298,166,28]
+dataset = "R21578"   #[ 'R21578', 'RCV1-V2', 'Econbiz', 'Amazon-531', 'DBPedia-298','NYT AC','GoEmotions']
+labels = 90                     #[90,103,5661,512,298,166,28]
 epochs = 15                      #[15,15,15,15,5,15,5]
-train_list = json.load(open("../multi_label_data/reuters/train_data.json", )) #change dataset name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
+train_list = json.load(open("../datasets/reuters/train_data.json", )) #change dataset name [ 'reuters', 'rcv1-v2', 'econbiz', 'amazon', 'dbpedia','nyt','goemotions']
 train_data = np.array(list(map(lambda x: (list(x.values())[:2]), train_list)),dtype=object)
 train_labels= np.array(list(map(lambda x: list(x.values())[2], train_list)),dtype=object)
 
-test_list = json.load(open("../multi_label_data/reuters/test_data.json", )) #change dataset name
-train_list = train_list + test_list
+test_list = json.load(open("../datasets/reuters/test_data.json", )) #change dataset name
 test_data = np.array(list(map(lambda x: list(x.values())[:2], test_list)),dtype=object)
 test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype=object)
 
@@ -31,7 +33,7 @@ test_labels = np.array(list(map(lambda x: list(x.values())[2], test_list)),dtype
 # Preprocess Labels
 from sklearn.preprocessing import MultiLabelBinarizer
 label_encoder = MultiLabelBinarizer()
-label_encoder.fit(train_labels)
+label_encoder.fit([*train_labels,*test_labels])
 train_labels_enc = label_encoder.transform(train_labels)
 test_labels_enc = label_encoder.transform(test_labels)
 
@@ -60,7 +62,7 @@ MAX_LEN = 512
 TRAIN_BATCH_SIZE = 4
 VALID_BATCH_SIZE = 4
 EPOCHS = epochs
-LEARNING_RATE = 1e-05
+LEARNING_RATE = 5e-05
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased', truncation=True, do_lower_case=True)
 
 # Define CustomDataset
@@ -135,7 +137,7 @@ validation_loader = DataLoader(validation_set, **test_params)
 testing_loader = DataLoader(test_set, **test_params)
 
 
-# Creating the customized model, by adding a drop out and a dense layer on top of distil bert to get the final output for the model. 
+# Distilbert for multi-label classification, based on huggingface DistilbertforSequenceClassification
 class DistilBERTClass(torch.nn.Module):
     def __init__(self,num_tokens=30000, d_model=512):
         super(DistilBERTClass, self).__init__()
@@ -150,7 +152,7 @@ class DistilBERTClass(torch.nn.Module):
         hidden_state = output_1[0]
         pooler = hidden_state[:, 0]
         pooler = self.pre_classifier(pooler)
-        pooler = torch.nn.Tanh()(pooler)
+        pooler = torch.nn.ReLU()(pooler)
         pooler = self.dropout(pooler)
         output = self.classifier(pooler)
         

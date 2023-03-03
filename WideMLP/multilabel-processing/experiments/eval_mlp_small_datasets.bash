@@ -8,6 +8,8 @@ BATCH_SIZE=8
 EPOCHS=100
 RESULTS_FILE="results_mlp.csv"
 
+# for TF-IDF mlp include argument --bow_aggregation "tfidf"
+
 for seed in 1 2 3 4 5 6; do
 for DATASET in "reuters" "goemotions" "amazon" "nyt" "rcv1-v2"; do
 	python3 run_text_classification.py --dataset_folder "$DATASET_FOLDER" --model_type "$MODEL_TYPE" --threshold "$THRESHOLD" --tokenizer_name "$TOKENIZER_NAME" \
