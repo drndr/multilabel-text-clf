@@ -1,4 +1,5 @@
-# Bag-of-Words Models vs. Graph- and Hierarchy-based Models vs. Sequence-based Models: A Comparison Study on Single-label and Multi-label Text Classification
+# Are We Really Making Much Progress? Bag-of-Words vs. Sequence vs.
+Graph vs. Hierarchy for Single- and Multi-Label Text Classification
 
 This repository contains code to reproduce the results in our paper 'Are We Really Making Much Progress? Bag-of-Words vs. Sequence vs.
 Graph vs. Hierarchy for Single- and Multi-Label Text Classification', which is an extension to the paper 'Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP' published in ACL 2022.
@@ -19,7 +20,7 @@ The goal of this study was to compare a simple WideMLP model with current state-
 
 Every subfolder has a README with introductions on how to run the experiments.
 
-The code for reproducomg most single-label results can be found in following repositories:
+The code for reproducing most single-label results can be found in following repositories:
 [MLP and TextGCN](https://github.com/lgalke/text-clf-baselines)
 [Tranformers](https://github.com/FKarl/text-classification)
 
