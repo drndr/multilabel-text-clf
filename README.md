@@ -20,6 +20,7 @@ The goal of this study was to compare a simple WideMLP model with current state-
 Every subfolder has a README with introductions on how to run the experiments.
 
 The code for reproducing most single-label results can be found in following repositories:
+
 [MLP and TextGCN](https://github.com/lgalke/text-clf-baselines)
 [Tranformers](https://github.com/FKarl/text-classification)
 
