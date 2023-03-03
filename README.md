@@ -3,7 +3,7 @@
 This repository contains code to reproduce the results in our paper 'Are We Really Making Much Progress? Bag-of-Words vs. Sequence vs.
 Graph vs. Hierarchy for Single- and Multi-Label Text Classification', which is an extension to the paper 'Bag-of-Words vs. Graph vs. Sequence in Text Classification: Questioning the Necessity of Text-Graphs and the Surprising Strength of a Wide MLP' published in ACL 2022.
 
-The goal of this study was to compare a simple WideMLP model with current state-of-art models graph-based and sequential models. We split the repository into subfolders based on the different models (see [folder structure](#folder-structure)).
+The goal of this study was to compare a simple WideMLP model with current state-of-art graph-based and sequential models. We split the repository into subfolders based on the different models (see [folder structure](#folder-structure)).
 
 ### Folder structure:
     ├── HiAGM                                # Code for HiAGM
